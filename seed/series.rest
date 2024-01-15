@@ -1,0 +1,14 @@
+POST http://localhost:8055/utils/import/series
+Authorization: Bearer WUWa2_rExEww5E26msZdYXsRxkJRzVyD
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="series.csv"
+Content-Type: text/csv
+
+< ../data/series.csv
+--boundary--
+
+###
+GET http://localhost:8055/items/series
+Authorization: Bearer WUWa2_rExEww5E26msZdYXsRxkJRzVyD
