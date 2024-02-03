@@ -1,4 +1,4 @@
-create table etablissement_tmp (
+create temporary table etablissements_tmp (
   nauto integer,
   nom text,
   région_administrative text,
@@ -40,3 +40,11 @@ create table etablissement_tmp (
   latitude float,
   longitude float
 );
+
+\COPY etablissements_tmp FROM '../data/cnc-donnees-cartographie-2021.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
+
+insert into etablissements (etablissement_id, nom, voie, ville, coordonnees)
+  select nauto, nom, adresse, commune, st_makepoint(longitude, latitude)
+  from etablissements_tmp;
+
+drop table etablissements_tmp;
