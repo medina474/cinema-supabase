@@ -12,6 +12,6 @@ create table etablissements (
 alter table etablissements
   add constraint cinemas_pkey primary key (etablissement_id);
 
-create index cinema_coordonnees_idx
+create index etablissement_coordonnees_idx
   on etablissements
   using GIST (coordonnees);

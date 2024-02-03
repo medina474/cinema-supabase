@@ -5,13 +5,13 @@ create table films (
   annee integer,
   sortie date,
   duree integer,
-  serie integer,
+  franchise_id integer,
   constraint film_pkey primary key (film_id)
 );
 
 alter table films
-  add constraint films_series_fk foreign key (serie)
-    references series (serie_id) match simple
+  add constraint films_franchises_fk foreign key (franchise_id)
+    references franchises (franchise_id) match simple
     on update no action
     on delete no action
     not valid;
