@@ -1,4 +1,4 @@
-film_id,titre,titre_original,annee,sortie,duree,serie
+film_id,titre,titre_original,annee,sortie,duree,franchise_id
 7ca570a2-2cd8-4f27-a324-d732e9ba3294,Les dents de la mer,Jaws,1975,1976-01-01,124,5
 4dafc2bb-39bd-4cc7-ad8a-76e74f377aeb,Rocky,Rocky,1976,1977-03-25,120,2
 22038333-cf97-4ff0-bb8c-1c418370f2a8,"Halloween, la nuit des masques",Halloween,1978,1979-03-14,91,
@@ -164,6 +164,6 @@ a7a90aba-ef82-4cb9-81c3-e92993b293d0,1941,,,,,
 665a880b-41c4-4d05-9f33-7bbd1382c8e9,U-571,,,,,
 0e245d7d-4f85-42b0-8810-36e8933d693b,K-19,,,,,
 fc6651a7-fb08-4717-a0d1-00fba5aef294,Le 6e Continent,,,,,
-7a5f8599-1346-47a6-a428-5dc543760d19,,,,,,
-09372446-bb6a-4b3d-82f5-95f7e2a958a2,,,,,,
-045b7f61-44fd-4f01-a23e-d984f0fffb7e,,,,,,
+7a5f8599-1346-47a6-a428-5dc543760d19,"Dracula, prince des ténèbres",,,,,
+09372446-bb6a-4b3d-82f5-95f7e2a958a2,Dracula,,,,,
+045b7f61-44fd-4f01-a23e-d984f0fffb7e,"Nosferatu - Fantôme de la nuit",,,,,

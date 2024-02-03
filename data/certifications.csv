@@ -1,0 +1,13 @@
+pays,ordre,certification,description
+fr,1,"TP","Pour tous publics."
+fr,2,"-12","Interdit aux moins de 12 ans."
+fr,3,"-16","Interdit aux moins de 16 ans."
+fr,4,"-18","Interdit aux moins de 18 ans non classé X."
+au,1,"E","Exempt from classification. Films that are exempt from classification must not contain contentious material (i.e. material that would ordinarily be rated M or higher)."
+au,2,"G","General. The content is very mild in impact."
+au,3,"PG","Parental guidance recommended. There are no age restrictions. The content is mild in impact."
+au,4,"M","Recommended for mature audiences. There are no age restrictions. The content is moderate in impact."
+au,5,"MA 15+","Mature Accompanied. Unsuitable for children younger than 15. Children younger than 15 years must be accompanied by a parent or guardian. The content is strong in impact."
+au,6,"R 18+","Restricted to 18 years and over. Adults only. The content is high in impact."
+au,7,"X 18+","Restricted to 18 years and over. Films with this rating have pornographic content. Films classified as X18+ are banned from being sold or rented in all Australian states and are only legally available in the Australian Capital Territory and the Northern Territory. However, importing X18+ material from the two territories to any of the Australian states is legal.The content is sexually explicit in impact."
+au,8,"RC","Refused Classification. Banned from sale or hire in Australia; also generally applies to importation (if inspected by and suspicious to Customs). Private Internet viewing is unenforced and attempts to legally censor such online material has resulted in controversy. Films are rated RC if their content exceeds the guidelines. The content is very high in impact."
