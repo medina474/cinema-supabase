@@ -1,0 +1,5 @@
+﻿id,site,url
+1,TMDB (The Movie Database),https://www.themoviedb.org/movie/$id
+2,IMDb (Internet Movie Database),https://www.imdb.com/title/$id
+3,Wikipedia,https://fr.wikipedia.org/wiki/$id
+4,YouTube,https://youtu.be/$id
