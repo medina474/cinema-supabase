@@ -24,7 +24,8 @@ create index pays_nom
 create table langues (
   langue_code character(3) not null primary key,
   langue character varying(20),
-  "français" character varying(20)
+  "français" character varying(20),
+  ltr boolean
 );
 
 -- codes postaux
