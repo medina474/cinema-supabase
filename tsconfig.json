@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noLib": true,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "plugins": [
+      {
+        "name": "deno_ls_plugin"
+      }
+    ],
+    "target": "esnext",
+    "paths": {
+      "deno": [
+        "../../Users/medina5/.deno/deno.d.ts"
+      ],
+      "https://*": [
+        "../../Users/medina5/.deno/deps/https/*"
+      ],
+      "http://*": [
+        "../../Users/medina5/.deno/deps/http/*"
+      ]
+    }
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}
