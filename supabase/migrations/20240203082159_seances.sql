@@ -5,7 +5,7 @@ create table salles (
   sieges integer not null
 );
 
-alter table
+alter table salles
   add constraint salle_etablissement_fk foreign key (etablissement_id)
         references etablissements (etablissement_id) match simple
         on update no action
