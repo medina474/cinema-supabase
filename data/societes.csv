@@ -1,6 +1,6 @@
 "societe_id","societe"
 "26aebfa2-588f-49fd-bc19-b16491666045",MGM (Metro-Goldwyn-Mayer)
-"b70f091b-12f2-4c13-9163-762e321c1776",Lucasfilm
+b70f091b-12f2-4c13-9163-762e321c1776,Lucasfilm
 "630ed54a-3b70-4ecd-afbf-2338ddbdf733",Imagine Entertainment
 "343f663d-72a4-490f-8f1e-fe0712c4a26c",Paramount Pictures
 "419c6b00-54ae-4bec-bdef-54ebde361b39",Columbia Pictures
@@ -9,9 +9,9 @@
 "4ef709c1-c9c9-4de7-8992-8c65470ebb48",Universal Pictures
 "8b1c12a3-6f44-4a2e-a71b-62a01349693f",United Artists
 "8136e5ae-0555-44b9-b0df-01c677414b5f",Walt Disney Pictures
-"c22e32e5-b2bd-4083-9cee-aba4c82ab71e",DreamWorks Pictures
+c22e32e5-b2bd-4083-9cee-aba4c82ab71e,DreamWorks Pictures
 "198549fd-1a65-46dc-9bac-44d7c9837cf4",Miramax Films
 "7290e22f-c059-4d99-93d7-ce7f670bbff2",Lions Gate Films
-"ee0c3856-7e15-4ec3-9e33-acd6d8629d61",Touchstone Pictures
-"b9237092-ee19-4422-8961-bf1f36d01c32",20th Century Fox Film Corporation
+ee0c3856-7e15-4ec3-9e33-acd6d8629d61,Touchstone Pictures
+b9237092-ee19-4422-8961-bf1f36d01c32,"20th Century Fox Film Corporation"
 "966ef8c6-55f1-49c9-bea9-fb73f1a480e4",Golan-Globus Productions
