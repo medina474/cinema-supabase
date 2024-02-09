@@ -1,4 +1,4 @@
-film_id,titre,titre_original,annee,sortie,duree,franchise_id
+"film_id","titre","titre_original","annee","sortie","duree","franchise_id"
 7ca570a2-2cd8-4f27-a324-d732e9ba3294,Les dents de la mer,Jaws,1975,1976-01-01,124,5
 4dafc2bb-39bd-4cc7-ad8a-76e74f377aeb,Rocky,Rocky,1976,1977-03-25,120,2
 22038333-cf97-4ff0-bb8c-1c418370f2a8,"Halloween, la nuit des masques",Halloween,1978,1979-03-14,91,
