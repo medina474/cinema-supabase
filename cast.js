@@ -3,7 +3,7 @@ import sql from './db.js'
 const films = await sql`select l.identifiant, f.film_id, f.titre
   from films f
   inner join links l on l.id = f.film_id and site = 1
-  fetch first 1 rows only`;
+  fetch first 3 rows only`;
 
 for (let film of films) {
   const data = await fetch(`https://api.themoviedb.org/3/movie/${film.identifiant}?append_to_response=credits&language=fr-FR`, {

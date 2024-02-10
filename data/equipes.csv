@@ -569,6 +569,7 @@ fcb51b86-70e3-4d20-aeaf-f02445111879,b4e88855-0164-453b-bcf0-45a7f677c8dd,acteur
 "0909cfa1-bd90-4492-857c-beba4115a494","2854d6bf-c7b7-43ec-990c-a8a8c5fa10a9",acteur,Cinzia Zaccardi
 "29808405-2dca-4267-8695-49d12cf5ab40",aa1551f5-dc8f-459c-8789-e030badce2c7,acteur,Jackie Scanlon / 'Juan Dominguez'
 "61db6124-a035-4d3c-a3c8-57be133ec0b4","0a943e06-2e38-464b-940b-0fc493200fd5",acteur,Ed Harley
+"428bc8c4-3f25-4a21-862e-f5d4abd1cf2c","5cde90d1-5a69-4f37-a046-6f9c929da7d2",acteur,J.F. Sebastian
 "8f1672da-5561-46d0-a900-47a9cb485cff",f12a25e5-b6b1-48a0-9dd9-11510aa744ee,acteur,Sarah Tobias
 "0aee6d92-bb87-49be-9f4b-9597a7579fc8",e44e8d89-5845-4048-acfd-cee0d7f054a1,acteur,Lt. James Curran
 "33d93675-b798-4094-ad97-b75b628ce5aa","2854d6bf-c7b7-43ec-990c-a8a8c5fa10a9",acteur,Natascha
@@ -576,6 +577,7 @@ fcb51b86-70e3-4d20-aeaf-f02445111879,b4e88855-0164-453b-bcf0-45a7f677c8dd,acteur
 "031a2d46-b107-4479-bae6-047b0c8b0468","8e7b80a8-0352-4662-9255-253c748852e3",acteur,Charlie Babbitt
 "4b655baf-afec-4621-86f1-51d9d299f628","0530881e-bdb6-4514-8f34-d31eaab93f3c",acteur,Andie
 "35f02c8e-5a0b-4440-a056-292d2fc776b2",b7e61cac-2c3f-4736-a3cc-46edc229e431,acteur,"Richard ""Rick"" Jarmin"
+"428bc8c4-3f25-4a21-862e-f5d4abd1cf2c","2860ab6b-e98d-4c47-80be-bc2a536ff671",acteur,Pris
 e3de1ee6-79ba-4c07-8ff4-35178f05baf7,f12a25e5-b6b1-48a0-9dd9-11510aa744ee,acteur,Casey
 dd2df805-715c-498b-8cb8-816dc993d09a,e44e8d89-5845-4048-acfd-cee0d7f054a1,acteur,Russell Quinn
 "7887bc69-327f-4560-a53c-4703f6420c4f",eae4c21d-3ea5-4a8e-8765-dc9364ba26ba,acteur,Mike Norris
@@ -786,6 +788,8 @@ da09caf6-be31-43c0-b5bd-93bc57027815,b7770571-dac0-4ce4-a95a-25c37342d642,acteur
 cbece1eb-c6b7-4924-ae2f-b797265260ad,c4b4ee4a-d3bf-4954-b6d6-f57dc71ee41d,acteur,"Doctor Martin, veterinarian"
 "0dd3e4f5-cf11-4893-81c5-37cf9d2a86fe","8c19b5cd-5a11-47d8-80a8-bc067cbfc0c7",acteur,Rachel Lapp
 "7e1fadb1-1cf9-4a22-beea-4555c6a5d7eb",d70a44bc-01cb-4166-864a-3cc3c303ccf9,acteur,Betty Grissom
+"428bc8c4-3f25-4a21-862e-f5d4abd1cf2c","8c3aaa6a-5294-4bc8-9d7b-d5389aaa13b3",acteur,Zhora
+"278988e2-b6e2-4bec-9f37-3f4fadda6454","7679b6c7-9447-47de-a312-c7d3f06e5046",acteur,Gen. Trau
 "3a6f7a2e-fc09-41ac-997b-a8be88a2c1dc",cd48fccf-299f-49b5-9064-abd78f938df7,acteur,Dr. Levy
 ef147ce9-53b0-45e7-8d18-f155b4134360,"38047272-b01a-43fb-bd65-171da7491859",acteur,George Hanson
 fb885f6c-2858-4bca-a5de-0d32f02c4da8,"9f5a44dc-9ecf-451e-9fef-a4dcc3cf294a",acteur,Hannah
@@ -795,11 +799,13 @@ e9bed6de-5554-47cd-8c14-92731e34728e,f12a25e5-b6b1-48a0-9dd9-11510aa744ee,acteur
 "128ac9c2-ac92-401e-b6b9-62634af8b4b4","1e5f3072-3480-440f-9c41-0cfd1d0be07c",acteur,Maj. Gen. Stanislaw F. Sosabowski
 "43af237f-cbef-4894-b61d-57d061bc60c6",a8dd215c-c756-4adb-81eb-f751680a3b08,acteur,Jo Ann Vallenari
 a37fdcf1-3da1-4b21-9448-627c00b7cc27,"21c2b10a-358e-408b-abd2-5bf391b77927",acteur,Weaver
+"278988e2-b6e2-4bec-9f37-3f4fadda6454","4c67645a-e060-42db-a1b0-b4a68e6c31ff",acteur,Tuck
 f3594169-f7f8-4f66-9eae-da9137ce2800,cd48fccf-299f-49b5-9064-abd78f938df7,acteur,Dr. Jonah Reiff
 "16a096c9-2238-4e9a-9d37-4ab5e01c9ce2",bd7e7669-0007-4cb5-9218-b72163039cf5,acteur,Peggy Grant
 "52cd1c0a-8e41-4900-b19d-471533663396","8e7b80a8-0352-4662-9255-253c748852e3",acteur,Ron Kovic
 "42b03efc-43eb-4f44-87c0-27dbaf5a2502",c212ad64-fb4f-4af4-bfb8-c2dc312fe480,acteur,Cat Stevens
 "53f53d54-909d-4d54-91d8-3867f12fbc85","9f72b128-e7cb-4ee1-9f4f-801e655b430a",acteur,Nathan Huffner
+"428bc8c4-3f25-4a21-862e-f5d4abd1cf2c","626a46e1-9321-403d-934e-912e72aeddbe",acteur,Leon Kowalski
 "258b9381-f0f4-43a8-99b9-643444ecc482",ea853bcb-5133-40e4-9269-735d810c84b2,acteur,Barbara Maitland
 "820c275d-c4e2-43bb-8b30-3f6c9a20b2c8",f12a25e5-b6b1-48a0-9dd9-11510aa744ee,acteur,Rynn Jacobs
 a099a7b9-90b3-4739-b456-40a18a319039,eae4c21d-3ea5-4a8e-8765-dc9364ba26ba,acteur,Michael Lerman
