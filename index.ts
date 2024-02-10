@@ -4,7 +4,7 @@ async function insertFilm(identifiant:string, uuid, credit) {
 
   const result = await sql`
     select id from links
-    where identifiant = ${credit.id}`;
+    where identifiant = ${credit.id} and site = 1`;
 
   if (result.count == 0) {
     try {
@@ -30,20 +30,31 @@ async function insertFilm(identifiant:string, uuid, credit) {
     }
   }
   else {
+    const equipe = await sql`select alias from equipes
+    where film_id = ${result[0].id} and personne_id = ${uuid} and role = 'acteur'`;
 
+    if (equipe.count == 0) {
+      console.log(`${result[0].id} ${uuid}`);
+      await sql`insert into equipes (film_id, personne_id, role, alias)
+      values (${result[0].id}, ${uuid}, 'acteur', ${credit.character})`
+    }
   }
 }
 
 
 const personne = await sql`
-    SELECT l.identifiant, p.nom,
-    p.prenom,
-    p.personne_id
+    SELECT p.nom,
+    p.personne_id,
+    l.identifiant,
+    count(e.film_id) AS count
    FROM personnes p
-     JOIN links l ON p.personne_id = l.id AND l.site = 1`
+     JOIN equipes e ON p.personne_id = e.personne_id
+     LEFT JOIN links l ON p.personne_id = l.id AND l.site = 1
+     where identifiant is not null
+  GROUP BY p.nom, p.personne_id, l.identifiant
+  having count(e.film_id) between 5 and 7;`
 for (let p of personne)
 {
-
   const data = await fetch(`https://api.themoviedb.org/3/person/${p.identifiant}/combined_credits?language=fr-FR`, {
     method: 'get',
     headers: new Headers({
