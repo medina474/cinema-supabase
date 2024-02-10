@@ -601,6 +601,10 @@ d6b75278-0b8a-4eea-a523-932f00b91b24,a5b4eea4-8970-4943-ad3a-0e01830f489e,acteur
 "54274362-fbd5-466f-9702-0880a3f5e7a9","40a8750c-691d-4cc0-a041-fad822a1a9ca",acteur,Gerry
 "744d0291-e549-458c-b771-b12fd47d793d","86e66f4c-0b10-46ad-b242-8bdf2d704b46",acteur,Carol Anne Freeling
 "73995184-881c-4120-b538-84a7ce798b3e","10abd4fe-3501-4e66-9404-642affce8f8e",acteur,Colt
+b47a9464-d849-4f44-86ad-47c6675e539f,"4288bb07-e9b5-46b1-9c74-64d4ba0600a8",acteur,Carolyn McAdams
+"99453a7a-20fd-4a14-bcef-d2cd298afa93","1879fdcb-078f-4bc3-adba-0fc4e0f16db6",acteur,Connie Corleone Rizzi
+"56069181-1fac-4148-ac24-d02f525c8bbf","9cc1f810-6a4a-4567-854e-75456a5362a0",acteur,Lt. Frank Bullitt
+"1b13da4a-c9dd-4e3f-8407-418b248812de",ca695ce5-064d-4ba6-b19b-595d82ce3d13,acteur,Rusty Dennis
 d0f2d733-ecc6-4eb2-87c5-1218bbd412d8,dbb64dbe-23db-433e-af34-1962bcc0068c,acteur,Elizabeth Solley
 "787e93a4-4987-49f0-86e5-cc3e4fd1d65c","05a69667-f2e5-43ff-ae07-6d236d3598b4",acteur,Starman / Scott Hayden
 c91117eb-0480-4f2b-97ec-95166aaee385,"3ce1e09e-6cb0-4e8e-a426-75ec15c7e690",acteur,Chen Pao Shen
@@ -615,6 +619,11 @@ e35469f1-f0d7-45d8-8301-e08e0021e5c0,f3c5dd03-43b7-4fd1-b88f-0a844a96a2be,acteur
 def0fc3a-52e4-4945-97f5-7c32c5908adf,"10abd4fe-3501-4e66-9404-642affce8f8e",acteur,J.J. McQuade
 "30bfad69-10b9-46b1-af78-f441cbefbd55","10abd4fe-3501-4e66-9404-642affce8f8e",acteur,Col. James Braddock
 "0313e26d-c0e8-4fa2-8cfb-ffac38ebf3ea","68f0d3b2-8748-4d91-92ef-a5fc02ffc53b",acteur,Donna Trenton
+"29b6a297-860a-4096-a519-f3346b6ee7db","4288bb07-e9b5-46b1-9c74-64d4ba0600a8",acteur,Rusty
+"5efc28d4-b0a4-4dac-8dea-409e656656a6","9cc1f810-6a4a-4567-854e-75456a5362a0",acteur,Hilts 'The Cooler King'
+cb5d0af9-a275-4113-8834-74b28a916a32,"0b7a3fe3-f303-47dc-9cf0-9ef7404055af",acteur,DeDe / Angelica / Patricia Graynamore
+fa3463fd-92fb-4d4d-9295-8458a3d60a19,"6cadc5b7-d439-4994-8927-39602a6e720b",acteur,Odessa Cotter
+"1f0d7207-357c-41c5-8298-1e95aba7ed17","57aa6745-b209-4c82-b360-ee72aea696b5",acteur,Steven Beck
 b2567a66-03f7-4fd2-b79e-257b15022bfb,"1c087b89-1d64-4072-a1e8-6a2d39cbaf15",acteur,le commissaire
 "6931e7d6-7d10-4454-8101-3a11734fbdfd",a5b4eea4-8970-4943-ad3a-0e01830f489e,acteur,Max Donigan
 "2cc372d3-42f6-4fb1-bb97-e1622e03e4f5",b7770571-dac0-4ce4-a95a-25c37342d642,acteur,Jeff Rice
@@ -622,12 +631,24 @@ b2567a66-03f7-4fd2-b79e-257b15022bfb,"1c087b89-1d64-4072-a1e8-6a2d39cbaf15",acte
 e1f26b06-1cf6-4a85-a2fb-69a58a55d962,"1daf693b-6969-4269-a9e7-16b8f4933ffe",acteur,Marcelle
 d6b75278-0b8a-4eea-a523-932f00b91b24,"10abd4fe-3501-4e66-9404-642affce8f8e",acteur,Colt
 cfac7fc6-aef7-4541-831f-8f56104719f4,"68f0d3b2-8748-4d91-92ef-a5fc02ffc53b",acteur,Lynne Wood
+"0fe838a8-be13-4443-bf72-3a54763106de","4288bb07-e9b5-46b1-9c74-64d4ba0600a8",acteur,Janey Glenn
+de967f43-4de6-4980-b3c2-08f107eb3918,"1879fdcb-078f-4bc3-adba-0fc4e0f16db6",acteur,Constanzia 'Connie' Corleone
+"661171ce-81e1-478f-ac37-97116d64a0a9","9cc1f810-6a4a-4567-854e-75456a5362a0",acteur,Thomas Crown
+"94ea14a2-efa0-45b2-9f6a-151288566793","41bde72f-188a-4ccc-a63c-84d188cba9de",acteur,Bernadette Flynn
+"2c6eb50a-9967-4c50-aff2-b475ef2f4d4a","0b7a3fe3-f303-47dc-9cf0-9ef7404055af",acteur,Lydia Maxwell
 "05af187d-82c7-4d30-ad88-5a497cfe6a59","1c087b89-1d64-4072-a1e8-6a2d39cbaf15",acteur,Jérôme Gerber (Alphonse)
 "73995184-881c-4120-b538-84a7ce798b3e",a5b4eea4-8970-4943-ad3a-0e01830f489e,acteur,Colt
 f0dd1121-2a44-41a0-b928-53fe376919c0,"4233c003-5019-4f58-a2e3-796ffba6a1d8",acteur,Mr. Miyagi
 fb855bea-eec0-4204-be37-7986abaf6887,b7770571-dac0-4ce4-a95a-25c37342d642,acteur,Cpl. Curtis Jackson
 a0823f33-7fd3-4512-9503-ae229a74b11c,ec70b59b-2b49-4122-97a7-e1598b95500f,acteur,Linda Barrett
 "08da22d8-3b9e-4c01-bfa1-b79371fbcef0",f03d0347-f50b-40e8-a54e-6d4150cf66a1,acteur,Mayor Tilman
+"5ac93a27-9e69-4eee-9a62-2be31c97db87",c872e22c-096a-4b71-886e-491e7733d3df,acteur,Acne Faced Boy
+"50cbbfd0-4c83-4337-a509-91be1777aac1","2fde32d6-3e8b-48ac-96ba-80056449cbbe",acteur,Aramis
+"8d6a11d0-8506-4ce2-8306-a0f7717d383f",d247621e-d5c0-4918-8990-09a45f8fa613,acteur,Talby Voice
+c2f6fc7e-69c8-4c2a-8a50-e42386a58678,ca695ce5-064d-4ba6-b19b-595d82ce3d13,acteur,Dolly Pelliker
+"7c6d966a-5dc4-4acd-a81f-31a41ff56a3b","0b7a3fe3-f303-47dc-9cf0-9ef7404055af",acteur,Lisa
+d876ce53-5ea2-4257-9dc9-11abd4b4a21c,"6cadc5b7-d439-4994-8927-39602a6e720b",acteur,Celie Harris Johnson
+"63da314b-7608-4213-a1ca-7962f1884dc5","72925ff0-346f-4f14-bb98-28ca29645685",acteur,Steve Bolander
 fd9233b8-6d19-43f4-996f-a08140e2cb55,eaf2f2df-36f0-4d6a-ae64-846918cc24e9,acteur,Jean-Claude
 b9d355ec-0381-42da-853e-cab959dbffd3,"450c6276-60bc-4791-bee4-3152145af6e7",acteur,John Matrix
 def0fc3a-52e4-4945-97f5-7c32c5908adf,a5b4eea4-8970-4943-ad3a-0e01830f489e,acteur,J.J. McQuade
@@ -638,18 +659,36 @@ ddedbc4a-f4a5-48e2-943d-b45464777741,"705e5be2-7781-4305-ae6e-d088a2cbcd0b",acte
 a3d936e4-29c8-406f-9aa8-987821c900a6,e51dafbc-1271-44ff-884f-700cbcbc3f2b,acteur,Elvis Presley
 "211ca561-4eca-438c-9c28-6d451be556ca","10abd4fe-3501-4e66-9404-642affce8f8e",acteur,Scott James
 fd9233b8-6d19-43f4-996f-a08140e2cb55,bbe7935d-8c2c-4364-ae51-820c755fc172,acteur,Marie-Ange
+b3ec16a5-c0cb-45bb-abd2-bf100a4174c9,"1879fdcb-078f-4bc3-adba-0fc4e0f16db6",acteur,Adrianna 'Adrian' Balboa
+a89ef0f2-d923-4a58-bdf9-4d52fe0f4865,e713859f-af45-4aa5-941f-2cd359491f1c,acteur,Group Supervisor
+"106acc3a-1145-4a08-802f-010c393b579e",ca695ce5-064d-4ba6-b19b-595d82ce3d13,acteur,Kathleen Riley
+bfe94cd1-18af-4f0a-b20d-561bb50d8588,"0b7a3fe3-f303-47dc-9cf0-9ef7404055af",acteur,Maggie Cavanaugh
+"8619a0ee-94f5-407a-8c27-86ea6b1cd734","72925ff0-346f-4f14-bb98-28ca29645685",acteur,Steve Bolander
+c5c7641e-23b2-4802-927f-b8b865676b11,"57aa6745-b209-4c82-b360-ee72aea696b5",acteur,Buckaroo Banzai
 eeaf2f70-382b-42c9-a413-8800cb8d3294,e51dafbc-1271-44ff-884f-700cbcbc3f2b,acteur,Copper (voice)
 b9e615ce-621a-4379-aa76-f82422e55425,"4233c003-5019-4f58-a2e3-796ffba6a1d8",acteur,Oriental #2
 "2f0e57a4-e26d-477e-aa0e-cbf3401c47bd",cf13b736-49c6-40fd-8484-49732ddb9b09,acteur,Maggie McFly / Lorraine McFly
 b35feee2-de5e-461f-a61d-1334fd464bdb,"705e5be2-7781-4305-ae6e-d088a2cbcd0b",acteur,Phillipe Gaston
 c1f3931e-6ef9-4719-8c98-99eaef1ec251,f03d0347-f50b-40e8-a54e-6d4150cf66a1,acteur,Jimmy Lee Farnsworth
 dd9a436f-30e0-45c6-a937-6c094d25ff10,"68f0d3b2-8748-4d91-92ef-a5fc02ffc53b",acteur,Karen White
+b554f3f3-15bb-41ff-a309-1686e267f977,"1879fdcb-078f-4bc3-adba-0fc4e0f16db6",acteur,Connie Corleone Rizzi
+"58119b82-6913-4d32-8ad7-0e9e9c4b9002","9cc1f810-6a4a-4567-854e-75456a5362a0",acteur,Vin
+"9f346bcc-7011-4ac8-ac78-8b9a136f1bfc","41bde72f-188a-4ccc-a63c-84d188cba9de",acteur,Gina Montana
+"2efc6f4f-82cb-4a25-9143-7d6507f14438",e713859f-af45-4aa5-941f-2cd359491f1c,acteur,Gynecologist
+"42b7967e-a6f0-48cf-94a5-4d7d05d81757",ca695ce5-064d-4ba6-b19b-595d82ce3d13,acteur,Rachel Flax
+"01276c58-7a2f-4a6d-98a6-470588fc8f8b","6cadc5b7-d439-4994-8927-39602a6e720b",acteur,Terry Dolittle
 b3b77d09-7b54-4c92-9b52-f71b57202f37,"436b9127-6cb4-4e89-ad98-82a98f7e847b",acteur,Richard Adams
 ecd2c803-ee78-48df-b414-199c129ac2f5,"4233c003-5019-4f58-a2e3-796ffba6a1d8",acteur,The Toymaster
 "3bd91b23-51c5-4443-8194-8ad25d181f1f",b7770571-dac0-4ce4-a95a-25c37342d642,acteur,Guy At Table
 "98fa072c-5e2a-4909-906c-e58ec7166e19",cf13b736-49c6-40fd-8484-49732ddb9b09,acteur,Erica
 deaa0bd5-9864-4819-b62e-0c1f5984138c,"705e5be2-7781-4305-ae6e-d088a2cbcd0b",acteur,Col. Robert Gould Shaw
 "8c9497fa-efab-4b60-ae00-299f791791f5","68f0d3b2-8748-4d91-92ef-a5fc02ffc53b",acteur,Mary Lewis
+ffad8bbb-fdcb-4d2b-ae43-eaa46f84fe2d,"9cc1f810-6a4a-4567-854e-75456a5362a0",acteur,"Henri ""Papillon"" Charriere"
+"1dcb8518-aeb5-4545-a3eb-3047875abdce","2fde32d6-3e8b-48ac-96ba-80056449cbbe",acteur,Aramis
+f505fde8-978f-4879-a72d-17bd97779309,e713859f-af45-4aa5-941f-2cd359491f1c,acteur,Dr. Philip K. Decker
+a6293b29-5588-4a0c-b902-6b7b7f1e7310,"0b7a3fe3-f303-47dc-9cf0-9ef7404055af",acteur,Sydney Fuller
+"7591f543-cd50-4b90-ac51-876e12aa0359","72925ff0-346f-4f14-bb98-28ca29645685",acteur,Gillom Rogers
+"22e03e65-fff9-4524-8b2c-b65cb076e8ec","57aa6745-b209-4c82-b360-ee72aea696b5",acteur,RoboCop
 de862b4b-d544-463d-bfb6-9e0f678ec1e1,"9f69c024-b15c-4bf2-8f53-d968337306ea",acteur,Katharine Parker
 ad184962-7bbe-4479-a27f-bdb366de1fd4,"1c087b89-1d64-4072-a1e8-6a2d39cbaf15",acteur,Commissaire Gesbert
 "1a316e25-c81d-4a98-92ec-7147c6c72ff1","373eaca2-1eaa-449d-a24b-1f25af2a2263",acteur,L'obsédé sexuel au téléphone (voix)
@@ -660,11 +699,17 @@ b2567a66-03f7-4fd2-b79e-257b15022bfb,"6514c6fb-b221-4485-b409-82cafa2c1706",acte
 "5be57aa6-771d-4156-9cb4-ab28e8720ebf","8b8a29ff-ad0a-420d-a140-98f89451a24f",acteur,der Oberst
 "08703792-fefd-40db-a7e2-0fe684f82b88",c4b4ee4a-d3bf-4954-b6d6-f57dc71ee41d,acteur,Francis Chérasse (Le Bombé)
 "7dd60937-5bf3-473e-a31a-1a0c0e7c25cc",d70a44bc-01cb-4166-864a-3cc3c303ccf9,acteur,Lambert
+"7d5d6f30-3865-466f-b564-5605b174558b","41bde72f-188a-4ccc-a63c-84d188cba9de",acteur,Carmen
+"5f603a51-1960-45f7-b46e-2f557c7ab17a","2fde32d6-3e8b-48ac-96ba-80056449cbbe",acteur,Edmond Dantès
+"5cd35574-74d8-494c-abeb-08a6fe576e6f",d247621e-d5c0-4918-8990-09a45f8fa613,acteur,Self
+"4236fe30-82e0-4a44-a983-e77f2cfd039b",ca695ce5-064d-4ba6-b19b-595d82ce3d13,acteur,Loretta Castorini
 b3ec16a5-c0cb-45bb-abd2-bf100a4174c9,"9ba16814-0229-4025-927c-795cd4d6dd07",acteur,Robert 'Rocky' Balboa
 e1f26b06-1cf6-4a85-a2fb-69a58a55d962,"6514c6fb-b221-4485-b409-82cafa2c1706",acteur,Pelo
 "11ae448a-22de-4780-91a5-b775749c64b7","13c26591-04f4-4835-a594-d1ce55e80a50",acteur,Abel Davos
 "3df88e91-ab90-48f3-9038-a7c281755345","4c6389ca-0333-4abb-b648-c5509ed8a973",acteur,Inspector
 b47a9464-d849-4f44-86ad-47c6675e539f,d70a44bc-01cb-4166-864a-3cc3c303ccf9,acteur,Helen Freeman
+"76b60119-e2d3-4fcd-afd0-392444410819",d1d7a1a5-bb64-45e2-9595-5c7c8a31df73,acteur,Soldier with Glasses
+d4978c4e-a859-4b56-90d8-1cf9517c49f0,fd6f055c-6de9-4044-b6eb-3bad3fba5968,acteur,Abilene
 "9647dc37-ce28-45d7-9906-e6a20d9dc7e6",e51dafbc-1271-44ff-884f-700cbcbc3f2b,acteur,Dean Proffitt
 "573e750a-f81d-4976-855e-482446986abd","9f69c024-b15c-4bf2-8f53-d968337306ea",acteur,Jill Bryant
 ad184962-7bbe-4479-a27f-bdb366de1fd4,"6514c6fb-b221-4485-b409-82cafa2c1706",acteur,Le Fleuriste
@@ -673,6 +718,8 @@ ad184962-7bbe-4479-a27f-bdb366de1fd4,"6514c6fb-b221-4485-b409-82cafa2c1706",acte
 "6fa35521-91a1-4960-97c2-b422776750ed",a7e2e550-5eef-4a5d-9327-ecedcbdffbbe,acteur,Penelope
 aeb23eb9-0888-45df-8be3-03a864b89bda,d70a44bc-01cb-4166-864a-3cc3c303ccf9,acteur,Nancy Bellicec
 eadffd22-7f15-4ad7-b579-ff586864fb9e,"6c59baba-028d-4523-a2a3-e279b5087aa3",acteur,"Paul Thomas, aka 'Popaul'"
+"5ea10cfa-7beb-419c-a264-0149ecaeacdf","38e1ba01-163a-4262-9ce3-a8b95ea6e687",acteur,Jack Parker
+"2c150bd9-8672-480b-9897-8c11b45232e7",fd6f055c-6de9-4044-b6eb-3bad3fba5968,acteur,Lee
 cc42e3ba-294f-49e0-8eef-b114eb9248ef,"2304edf2-cabe-4ffd-85a6-4d4edcd80530",acteur,Clovis Michael Poplin
 "110277c6-291b-44af-bc08-b544e8b93944","2f9d0443-68a2-4662-b3a9-cd1ff4b36bc2",acteur,Clyde the Bartender
 "4def4746-2c11-4722-907a-206091dbb233","3ce1e09e-6cb0-4e8e-a426-75ec15c7e690",acteur,Howard Birack
@@ -687,6 +734,9 @@ e3964878-5e95-482e-b5d9-c846a02210b3,"436b9127-6cb4-4e89-ad98-82a98f7e847b",acte
 aa8be020-b8bd-4b17-b3c7-f32f1f32308a,"28188765-6046-4c73-9145-e4d860750b5b",acteur,Amy Grady
 "6591dff1-0053-4b80-a4d5-bcc560606069","6514c6fb-b221-4485-b409-82cafa2c1706",acteur,Richard Boarst
 "611df21e-ad0c-4d25-bc3d-bbfc1e422483",a7e2e550-5eef-4a5d-9327-ecedcbdffbbe,acteur,Christine Redfern
+da09caf6-be31-43c0-b5bd-93bc57027815,fd6f055c-6de9-4044-b6eb-3bad3fba5968,acteur,Lt. Baker
+f622ee9d-e05b-4b5b-9770-f6e90002f2c2,fd6f055c-6de9-4044-b6eb-3bad3fba5968,acteur,Ken Walsh
+d35c0bc4-1258-4981-9999-93d0875a9ce2,a3591726-da0e-4ecd-927b-41d90a04c3a9,acteur,Joe
 e8d8ff5e-0110-4a5e-809c-67ae7b7c3f9e,"7b146021-19b2-4956-97e9-fd6177845678",acteur,Han Solo
 "62cb78d0-9091-49e3-944e-b0497ad00bc3",dbb64dbe-23db-433e-af34-1962bcc0068c,acteur,Kimberly Hammond
 "294f2132-f5a8-4c6d-a714-de488b91614d","2f9d0443-68a2-4662-b3a9-cd1ff4b36bc2",acteur,Gerald Gates
@@ -703,6 +753,7 @@ d3824840-3587-4dce-8cbd-e33a5fbcd956,f83b5489-8fe1-4a0d-854c-176d18455020,acteur
 "34bf7654-d225-4a5f-a31b-f26354026f19",c4b4ee4a-d3bf-4954-b6d6-f57dc71ee41d,acteur,le barman
 "8f1672da-5561-46d0-a900-47a9cb485cff","8c19b5cd-5a11-47d8-80a8-bc067cbfc0c7",acteur,Kathryn Murphy
 "32e47d85-5fd9-4daf-b058-b5699132d340",a7e2e550-5eef-4a5d-9327-ecedcbdffbbe,acteur,The Blonde
+"35db83a0-9d4d-4d07-9a79-65289c6eb695",fd6f055c-6de9-4044-b6eb-3bad3fba5968,acteur,Lt. Ed Flynn
 "59185c64-e193-4d25-a39f-cb944a7da1b6",b15bb7c5-f6d0-48eb-9a1e-703530203340,acteur,Joe Hamilton
 c2afd626-f83e-4a4e-8a1b-8979a2b38b8c,cd48fccf-299f-49b5-9064-abd78f938df7,acteur,Mayor Lenny
 "43e3d766-9e1f-4a97-95cd-dc70d372e760","44300acc-7c79-4769-8529-0b6f4e83708c",acteur,Sergeant Emil Foley
@@ -714,6 +765,7 @@ a988eb6c-1581-4af3-90a5-ddd5b7573067,"88826d9b-81ec-4e7c-8783-aa52f9a8b6fc",acte
 e7552d37-4b10-4cfe-ad78-630398326076,"8c19b5cd-5a11-47d8-80a8-bc067cbfc0c7",acteur,Annie Packert / Ally Chandler
 cee51897-ee38-40aa-b401-452d0d547ac9,a7e2e550-5eef-4a5d-9327-ecedcbdffbbe,acteur,Louise Bourget
 c3dc760d-27c9-4adc-b6cb-ba70c594cc42,d70a44bc-01cb-4166-864a-3cc3c303ccf9,acteur,Cathy Brenner
+"717a72d4-4173-45a1-8c0d-0257a2a73f24","02a87b57-b8e5-4730-aef2-e31ded2de0ac",acteur,Drone with Mask Removed (uncredited)
 "9b0a0e7b-cdab-4b12-b52f-5411f533045e",cd48fccf-299f-49b5-9064-abd78f938df7,acteur,Harvey
 "16fd3a7f-1895-4aad-8785-5ea272af9e51","60369b57-d42e-4cf5-8c02-8e6f28d825a7",acteur,Andrei
 c526f27a-27ad-4313-a425-e2d1bf1a7695,"44300acc-7c79-4769-8529-0b6f4e83708c",acteur,Jake Berkowitz
@@ -721,6 +773,7 @@ c526f27a-27ad-4313-a425-e2d1bf1a7695,"44300acc-7c79-4769-8529-0b6f4e83708c",acte
 "1a4c5050-61d4-4a8a-a8cf-b765c0df29b9",cc27938c-b0f3-4120-8b3c-0ed4b0328c1f,acteur,"Enrico ""Ratso"" Rizzo"
 "0c013f80-7b53-4ef1-888d-f87648f5f7e9","13c26591-04f4-4835-a594-d1ce55e80a50",acteur,Philippe Gerbier
 "085bec8a-5bc2-43fc-91e9-96f69dd8e502",c4b4ee4a-d3bf-4954-b6d6-f57dc71ee41d,acteur,Maurice Lefebvre
+b3ec16a5-c0cb-45bb-abd2-bf100a4174c9,a3591726-da0e-4ecd-927b-41d90a04c3a9,acteur,Paulie Pennino
 f14881a9-5334-4c8a-897c-a6fa778b1d8d,cd48fccf-299f-49b5-9064-abd78f938df7,acteur,Phelps
 "026c5f40-b62c-4db5-930c-53be7bed0037","9e7fb208-0ecf-4c5c-869c-4298eb9f0a4c",acteur,Mac
 "86de8304-83a3-41c0-bdf8-9de63c93a906","3fcd9ae0-5ab6-4b60-af23-a84608e2469a",acteur,Jeff Slater
