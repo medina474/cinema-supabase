@@ -3,7 +3,7 @@ import sql from './db.js'
 const films = await sql`select l.identifiant, f.film_id, f.titre
   from films f
   inner join links l on l.id = f.film_id and site = 1
-  fetch first 3 rows only`;
+  order by annee desc`;
 
 for (let film of films) {
   const data = await fetch(`https://api.themoviedb.org/3/movie/${film.identifiant}?append_to_response=credits&language=fr-FR`, {
@@ -15,7 +15,13 @@ for (let film of films) {
   });
 
   const json = await data.json();
-  json.credits.cast.filter(elt => elt.popularity > 10)
+
+  if (!json.credits || !json.credits.cast) {
+    console.log(`${film.identifiant} ${film.titre}`);
+    continue;
+  }
+
+  json.credits.cast.filter(elt => elt.popularity > 30)
     .sort((a, b) => b.order - a.order)
     .slice(1, 5)
     .forEach(async credit => {
@@ -24,7 +30,7 @@ for (let film of films) {
 where identifiant = ${credit.id} and site = 1`;
 
       if (link.count == 0) {
-        console.log(`${credit.id} ${credit.name} : ${credit.character} ${credit.popularity}`);
+        console.log(`${credit.id} ${credit.name} : ${credit.order} ${credit.character} ${credit.popularity}`);
 
           const parts = credit.name.split(' ');
         const personne = await sql`insert into personnes (nom, prenom)
