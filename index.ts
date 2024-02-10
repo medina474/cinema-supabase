@@ -52,7 +52,7 @@ const personne = await sql`
      LEFT JOIN links l ON p.personne_id = l.id AND l.site = 1
      where identifiant is not null
   GROUP BY p.nom, p.personne_id, l.identifiant
-  having count(e.film_id) between 5 and 7;`
+  having count(e.film_id) < 10;`
 for (let p of personne)
 {
   const data = await fetch(`https://api.themoviedb.org/3/person/${p.identifiant}/combined_credits?language=fr-FR`, {
@@ -67,7 +67,7 @@ for (let p of personne)
 
   json.cast.filter(e => e.media_type == 'movie' && e.popularity > 10 && e.release_date < '1991-01-01' && e.order < 10)
     .sort((a, b) => b.popularity - a.popularity)
-    .slice(0, 5)
+    .slice(0, 6)
     .forEach(async element => {
       console.log(`${p.nom} ${element.title}`);
       await insertFilm(p.identifiant, p.personne_id, element);
