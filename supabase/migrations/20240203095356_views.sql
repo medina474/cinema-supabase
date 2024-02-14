@@ -1,4 +1,4 @@
-create view view_personne_sans_role as
+create view view_personnes_sans_role as
  select p.personne_id,
     p.prenom,
     p.nom,
@@ -8,7 +8,7 @@ create view view_personne_sans_role as
   group by p.personne_id, p.prenom, p.nom
   having count(e.personne_id) = 0;
 
-create view view_film_sans_role as
+create view view_films_sans_equipe as
  select f.titre,
     count(e.film_id) as nb
   from films f

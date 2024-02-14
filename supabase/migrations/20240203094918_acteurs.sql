@@ -1,5 +1,5 @@
 
-create materialized view acteur as
+create materialized view acteurs as
   select p.personne_id,
   case
     when (p.artiste is not null) then (p.artiste)::text
@@ -13,7 +13,7 @@ create materialized view acteur as
   p.deces,
   p.nationalite,
   p.photo,
-  count(c.*) as nb_film
+  count(distinct c.film_id) as nb_film
   from (equipes c
     join personnes p on (c.personne_id = p.personne_id))
   where ((c.role)::text = 'acteur'::text)

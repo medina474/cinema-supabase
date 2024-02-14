@@ -1,15 +1,5 @@
 @echo off
 
-set PGHOST=aws-0-eu-central-1.pooler.supabase.com
-set PGPORT=5432
-set PGUSER=postgres.morseweiswlpykaugwtd
-set PGPASSWORD=b0cwTkLS3YRCzVTHLJDW
-
-::set PGHOST=localhost
-::set PGPORT=54322
-::set PGUSER=postgres
-::set PGPASSWORD=postgres
-
 set TABLE=genres
 set PK=genre_id
 psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE% FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');SELECT setval(pg_get_serial_sequence('%TABLE%', '%PK%'), (SELECT MAX(%PK%) FROM %TABLE%));"
