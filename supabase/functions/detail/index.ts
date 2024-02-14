@@ -2,8 +2,8 @@ import postgres from 'https://deno.land/x/postgresjs/mod.js'
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey',
-  'Access-Control-Allow-Methods': 'POST, GET, OPTIONS, PUT, DELETE',
+  'Access-Control-Allow-Headers': 'Apikey, Content-Type',
+  'Access-Control-Allow-Methods': 'POST',
 }
 
 Deno.serve(async (req) => {
@@ -21,7 +21,7 @@ Deno.serve(async (req) => {
     const films = await sql`
     select f.film_id, titre, titre_original,
     annee, sortie, duree, vote_votants, vote_moyenne,
-    f2.franchise
+    f2.franchise, e.alias
     from films f
     inner join equipes e on e.film_id = f.film_id
     left join franchises f2 on f2.franchise_id = f.franchise_id
