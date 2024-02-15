@@ -4,7 +4,7 @@ async function insertFilm(identifiant:string, uuid, credit) {
 
   const result = await sql`
     select id from links
-    where identifiant = ${credit.id} and site = 1`;
+    where identifiant = ${credit.id} and site_id = 1`;
 
   if (result.count == 0) {
     try {
@@ -18,7 +18,7 @@ async function insertFilm(identifiant:string, uuid, credit) {
       await sql`insert into resumes (film_id, langue_code, resume)
       values (${film[0].film_id}, 'fra', ${credit.overview})`
 
-      await sql`insert into links (id, site, identifiant)
+      await sql`insert into links (id, site_id, identifiant)
       values (${film[0].film_id}, 1,  ${credit.id})`;
 
       for (let g of credit.genre_ids) {
@@ -49,11 +49,11 @@ const personne = await sql`
     count(e.film_id) AS count
    FROM personnes p
      JOIN equipes e ON p.personne_id = e.personne_id
-     LEFT JOIN links l ON p.personne_id = l.id AND l.site = 1
+     LEFT JOIN links l ON p.personne_id = l.id AND l.site_id = 1
      where identifiant is not null
   GROUP BY p.nom, p.personne_id, l.identifiant
   having count(e.film_id) < 10;`
-for (let p of personne)
+for (const p of personne)
 {
   const data = await fetch(`https://api.themoviedb.org/3/person/${p.identifiant}/combined_credits?language=fr-FR`, {
     method: 'get',

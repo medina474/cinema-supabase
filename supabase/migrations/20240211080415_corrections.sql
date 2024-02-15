@@ -1,17 +1,8 @@
 
 alter table langues rename column "français" to "francais";
-alter table links rename column site to site_id;
-
-
-alter table links drop constraint links_pkey;
-drop index if exists links_pkey;
-create unique index links_pkey on links using btree (id, site_id);
-alter table links add constraint links_pkey primary key using index links_pkey;
-
 
 create unique index personnes_unique on personnes using btree (nom, prenom);
 alter table personnes add constraint personnes_unique unique using index personnes_unique;
-
 
 drop view if exists view_personnes_tmdb;
 create or replace view "view_nb_films" as  select p.nom,

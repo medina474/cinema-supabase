@@ -20,4 +20,4 @@ create materialized view acteurs as
   group by p.personne_id
 with no data;
 
-refresh materialized view acteur with data;
+refresh materialized view acteurs with data;

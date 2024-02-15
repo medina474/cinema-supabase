@@ -1,0 +1,9 @@
+###
+https://api.themoviedb.org/3/movie/106?append_to_response=credits&language=fr-FR
+Authorization: Bearer {{themoviedb}}
+accept: application/json
+
+###
+https://api.themoviedb.org/3/person/1100/combined_credits?language=fr-FR
+Authorization: Bearer {{themoviedb}}
+accept: application/json

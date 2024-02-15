@@ -46,7 +46,7 @@ create or replace view view_debug as  select fg.film_id,
 create or replace view view_films_tmdb as  select f.titre,
     f.film_id
    from (films f
-     left join links l on (((f.film_id = l.id) and (l.site = 1))))
+     left join links l on (((f.film_id = l.id) and (l.site_id = 1))))
   where (l.id is null);
 
 
@@ -54,5 +54,5 @@ create or replace view view_personnes_tmdb as  select p.nom,
     p.prenom,
     p.personne_id
    from (personnes p
-     left join links l on (((p.personne_id = l.id) and (l.site = 1))))
+     left join links l on (((p.personne_id = l.id) and (l.site_id = 1))))
   where (l.id is null);

@@ -2,10 +2,10 @@ import sql from './db.js'
 
 const films = await sql`select l.identifiant, f.film_id, f.titre
   from films f
-  inner join links l on l.id = f.film_id and site = 1
+  inner join links l on l.id = f.film_id and site_id = 1
   order by annee desc`;
 
-for (let film of films) {
+for (const film of films) {
   const data = await fetch(`https://api.themoviedb.org/3/movie/${film.identifiant}?append_to_response=credits&language=fr-FR`, {
     method: 'get',
     headers: new Headers({
@@ -27,7 +27,7 @@ for (let film of films) {
     .forEach(async credit => {
 
       const link = await sql`select * from links l
-where identifiant = ${credit.id} and site = 1`;
+where identifiant = ${credit.id} and site_id = 1`;
 
       if (link.count == 0) {
         console.log(`${credit.id} ${credit.name} : ${credit.order} ${credit.character} ${credit.popularity}`);
@@ -37,7 +37,7 @@ where identifiant = ${credit.id} and site = 1`;
       values (${parts[0]}, ${parts[1]})
       returning personnes.personne_id`;
 
-        await sql`insert into links (id, site, identifiant)
+        await sql`insert into links (id, site_id, identifiant)
       values (${personne[0].personne_id}, 1,  ${credit.id})`;
 
         await sql`insert into equipes (film_id, personne_id, role, alias)

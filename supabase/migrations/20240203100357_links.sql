@@ -11,9 +11,9 @@ alter table sites
 
 create table links (
   id uuid not null,
-  site bigint not null,
+  site_id bigint not null,
   identifiant text not null
 );
 
 alter table links
-  add constraint links_pkey primary key (id, site);
+  add constraint links_pkey primary key (id, site_id);
