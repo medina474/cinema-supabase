@@ -1,0 +1,34 @@
+POST http://localhost:8055/utils/import/series
+Authorization: Bearer {{directus}}
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="series.csv"
+Content-Type: text/csv
+
+< ./data/series.csv
+--boundary--
+
+### genres
+POST http://localhost:8055/utils/import/genres
+Authorization: Bearer {{directus}}
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="genres.csv"
+Content-Type: text/csv
+
+< ./data/genres.csv
+--boundary--
+
+### films
+POST http://localhost:8055/utils/import/films
+Authorization: Bearer {{directus}}
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="films.csv"
+Content-Type: text/csv
+
+< ./data/films.csv
+--boundary--

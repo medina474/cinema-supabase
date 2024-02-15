@@ -1,3 +1,0 @@
-###
-GET http://localhost:8055/items/series
-Authorization: Bearer WUWa2_rExEww5E26msZdYXsRxkJRzVyD
