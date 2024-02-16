@@ -21,11 +21,12 @@ Deno.serve(async (req) => {
     const films = await sql`
     select f.film_id, titre, titre_original,
     annee, sortie, duree, vote_votants, vote_moyenne,
-    f2.franchise, e.alias
+    f2.franchise, array_agg(e.alias)
     from films f
     inner join equipes e on e.film_id = f.film_id
     left join franchises f2 on f2.franchise_id = f.franchise_id
-    where e.personne_id = ${body.personne_id}`
+    where e.personne_id = ${body.personne_id}
+    group by f.film_id, f.titre, f.titre_original, f2.franchise`
 
     for (const film of films) {
 
