@@ -12,11 +12,10 @@ create materialized view acteurs as
   end as age,
   p.deces,
   p.nationalite,
-  p.photo,
   count(distinct c.film_id) as nb_film
   from (equipes c
     join personnes p on (c.personne_id = p.personne_id))
-  where ((c.role)::text = 'acteur'::text)
+  where (c.role = 'acteur')
   group by p.personne_id
 with no data;
 

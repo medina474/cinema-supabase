@@ -1,7 +1,16 @@
+create type role as enum (
+  'acteur',
+  'voix',
+  'réalisateur',
+  'scénariste',
+  'musique',
+  'roman'
+);
+
 create table if not exists equipes (
   film_id uuid not null,
   personne_id uuid not null,
-  role text,
+  role public.role,
   alias text,
   constraint equipe_film_fk foreign key (film_id) references films(film_id)
     on update no action on delete no action not valid,

@@ -5,10 +5,12 @@ create table personnes (
   naissance date,
   deces date,
   nationalite text,
-  artiste text,
-  photo text,
-  constraint personne_pkey primary key (personne_id)
+  artiste text
 );
+
+alter table personnes
+  add constraint personne_pkey
+  primary key (personne_id);
 
 alter table personnes
   add constraint personne_naissance
