@@ -41,7 +41,7 @@ for (const p of personnes)
     .sort((a, b) => b.popularity - a.popularity)
     .slice(0, 6)
     .forEach(async f => {
-      console.log(`${p.nom} : ${f.title}`);
+      console.log(`${p.nom} : ${f.title} ${f.id}`);
 
       const films = await sql`
         select id from links
@@ -49,18 +49,19 @@ for (const p of personnes)
 
       if (films.count == 0) {
         try {
-          const film_id = await sql`insert into films (titre, titre_original, sortie, vote_votants)
-            values (${f.title}, ${f.original_title}, ${f.release_date}, ${f.vote_count})
-            returning films.film_id`
+          const film_id = await sql`insert into films
+          (titre, titre_original, sortie, vote_votants)
+          values (${f.title}, ${f.original_title}, ${f.release_date}, ${f.vote_count})
+          returning films.film_id`
+
+          await sql`insert into links (id, site_id, identifiant)
+            values (${film_id[0].film_id}, 1, ${f.id})`;
 
           await sql`insert into equipes (film_id, personne_id, role, alias)
             values (${film_id[0].film_id}, ${p.personne_id}, 'acteur', ${f.character})`
 
           await sql`insert into resumes (film_id, langue_code, resume)
             values (${film_id[0].film_id}, 'fra', ${f.overview})`
-
-          await sql`insert into links (id, site_id, identifiant)
-            values (${film_id[0].film_id}, 1, ${f.id})`;
 
           for (const genre_id of f.genre_ids) {
             await sql`insert into films_genres (film_id, genre_id)

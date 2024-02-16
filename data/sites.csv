@@ -4,3 +4,4 @@
 3,Wikipedia,https://fr.wikipedia.org/wiki/$id
 4,YouTube,https://youtu.be/$id
 5,Sens Critique,https://www.senscritique.com/film/_/$id
+6,AlloCiné,https://www.allocine.fr/film/fichefilm_gen_cfilm=$id.html

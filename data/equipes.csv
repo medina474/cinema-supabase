@@ -2,7 +2,7 @@
 "1a824fa6-2716-4362-b09a-308fac8ff3fa","9ba16814-0229-4025-927c-795cd4d6dd07",acteur,Marion Cobretti
 "1a824fa6-2716-4362-b09a-308fac8ff3fa","46c31ee2-f27f-4049-95d4-e3bf625ec924",acteur,Ingrid
 "1a824fa6-2716-4362-b09a-308fac8ff3fa",c872e22c-096a-4b71-886e-491e7733d3df,réalisateur,
-"1a824fa6-2716-4362-b09a-308fac8ff3fa","081629e8-d46f-4a52-b54e-75a4eb7d3b11",scénariste (roman),
+"1a824fa6-2716-4362-b09a-308fac8ff3fa","081629e8-d46f-4a52-b54e-75a4eb7d3b11",roman,
 "1a824fa6-2716-4362-b09a-308fac8ff3fa","9ba16814-0229-4025-927c-795cd4d6dd07",scénariste,
 "412db3da-061b-4b62-9015-00649a08eb45","9ba16814-0229-4025-927c-795cd4d6dd07",acteur,John Rambo
 "412db3da-061b-4b62-9015-00649a08eb45",c872e22c-096a-4b71-886e-491e7733d3df,réalisateur,
@@ -33,7 +33,7 @@ ec6a42ec-6c44-495f-beca-ecc4c3dc093e,"9ba16814-0229-4025-927c-795cd4d6dd07",scé
 "8a973d17-fccf-4240-8157-573db91eaa6c","9ba16814-0229-4025-927c-795cd4d6dd07",acteur,Rocky Balboa
 "94666aeb-13c6-47d8-a8c9-6051636b6102","9ba16814-0229-4025-927c-795cd4d6dd07",acteur,John Rambo
 "94666aeb-13c6-47d8-a8c9-6051636b6102","38e1ba01-163a-4262-9ce3-a8b95ea6e687",réalisateur,
-"94666aeb-13c6-47d8-a8c9-6051636b6102","1e8b43c2-94ed-4610-ba42-9e90fdd23259",scénariste (roman),
+"94666aeb-13c6-47d8-a8c9-6051636b6102","1e8b43c2-94ed-4610-ba42-9e90fdd23259",roman,
 dc18e978-7d17-4d05-ac8e-678a609fbcc7,"9ba16814-0229-4025-927c-795cd4d6dd07",acteur,Rocky Balboa
 e90836cf-cc5f-477d-9ca1-a44f1bd95abf,"9ba16814-0229-4025-927c-795cd4d6dd07",acteur,John Rambo
 e90836cf-cc5f-477d-9ca1-a44f1bd95abf,ed0aea9c-e41b-4615-8eeb-e3e45e39273e,réalisateur,
@@ -196,7 +196,6 @@ b1ef0ebc-8702-4fa0-8976-13d3e3bf26b9,"7b146021-19b2-4956-97e9-fd6177845678",acte
 ace1de16-80cc-4094-b70a-94401c7d049e,"7b146021-19b2-4956-97e9-fd6177845678",acteur,Indiana Jones
 "428bc8c4-3f25-4a21-862e-f5d4abd1cf2c","7b146021-19b2-4956-97e9-fd6177845678",acteur,Rick Deckard
 "27737bdf-de50-4367-a306-6fdef9af881e",e98c10cb-0be2-48d9-a5b6-1b8d4387a24a,acteur,Jareth
-"27737bdf-de50-4367-a306-6fdef9af881e",bf8be473-db59-4b98-82c4-929799b69af1,extra,Goblin Corps
 babad69c-d9e9-4668-93da-f12899a80b45,"8add261c-9aff-44f2-9aa1-63a3f33eac8d",acteur,Baby Houseman
 "6d02e5b2-c17b-4d89-9f7c-c626136f0a57","608481e7-befa-4b88-b701-d9fa9830a329",acteur,Sue Charlton
 "6d02e5b2-c17b-4d89-9f7c-c626136f0a57",f3c5dd03-43b7-4fd1-b88f-0a844a96a2be,acteur,Michael J. 'Crocodile' Dundee
