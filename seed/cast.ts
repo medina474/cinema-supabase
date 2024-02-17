@@ -17,7 +17,7 @@ for (const film of films) {
   const json = await data.json();
 
   if (!json.credits || !json.credits.cast) {
-    console.log(`${film.identifiant} ${film.titre}`);
+    console.log(`${film.identifiant} ${film.titre} sans équipe`);
     continue;
   }
 
@@ -26,11 +26,11 @@ for (const film of films) {
     .slice(1, 5)
     .forEach(async credit => {
 
-      const link = await sql`select * from links l
+      const personnes = await sql`select * from links l
         inner join personnes p on p.personne_id = l.id
         where identifiant = ${credit.id} and site_id = 1`;
 
-      if (link.count == 0) {
+      if (personnes.count == 0) {
         console.log(`${credit.id} ${credit.name} : ${credit.order} ${credit.character} ${credit.popularity}`);
 
         /*
@@ -48,7 +48,19 @@ for (const film of films) {
       }
       else
       {
-
+        const personne_id = personnes[0].id
+        const equipe = await sql`select alias from equipes
+          where film_id = ${film.film_id} and personne_id = ${personne_id} and role = 'acteur'`;
+        
+          if (equipe.count == 0) {
+          try {
+            console.log(`${film.title} -> ${credit.name} as ${credit.character}`);
+            await sql`insert into equipes (film_id, personne_id, role, alias)
+                values (${film.film_id}, ${personne_id}, 'acteur', ${credit.character})`
+          } catch (error) {
+            console.log(error)
+          }
+        }
       }
     });
 }
