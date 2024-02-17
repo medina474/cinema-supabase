@@ -27,21 +27,28 @@ for (const film of films) {
     .forEach(async credit => {
 
       const link = await sql`select * from links l
-where identifiant = ${credit.id} and site_id = 1`;
+        inner join personnes p on p.personne_id = l.id
+        where identifiant = ${credit.id} and site_id = 1`;
 
       if (link.count == 0) {
         console.log(`${credit.id} ${credit.name} : ${credit.order} ${credit.character} ${credit.popularity}`);
 
+        /*
         const parts = credit.name.split(' ');
         const personne = await sql`insert into personnes (nom, prenom)
-      values (${parts[0]}, ${parts[1]})
-      returning personnes.personne_id`;
+          values (${parts[0]}, ${parts[1]})
+          returning personnes.personne_id`;
 
         await sql`insert into links (id, site_id, identifiant)
-      values (${personne[0].personne_id}, 1,  ${credit.id})`;
+          values (${personne[0].personne_id}, 1,  ${credit.id})`;
 
         await sql`insert into equipes (film_id, personne_id, role, alias)
-      values (${film.film_id}, ${personne[0].personne_id}, 'acteur', ${credit.character})`
+          values (${film.film_id}, ${personne[0].personne_id}, 'acteur', ${credit.character})`
+          */
+      }
+      else
+      {
+
       }
     });
 }
