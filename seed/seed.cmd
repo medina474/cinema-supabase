@@ -24,7 +24,7 @@ set TABLE=resumes
 psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE% FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');"
 
 set TABLE=personnes
-psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE%(personne_id,nom,prenom,naissance,deces,nationalite,artiste) FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');"
+psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE% FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');"
 
 set TABLE=equipes
 psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE% FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');"
