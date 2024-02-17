@@ -59,8 +59,8 @@ for (const p of personnes)
           console.log(`${p.nom} : ${f.title} / ${f.release_date}`);
 
           const film_id = await sql`insert into films
-          (titre, titre_original, sortie, vote_votants)
-          values (${f.title}, ${f.original_title}, ${f.release_date}, ${f.vote_count})
+          (titre, titre_original, sortie, duree, vote_votants, vote_moyenne)
+          values (${f.title}, ${f.original_title}, ${f.release_date}, ${f.runtime}, ${f.vote_count}, ${f.vote_average})
           returning films.film_id`
 
           await sql`insert into links (id, site_id, identifiant)

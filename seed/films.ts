@@ -3,7 +3,7 @@ import sql from './db.js'
 const films = await sql`select l.identifiant, f.film_id, f.titre
   from films f
   inner join links l on l.id = f.film_id and site_id = 1
-  where f.vote_votants is null
+  where f.duree is null
   order by annee desc`;
 
 for (const film of films) {
