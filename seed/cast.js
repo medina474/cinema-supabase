@@ -32,7 +32,7 @@ where identifiant = ${credit.id} and site_id = 1`;
       if (link.count == 0) {
         console.log(`${credit.id} ${credit.name} : ${credit.order} ${credit.character} ${credit.popularity}`);
 
-          const parts = credit.name.split(' ');
+        const parts = credit.name.split(' ');
         const personne = await sql`insert into personnes (nom, prenom)
       values (${parts[0]}, ${parts[1]})
       returning personnes.personne_id`;
