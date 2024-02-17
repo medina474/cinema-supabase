@@ -15,7 +15,7 @@ interface Personne {
   from personnes p
   join equipes e on p.personne_id = e.personne_id
   left join links l on p.personne_id = l.id and l.site_id = 1
-  where identifiant is not null
+  where identifiant is not null and popularite = 0
   group by p.nom, p.personne_id, l.identifiant;`
 
   for (const p of personnes)
