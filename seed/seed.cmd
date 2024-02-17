@@ -9,7 +9,7 @@ set PK=franchise_id
 psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE% FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');SELECT setval(pg_get_serial_sequence('%TABLE%', '%PK%'), (SELECT MAX(%PK%) FROM %TABLE%));"
 
 set TABLE=films
-psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE%(film_id,titre,titre_original,annee,sortie,duree,franchise_id) FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');"
+psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE%(film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_moyenne) FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');"
 
 set TABLE=societes
 psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE% FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');"
@@ -36,9 +36,6 @@ set TABLE=certifications
 psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE%(pays,ordre,certification,description) FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');"
 
 set TABLE=pays
-psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE% FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');"
-
-set TABLE=sites
 psql -h %PGHOST% -p %PGPORT% -d postgres -U %PGUSER% -c "\COPY %TABLE% FROM '../data/%TABLE%.csv' (FORMAT CSV, header, ENCODING 'UTF8');"
 
 set TABLE=links
