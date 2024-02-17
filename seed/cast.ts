@@ -31,7 +31,7 @@ for (const film of films) {
         where identifiant = ${credit.id} and site_id = 1`;
 
       if (personnes.count == 0) {
-        console.log(`${credit.id} ${credit.name} : ${credit.order} ${credit.character} ${credit.popularity}`);
+        console.log(`${credit.name} : ${credit.character} (${credit.order}) ${credit.popularity}`);
 
         /*
         const parts = credit.name.split(' ');
@@ -54,7 +54,7 @@ for (const film of films) {
         
           if (equipe.count == 0) {
           try {
-            console.log(`${film.title} -> ${credit.name} as ${credit.character}`);
+            console.log(`${film.titre} -> ${credit.name} as ${credit.character}`);
             await sql`insert into equipes (film_id, personne_id, role, alias)
                 values (${film.film_id}, ${personne_id}, 'acteur', ${credit.character})`
           } catch (error) {
