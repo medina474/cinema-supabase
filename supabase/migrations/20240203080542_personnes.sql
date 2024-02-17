@@ -5,7 +5,8 @@ create table personnes (
   naissance date,
   deces date,
   nationalite text,
-  artiste text
+  artiste text,
+  popularite decimal default 0
 );
 
 alter table personnes

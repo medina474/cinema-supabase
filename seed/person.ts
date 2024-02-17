@@ -33,7 +33,7 @@ interface Personne {
   console.log(`${person.name} ${person.popularity}`)
 
   await sql`update personnes set 
-    naissance=${person.birthday}, deces=${person.deathday}
+    naissance=${person.birthday}, deces=${person.deathday}, popularite=${person.popularity}
     where personne_id=${p.personne_id}`;
 
 }
