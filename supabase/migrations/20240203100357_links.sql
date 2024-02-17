@@ -15,6 +15,8 @@ insert into sites (site_id,site,url) values
 alter table sites
   add constraint sites_pkey primary key (site_id);
 
+
+
 create table links (
   id uuid not null,
   site_id bigint not null,
@@ -23,3 +25,11 @@ create table links (
 
 alter table links
   add constraint links_pkey primary key (id, site_id);
+
+create index links_identifiant_idx on links (identifiant);
+
+create table links_societes (
+) inherits (links);
+
+create table links_films (
+) inherits (links);
