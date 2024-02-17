@@ -29,8 +29,7 @@ const personnes = await<Personne[]>sql`
   join equipes e on p.personne_id = e.personne_id
   left join links l on p.personne_id = l.id and l.site_id = 1
   where identifiant is not null
-  group by p.nom, p.personne_id, l.identifiant
-  having count(e.film_id) < 10;`
+  group by p.nom, p.personne_id, l.identifiant;`
 
 for (const p of personnes)
 {
@@ -55,7 +54,7 @@ for (const p of personnes)
         where identifiant = ${f.id} and site_id = 1;`;
 
       if (films.count == 0) {
-        /*
+        
         try {
           console.log(`${p.nom} : ${f.title} / ${f.release_date}`);
 
@@ -80,7 +79,7 @@ for (const p of personnes)
         } catch (e) {
           console.log(JSON.stringify(f));
         }
-        */
+        
       }
       else {
         const film_id = films[0].id
