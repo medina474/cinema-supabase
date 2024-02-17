@@ -1,3 +1,10 @@
+/*
+ * Complète la liste de films par acteur.
+ * Prend les films les mieux notés de l'acteur.
+ * Si le film n'existe pas dans la base, le créer et faire la liaison avec l'acteur.
+ * Si il existe faire la liason (equipe)
+ */
+
 import sql from './db.js'
 
 interface Personne {
@@ -41,14 +48,17 @@ for (const p of personnes)
     .sort((a, b) => b.popularity - a.popularity)
     .slice(0, 6)
     .forEach(async f => {
-      console.log(`${p.nom} : ${f.title} ${f.id}`);
 
       const films = await sql`
-        select id from links
+        select id from links l
+        inner join films f on f.film_id = l.id
         where identifiant = ${f.id} and site_id = 1;`;
 
       if (films.count == 0) {
+        /*
         try {
+          console.log(`${p.nom} : ${f.title} / ${f.release_date}`);
+
           const film_id = await sql`insert into films
           (titre, titre_original, sortie, vote_votants)
           values (${f.title}, ${f.original_title}, ${f.release_date}, ${f.vote_count})
@@ -70,15 +80,21 @@ for (const p of personnes)
         } catch (e) {
           console.log(JSON.stringify(f));
         }
+        */
       }
       else {
+        const film_id = films[0].id
         const equipe = await sql`select alias from equipes
-          where film_id = ${films[0].id} and personne_id = ${p.personne_id} and role = 'acteur'`;
+          where film_id = ${film_id} and personne_id = ${p.personne_id} and role = 'acteur'`;
 
         if (equipe.count == 0) {
-          console.log(`  ${films[0].id} ${p.personne_id} ${f.character}`);
-          await sql`insert into equipes (film_id, personne_id, role, alias)
-            values (${films[0].id}, ${p.personne_id}, 'acteur', ${f.character})`
+          try {
+            console.log(`${p.nom} -> ${f.character} in ${f.title} (${f.id} ${film_id} ${p.personne_id})`);
+            await sql`insert into equipes (film_id, personne_id, role, alias)
+              values (${film_id}, ${p.personne_id}, 'acteur', ${f.character})`
+          } catch (error) {
+            console.log(error)
+          }
         }
       }
     });
