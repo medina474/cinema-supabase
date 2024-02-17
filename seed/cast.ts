@@ -36,7 +36,7 @@ for (const film of films) {
         if (credit.order < 6) {
           const parts = credit.name.split(' ');
           const personne = await sql`insert into personnes (nom, prenom)
-            values (${parts[0]}, ${parts[1]})
+            values (${parts[1]}, ${parts[0]})
             returning personnes.personne_id`;
   
           await sql`insert into links (id, site_id, identifiant)
