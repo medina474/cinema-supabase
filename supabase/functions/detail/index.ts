@@ -1,3 +1,6 @@
+/*
+ * supabase functions deploy detail --no-verify-jwt
+ */
 import postgres from 'https://deno.land/x/postgresjs/mod.js'
 
 const corsHeaders = {
@@ -20,24 +23,17 @@ Deno.serve(async (req) => {
 
     const films = await sql`
     select f.film_id, titre, titre_original,
-    annee, sortie, duree, vote_votants, vote_moyenne,
-    f2.franchise, array_agg(e.alias)
+      annee, sortie, duree, vote_votants, vote_moyenne,
+      f2.franchise
+      , array_agg(distinct e.alias) as alias
+      , array_agg(distinct g.genre) as genres
     from films f
-    inner join equipes e on e.film_id = f.film_id
+    inner join equipes e on e.film_id = f.film_id and alias is not null
+    left join films_genres fg on fg.film_id = f.film_id 
+    inner join genres g on g.genre_id = fg.genre_id 
     left join franchises f2 on f2.franchise_id = f.franchise_id
     where e.personne_id = ${body.personne_id}
     group by f.film_id, f.titre, f.titre_original, f2.franchise`
-
-    for (const film of films) {
-
-      const genres = await sql`
-    select genre
-from genres g
-inner join films_genres f on f.genre_id = g.genre_id
-where f.film_id = ${film.film_id}`;
-
-      film.genres = genres.map(elt => elt.genre);
-    }
 
     return new Response(JSON.stringify(films), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
