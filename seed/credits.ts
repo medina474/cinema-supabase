@@ -33,7 +33,7 @@ const personnes = await<Personne[]>sql`
 
 for (const p of personnes)
 {
-  const data = await fetch(`https://api.themoviedb.org/3/person/${p.identifiant}/combined_credits?language=fr-FR`, {
+  const data = await fetch(`https://api.themoviedb.org/3/person/${p.identifiant}/movie_credits?language=fr-FR`, {
     method: 'get',
     headers: new Headers({
       'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMmE0Y2YxZDUwNzlkOTMwYzA3YmVjYmJhZTBjNDI4YyIsInN1YiI6IjYwM2U5ZjE3ODQ0NDhlMDAzMDBlZWQwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9CBeYye4C17jp29j77VjChML6ZJLwObLSolQW2GAhU4',
@@ -54,7 +54,7 @@ for (const p of personnes)
         where identifiant = ${f.id} and site_id = 1;`;
 
       if (films.count == 0) {
-        
+
         try {
           console.log(`${p.nom} : ${f.title} / ${f.release_date}`);
 
@@ -79,7 +79,7 @@ for (const p of personnes)
         } catch (e) {
           console.log(JSON.stringify(f));
         }
-        
+
       }
       else {
         const film_id = films[0].id

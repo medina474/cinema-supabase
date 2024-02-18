@@ -5,6 +5,10 @@ create materialized view acteurs as
     when (p.artiste is not null) then (p.artiste)::text
     else (((p.prenom)::text || ' '::text) || (p.nom)::text)
   end as nom,
+  case
+    when (p.artiste is not null) then (p.artiste)::text
+    else (((p.prenom)::text || ' '::text) || (p.nom)::text)
+  end as dmetaphone,
   p.naissance,
   case
     when (p.deces is null) then date_part('year'::text, age((p.naissance)::timestamp with time zone))

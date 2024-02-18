@@ -15,6 +15,14 @@ select setval(pg_get_serial_sequence('franchises', 'franchise_id'), (select max(
 
 \copy films(film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_moyenne) from '../data/films.csv' (format csv, header, encoding 'utf8');
 
+create temporary table slogan_tmp (
+  film_id uuid,
+  slogan text);
+
+\copy slogan_tmp from '../data/films-slogan.csv' (format csv, header, delimiter ',', encoding 'utf8');
+update films set slogan = (select slogan from slogan_tmp where slogan_tmp.film_id = films.film_id);
+drop table slogan_tmp;
+
 \copy films_genres from '../data/films_genres.csv' (format csv, header, encoding 'utf8');
 
 \copy resumes from '../data/resumes.csv' (format csv, header, encoding 'utf8');

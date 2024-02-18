@@ -1,3 +1,5 @@
+create extension fuzzystrmatch schema extensions;
+
 create table personnes (
   personne_id uuid default gen_random_uuid() not null,
   nom text,

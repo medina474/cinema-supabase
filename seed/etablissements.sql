@@ -41,7 +41,7 @@ create temporary table etablissements_tmp (
   longitude float
 );
 
-\COPY etablissements_tmp FROM '../data/cnc-donnees-cartographie-2021.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
+\copy etablissements_tmp FROM '../data/cnc-donnees-cartographie-2021.csv' (FORMAT CSV, header, delimiter ',', ENCODING 'UTF8');
 
 insert into etablissements (etablissement_id, nom, voie, ville, coordonnees)
   select nauto, nom, adresse, commune, st_makepoint(longitude, latitude)

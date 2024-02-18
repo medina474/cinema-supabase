@@ -2,19 +2,52 @@ https://api.themoviedb.org/3/movie/106&language=fr-FR
 Authorization: Bearer {{themoviedb}}
 accept: application/json
 
-
-###
-https://api.themoviedb.org/3/movie/106?append_to_response=credits&language=fr-FR
+### Mots clés
+https://api.themoviedb.org/3/movie/679/keywords?language=fr-FR
 Authorization: Bearer {{themoviedb}}
 accept: application/json
 
 ###
-https://api.themoviedb.org/3/person/1100/combined_credits?language=fr-FR
+https://api.themoviedb.org/3/movie/679?append_to_response=credits,keywords&language=fr-FR
+Authorization: Bearer {{themoviedb}}
+accept: application/json
+
+### Reviews
+https://api.themoviedb.org/3/movie/679/reviews?language=fr-FR
+Authorization: Bearer {{themoviedb}}
+accept: application/json
+
+### Videos
+https://api.themoviedb.org/3/movie/679/videos?language=fr-FR
 Authorization: Bearer {{themoviedb}}
 accept: application/json
 
 
-###
+
+### Person
 https://api.themoviedb.org/3/person/1100?language=fr-FR
+Authorization: Bearer {{themoviedb}}
+accept: application/json
+
+###
+https://api.themoviedb.org/3/person/1100/external_ids
+Authorization: Bearer {{themoviedb}}
+accept: application/json
+
+###
+https://api.themoviedb.org/3/person/1100/translations
+Authorization: Bearer {{themoviedb}}
+accept: application/json
+
+### Images
+https://api.themoviedb.org/3/person/1100/images
+Authorization: Bearer {{themoviedb}}
+accept: application/json
+
+### Image
+GET https://image.tmdb.org/t/p/w600_and_h900_bestv2/wDHpJDzurhEBG21lqy5dZH8NHgz.jpg
+
+###
+https://api.themoviedb.org/3/person/1100/movie_credits?language=fr-FR
 Authorization: Bearer {{themoviedb}}
 accept: application/json
