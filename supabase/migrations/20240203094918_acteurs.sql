@@ -1,4 +1,3 @@
-
 create materialized view acteurs as
   select p.personne_id,
   case
@@ -6,9 +5,9 @@ create materialized view acteurs as
     else (((p.prenom)::text || ' '::text) || (p.nom)::text)
   end as nom,
   case
-    when (p.artiste is not null) then (p.artiste)::text
-    else (((p.prenom)::text || ' '::text) || (p.nom)::text)
-  end as dmetaphone,
+    when (p.artiste is not null) then metaphone(p.artiste::text,15)
+    else metaphone(((p.prenom)::text || ' '::text) || (p.nom)::text,15)
+  end as metaphone,
   p.naissance,
   case
     when (p.deces is null) then date_part('year'::text, age((p.naissance)::timestamp with time zone))
@@ -16,11 +15,11 @@ create materialized view acteurs as
   end as age,
   p.deces,
   p.nationalite,
-  count(distinct c.film_id) as nb_film
+  count(distinct c.film_id) as nb_film,
+  p.popularite
   from (equipes c
     join personnes p on (c.personne_id = p.personne_id))
   where (c.role = 'acteur')
   group by p.personne_id
+  order by popularite desc
 with no data;
-
-refresh materialized view acteurs with data;

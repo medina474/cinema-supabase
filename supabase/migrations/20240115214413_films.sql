@@ -6,6 +6,7 @@ create table films (
   sortie date,
   duree integer,
   franchise_id integer,
+  slogan text,
   constraint film_pkey primary key (film_id)
 );
 
