@@ -35,13 +35,20 @@ Deno.serve(async (req) => {
     where f.film_id = ${body.film_id}
     group by f.titre, f.titre_original, f.vote_votants, f.vote_moyenne, r.resume, f.duree, f.sortie, f.annee, f.slogan`
 
-    const equipe = await sql`select nom, alias, role
-      from acteurs
-      inner join equipes e on e.personne_id = acteurs.personne_id
-      where film_id = ${body.film_id} and role in ('acteur', 'voix')`
-
     const film = films[0];
-    film.equipe = equipe;
+
+    film.acteurs = await sql`select a.personne_id, nom, array_agg(alias) as alias, role, ordre
+      from acteurs a
+      inner join equipes e on e.personne_id = a.personne_id
+      where film_id = ${body.film_id} and role in ('acteur', 'voix')
+      group by a.personne_id, nom, role, ordre
+      order by ordre asc`
+
+    film.equipe = await sql`select a.personne_id, nom, array_agg(role) as roles
+      from acteurs a
+      inner join equipes e on e.personne_id = a.personne_id
+      where film_id = ${body.film_id} and role not in ('acteur', 'voix')
+      group by a.personne_id, nom`
 
     return new Response(JSON.stringify(film), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },

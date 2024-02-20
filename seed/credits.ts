@@ -76,7 +76,7 @@ for (const p of personnes)
             await sql`insert into films_genres (film_id, genre_id)
               values (${film_id[0].film_id}, ${genre_id})`
           }
-        } catch (e) {
+        } catch (_e) {
           console.log(JSON.stringify(f));
         }
 

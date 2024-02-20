@@ -6,6 +6,9 @@ const films = await sql`select l.identifiant, f.film_id, f.titre
   order by annee desc`;
 
 for (const film of films) {
+
+  console.log(`${film.identifiant} ${film.titre}`);
+
   const data = await fetch(`https://api.themoviedb.org/3/movie/${film.identifiant}?append_to_response=credits&language=fr-FR`, {
     method: 'get',
     headers: new Headers({
@@ -38,21 +41,21 @@ for (const film of films) {
           const personne = await sql`insert into personnes (nom, prenom)
             values (${parts[1]}, ${parts[0]})
             returning personnes.personne_id`;
-  
+
           await sql`insert into links (id, site_id, identifiant)
             values (${personne[0].personne_id}, 1,  ${credit.id})`;
-  
+
           await sql`insert into equipes (film_id, personne_id, role, alias, ordre)
             values (${film.film_id}, ${personne[0].personne_id}, 'acteur', ${credit.character}, ${credit.order})`
         }
-         
+
       }
       else
       {
         const personne_id = personnes[0].id
         const equipe = await sql`select alias from equipes
           where film_id = ${film.film_id} and personne_id = ${personne_id} and role = 'acteur'`;
-        
+
           if (equipe.count == 0) {
           try {
             console.log(`${film.titre} -> ${credit.name} as ${credit.character}`);

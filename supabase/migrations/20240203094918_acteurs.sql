@@ -15,11 +15,13 @@ create materialized view acteurs as
   end as age,
   p.deces,
   p.nationalite,
+  y.drapeau_unicode,
   count(distinct c.film_id) as nb_film,
   p.popularite
   from (equipes c
-    join personnes p on (c.personne_id = p.personne_id))
+    join personnes p on (c.personne_id = p.personne_id)
+    left join pays y on p.nationalite = y.code_2)
   where (c.role = 'acteur')
-  group by p.personne_id
+  group by p.personne_id, y.drapeau_unicode
   order by popularite desc
 with no data;

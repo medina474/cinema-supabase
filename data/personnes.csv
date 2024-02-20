@@ -220,7 +220,7 @@ f9485d4b-a9f4-44db-a5ee-4f5ccdbda1a5,Wayans,Damon,1960-09-04,,,,30.59
 fa0078ef-fe0c-46ea-ad84-d5b527494f74,Ryder,Winona,1971-10-29,,,,50.77
 f8869b1b-e42c-439c-abee-2191c8ae185a,Madsen,Michael,1957-09-25,,,,34.178
 a2c5a873-2b75-4824-b334-fa76a6d2e38a,Berenger,Tom,1949-05-31,,,,28.373
-"3c78fac1-4f31-4962-ab0f-248434e5ada5",Pacino,Al,1940-04-25,,,,44.32
+"3c78fac1-4f31-4962-ab0f-248434e5ada5",Pacino,Al,1940-04-25,,us,,44.32
 "6f031496-4c0c-420f-b3d8-675344b42b40",García,Andy,1956-04-12,,,,28.223
 c9f5529f-40f4-4de9-87db-d4116a69cc1a,Villeret,Jacques,1951-02-06,2005-01-28,fr,,7.27
 "4609a4af-ff7d-4559-9e7c-5a166c74fab0",Quaid,Dennis,1954-04-09,,,,36.947
@@ -245,8 +245,8 @@ bb9266f0-d2a9-438e-986e-aec972789668,McGill,Bruce,1950-07-11,,,,35.918
 "446c9413-f1e9-46fe-877e-dabbcbedb5b8",Curry,Tim,1946-04-19,,,,30.977
 "9c6c466d-e69a-47d1-b3d1-2d618d438b09",Earl,James,1931-01-17,,,,20.171
 adb60929-26d0-4453-af01-2ab53dfd62cf,Zahn,Steve,1967-11-13,,,,32.014
-fafa15e0-5cc0-49da-84c2-608d11fb6d27,J.,Michael,1961-06-09,,,,25.602
-dadc6be7-5e52-4b08-ade2-503c4beea5ca,Kidman,Nicole,1967-06-20,,,,60.088
+fafa15e0-5cc0-49da-84c2-608d11fb6d27,Fox,Michael J.,1961-06-09,,,,25.602
+dadc6be7-5e52-4b08-ade2-503c4beea5ca,Kidman,Nicole,1967-06-20,,au,,60.088
 "0a4fd387-98e1-464f-858e-1b7815dcfd08",Rhames,Ving,1959-05-12,,,,23.619
 "6fe94357-6e04-4f94-a6a9-1cabc2cc1ee6",Banks,Jonathan,1947-01-31,,,,29.086
 "52d13d93-646c-4fc7-a5c4-b140faa16068",Bronson,Charles,1921-11-03,2003-08-30,,,40.13
@@ -260,7 +260,7 @@ e7f8c8ed-4374-4471-9202-be65c117599e,Leguizamo,John,1960-07-22,,,,30.083
 "6b15885c-3e38-47e7-af07-382943278fe8",Stevens,Stella,1938-10-01,2023-02-17,,,9.919
 d4809c32-d0ad-4b58-80d7-e6ca92be8e76,Bacon,Kevin,1958-07-08,,,,57.087
 adfaeeca-57af-4399-9d7a-b277a0b7dc94,Brolin,Josh,1968-02-12,,,,34.064
-"2834a265-c552-446c-ba27-e46186076cb6",Adjani,Isabelle,1955-06-27,,,,25.768
+"2834a265-c552-446c-ba27-e46186076cb6",Adjani,Isabelle,1955-06-27,,fr,,25.768
 "456d7ebf-04ae-4450-b469-96bfdfd977cc",Reeves,Keanu,1964-09-02,,,,114.73
 "04b5868b-b9e3-4784-be6a-4dc86d6424ce",Kane,Carol,1952-06-18,,,,16.196
 da7d29ec-0a91-4a32-9711-f5ee0b93b3d8,T.,Craig,1944-04-04,,,,25.073
@@ -268,7 +268,7 @@ ae0749cc-2913-4493-b369-1985bb40fad6,Dunst,Kirsten,1982-04-30,,,,44.277
 f2200d2d-ea3b-426c-bc26-6f22317df9e5,Thomas,C.,1966-12-07,,,,23.155
 b710c712-f26e-48e7-8655-4bc98009cceb,Dance,Charles,1946-10-10,,,,27.402
 "29eb95b5-5be3-40db-82dd-bc9fb166d62e",Green,Seth,1974-02-08,,,,35.199
-"95da3c96-b306-4694-aa63-678d865edbf5",Banderas,Antonio,1960-08-10,,,,49.142
+"95da3c96-b306-4694-aa63-678d865edbf5",Banderas,Antonio,1960-08-10,,es,,49.142
 "9eac8bad-c998-4e3f-9821-f2ce6c1a7053",Chlumsky,Anna,1980-12-03,,,,21.39
 "38c20e8c-374c-4c0c-a5e0-725890cdb828",Whitaker,Forest,1961-07-15,,,,32.871
 "1df6da8b-2206-491f-97f1-76c793a42d37",Neill,Sam,1947-09-14,,,,35.118
