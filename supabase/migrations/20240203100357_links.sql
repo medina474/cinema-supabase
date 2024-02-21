@@ -24,15 +24,43 @@ create table links (
 );
 
 alter table links
+  add constraint links_no_insert_in_parent
+  check (false) no inherit;
+
+alter table links
   add constraint links_pkey primary key (id, site_id);
 
 create index links_identifiant_idx on links (identifiant);
 
+-- Links Sociétés
+
 create table links_societes (
 ) inherits (links);
+
+alter table links_societes
+  add constraint links_societes_pkey primary key (id, site_id);
+
+alter table links_societes
+  add constraint links_societes_fk foreign key (id) references societes(societe_id) on delete cascade;
+
+-- Links Films
 
 create table links_films (
 ) inherits (links);
 
+alter table links_films
+  add constraint links_films_pkey primary key (id, site_id);
+
+alter table links_films
+  add constraint links_films_fk foreign key (id) references films(film_id) on delete cascade;
+
+-- Links Personnes
+
 create table links_personnes (
 ) inherits (links);
+
+alter table links_personnes
+  add constraint links_personnes_pkey primary key (id, site_id);
+
+alter table links_personnes
+  add constraint links_personnes_fk foreign key (id) references personnes(personne_id) on delete cascade;

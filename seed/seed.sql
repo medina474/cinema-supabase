@@ -36,6 +36,6 @@ drop table slogan_tmp;
 
 refresh materialized view acteurs with data;
 
-\copy links from '../data/links.csv' (format csv, header, encoding 'utf8');
+\copy links_personnes from '../data/links_personnes.csv' (format csv, header, encoding 'utf8');
 \copy links_societes from '../data/links_societes.csv' (format csv, header, encoding 'utf8');
 \copy links_films from '../data/links_films.csv' (format csv, header, encoding 'utf8');
