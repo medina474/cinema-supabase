@@ -33,3 +33,6 @@ create table links_societes (
 
 create table links_films (
 ) inherits (links);
+
+create table links_personnes (
+) inherits (links);
