@@ -34,7 +34,7 @@ const personnes = await<Personne[]>sql`
 for (const p of personnes)
 {
   const data = await fetch(`https://api.themoviedb.org/3/person/${p.identifiant}/movie_credits?language=fr-FR`, {
-    method: 'get',
+    method: 'GET',
     headers: new Headers({
       'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMmE0Y2YxZDUwNzlkOTMwYzA3YmVjYmJhZTBjNDI4YyIsInN1YiI6IjYwM2U5ZjE3ODQ0NDhlMDAzMDBlZWQwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9CBeYye4C17jp29j77VjChML6ZJLwObLSolQW2GAhU4',
       'accept': 'application/json'
