@@ -24,7 +24,7 @@ for (const film of films) {
     continue;
   }
 
-  json.credits.cast.forEach(async credit => {
+  json.credits.cast.filter(c => c.order < 10).forEach(async credit => {
 
       const personnes = await sql`select * from links l
         inner join personnes p on p.personne_id = l.id
