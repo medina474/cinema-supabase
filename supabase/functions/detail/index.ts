@@ -30,7 +30,7 @@ Deno.serve(async (req) => {
     from films f
     inner join equipes e on e.film_id = f.film_id and alias is not null
     left join films_genres fg on fg.film_id = f.film_id
-    inner join genres g on g.genre_id = fg.genre_id
+    left join genres g on g.genre_id = fg.genre_id
     left join franchises f2 on f2.franchise_id = f.franchise_id
     where e.personne_id = ${body.personne_id}
     group by f.film_id, f.titre, f.titre_original, f2.franchise, f.vote_votants, e.ordre

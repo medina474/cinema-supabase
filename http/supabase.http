@@ -12,7 +12,7 @@ apikey:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1v
 { "min_lat": "46",  "min_long": "6.5",  "max_lat": "7",  "max_long": "7" }
 
 
-### Cinémas dans une zone géographique
+### Recherhce d'un mot dans les résumés
 POST https://morseweiswlpykaugwtd.supabase.co/rest/v1/rpc/films_with_texte
 apikey:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1vcnNld2Vpc3dscHlrYXVnd3RkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDY5NTcxMjgsImV4cCI6MjAyMjUzMzEyOH0.UV5XCINWe-Jaw6_-787Veh-LxjzUVudArvrgH6Ycf30
 

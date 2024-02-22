@@ -9,7 +9,7 @@ create view view_personnes_sans_role as
   having count(e.personne_id) = 0;
 
 create view view_films_sans_equipe as
- select f.titre,
+ select f.film_id, f.titre,
     count(e.film_id) as nb
   from films f
     left join equipes e on e.film_id = f.film_id
