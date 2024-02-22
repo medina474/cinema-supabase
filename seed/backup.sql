@@ -10,3 +10,7 @@
 
 \copy societes to '../data/societes.csv' (format csv, header, encoding 'utf8');
 \copy productions to '../data/productions.csv' (format csv, header, encoding 'utf8');
+
+\copy films(film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_moyenne) to '../data/films.csv' (format csv, header, encoding 'utf8');
+\copy resumes to '../data/resumes.csv' (format csv, header, encoding 'utf8');
+\copy (select film_id, slogan from films where slogan <> '') to '../data/films-slogan.csv' (format csv, header, delimiter ',', encoding 'utf8');
