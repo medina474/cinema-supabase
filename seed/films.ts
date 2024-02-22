@@ -54,4 +54,29 @@ for (const film of films) {
                   where film_id = ${film.film_id} and genre_id=${genre.id}) `
   }
 
+  for (const c of f.production_companies) {
+
+    const company = await sql`select * from links_societes l
+        inner join societes s on s.societe_id = l.id
+        where identifiant = ${c.id} and site_id = 1`;
+
+    if (company.count == 1) {
+      const company_id = company[0].id
+
+      const production = await sql`select societe_id from productions
+          where film_id = ${film.film_id} and societe_id = ${company_id}`;
+
+      if (production.count == 0) {
+        try {
+          console.log(`  + ${film.titre} / ${c.name}`);
+          await sql`insert into productions (film_id, societe_id)
+                values (${film.film_id}, ${company_id})`
+        } catch (error) {
+          console.log(error)
+        }
+      }
+    }
+  }
+
+
 }
