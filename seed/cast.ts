@@ -14,17 +14,36 @@ const films = await sql`select l.identifiant, f.film_id, f.titre
 
 for (const film of films) {
 
+  const file = `./data/tmdb/movie/${film.identifiant}.json`
+
+  let fileInfo
+  try {
+    fileInfo = await Deno.stat(file)
+  } catch (_) {
+    fileInfo = { isFile: false }
+  }
+
   console.log(`${film.identifiant} ${film.titre}`)
 
-  const data = await fetch(`https://api.themoviedb.org/3/movie/${film.identifiant}?append_to_response=credits&language=fr-FR`, {
-    method: 'get',
-    headers: new Headers({
-      'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMmE0Y2YxZDUwNzlkOTMwYzA3YmVjYmJhZTBjNDI4YyIsInN1YiI6IjYwM2U5ZjE3ODQ0NDhlMDAzMDBlZWQwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9CBeYye4C17jp29j77VjChML6ZJLwObLSolQW2GAhU4',
-      'accept': 'application/json'
-    })
-  });
+  let json
 
-  const json = await data.json()
+  if (fileInfo.isFile) {
+    json = JSON.parse(await Deno.readTextFile(file));
+  }
+  else {
+    const data = await fetch(`https://api.themoviedb.org/3/movie/${film.identifiant}?append_to_response=credits,keywords&language=fr-FR`, {
+      method: 'get',
+      headers: new Headers({
+        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMmE0Y2YxZDUwNzlkOTMwYzA3YmVjYmJhZTBjNDI4YyIsInN1YiI6IjYwM2U5ZjE3ODQ0NDhlMDAzMDBlZWQwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9CBeYye4C17jp29j77VjChML6ZJLwObLSolQW2GAhU4',
+        'accept': 'application/json'
+      })
+    });
+
+    json = await data.json()
+
+    await Deno.writeTextFile(file, JSON.stringify(json));
+  }
+
 
   if (!json.credits || !json.credits.cast) {
     console.log(` -- sans équipe`)
