@@ -21,7 +21,7 @@ interface Credits {
 }
 
 const personnes = await<Personne[]>sql`
-  select p.nom,
+  select p.prenom, p.nom,
     p.personne_id,
     l.identifiant,
     count(e.film_id) as count
@@ -29,21 +29,39 @@ const personnes = await<Personne[]>sql`
   join equipes e on p.personne_id = e.personne_id
   left join links l on p.personne_id = l.id and l.site_id = 1
   where identifiant is not null
-  group by p.nom, p.personne_id, l.identifiant;`
+  group by p.personne_id, p.nom, p.prenom, l.identifiant;`
 
 for (const p of personnes)
 {
-  const data = await fetch(`https://api.themoviedb.org/3/person/${p.identifiant}/movie_credits?language=fr-FR`, {
-    method: 'GET',
-    headers: new Headers({
-      'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMmE0Y2YxZDUwNzlkOTMwYzA3YmVjYmJhZTBjNDI4YyIsInN1YiI6IjYwM2U5ZjE3ODQ0NDhlMDAzMDBlZWQwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9CBeYye4C17jp29j77VjChML6ZJLwObLSolQW2GAhU4',
-      'accept': 'application/json'
-    })
-  });
+  const file = `./data/tmdb/person/${p.identifiant}.json`
 
-  const credits: Credits = await data.json();
+  let fileInfo
+  try {
+    fileInfo = await Deno.stat(file)
+  } catch (_) {
+    fileInfo = { isFile: false }
+  }
 
-  credits.cast.filter(f => f.media_type == 'movie' && f.popularity > 10 && f.release_date < '1991-01-01' && f.order < 10)
+  let credits: Credits
+
+  if (fileInfo.isFile) {
+    credits = JSON.parse(await Deno.readTextFile(file));
+  }
+  else {
+    const data = await fetch(`https://api.themoviedb.org/3/person/${p.identifiant}/movie_credits?language=fr-FR`, {
+      method: 'GET',
+      headers: new Headers({
+        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMmE0Y2YxZDUwNzlkOTMwYzA3YmVjYmJhZTBjNDI4YyIsInN1YiI6IjYwM2U5ZjE3ODQ0NDhlMDAzMDBlZWQwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9CBeYye4C17jp29j77VjChML6ZJLwObLSolQW2GAhU4',
+        'accept': 'application/json'
+      })
+    });
+
+    credits = await data.json();
+
+    await Deno.writeTextFile(file, JSON.stringify(credits));
+  }
+
+  credits.cast.filter(f => f.release_date < '1996-01-01' && !f.genre_ids.includes(99))
     .sort((a, b) => b.popularity - a.popularity)
     .slice(0, 6)
     .forEach(async f => {
@@ -55,19 +73,16 @@ for (const p of personnes)
 
       if (films.count == 0) {
 
-        try {
+       try {
           console.log(`${p.nom} : ${f.title} / ${f.release_date}`);
 
           const film_id = await sql`insert into films
-          (titre, titre_original, sortie, duree, vote_votants, vote_moyenne)
-          values (${f.title}, ${f.original_title}, ${f.release_date}, ${f.runtime}, ${f.vote_count}, ${f.vote_average})
-          returning films.film_id`
+            (titre, titre_original, sortie, vote_votants, vote_moyenne)
+            values (${f.title}, ${f.original_title}, ${f.release_date}, ${f.vote_count}, ${f.vote_average})
+            returning films.film_id`
 
-          await sql`insert into links (id, site_id, identifiant)
+          await sql`insert into links_films (id, site_id, identifiant)
             values (${film_id[0].film_id}, 1, ${f.id})`;
-
-          await sql`insert into equipes (film_id, personne_id, role, alias)
-            values (${film_id[0].film_id}, ${p.personne_id}, 'acteur', ${f.character})`
 
           await sql`insert into resumes (film_id, langue_code, resume)
             values (${film_id[0].film_id}, 'fra', ${f.overview})`
@@ -76,6 +91,10 @@ for (const p of personnes)
             await sql`insert into films_genres (film_id, genre_id)
               values (${film_id[0].film_id}, ${genre_id})`
           }
+
+          await sql`insert into equipes (film_id, personne_id, role, alias)
+            values (${film_id[0].film_id}, ${p.personne_id}, 'acteur', ${f.character})`
+
         } catch (_e) {
           console.log(JSON.stringify(f));
         }
