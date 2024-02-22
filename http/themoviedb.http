@@ -2,6 +2,22 @@ https://api.themoviedb.org/3/movie/106&language=fr-FR
 Authorization: Bearer {{themoviedb}}
 accept: application/json
 
+### Images
+https://api.themoviedb.org/3/movie/106/images
+Authorization: Bearer {{themoviedb}}
+accept: application/json
+
+### Backdrops
+https://image.tmdb.org/t/p/original/eA0QPGWhh9OOeMZyZolK5fGIchq.jpg
+
+### Poster
+https://image.tmdb.org/t/p/original/vQhYhYsOBECkQzvSC3jInKv9CLf.jpg
+
+### Logo
+https://image.tmdb.org/t/p/original/dFP6918jmk94kcOn3HMAKjYCOF4.jpg
+
+
+
 ### Mots clés
 https://api.themoviedb.org/3/movie/679/keywords?language=fr-FR
 Authorization: Bearer {{themoviedb}}

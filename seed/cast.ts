@@ -1,8 +1,9 @@
 import sql from './db.js'
 
+
 const films = await sql`select l.identifiant, f.film_id, f.titre
   from films f
-  inner join links l on l.id = f.film_id and site_id = 1
+  inner join links_films l on l.id = f.film_id and site_id = 1
   order by annee desc`;
 
 for (const film of films) {
@@ -26,7 +27,7 @@ for (const film of films) {
 
   json.credits.cast.filter(c => c.order < 10).forEach(async credit => {
 
-      const personnes = await sql`select * from links l
+      const personnes = await sql`select * from links_personnes l
         inner join personnes p on p.personne_id = l.id
         where identifiant = ${credit.id} and site_id = 1`;
 
