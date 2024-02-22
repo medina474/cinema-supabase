@@ -13,5 +13,5 @@ create view view_films_sans_equipe as
     count(e.film_id) as nb
   from films f
     left join equipes e on e.film_id = f.film_id
-  group by f.titre
+  group by f.film_id, f.titre
   having count(e.film_id) = 0;
