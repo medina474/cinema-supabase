@@ -7,34 +7,47 @@ const films = await sql`select l.identifiant, f.film_id, f.titre
   order by annee desc`;
 
 for (const film of films) {
-  console.log(`${film.identifiant} ${film.titre}`);
 
-  const data = await fetch(`https://api.themoviedb.org/3/movie/${film.identifiant}/images`, {
-    method: 'get',
-    headers: new Headers({
-      'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMmE0Y2YxZDUwNzlkOTMwYzA3YmVjYmJhZTBjNDI4YyIsInN1YiI6IjYwM2U5ZjE3ODQ0NDhlMDAzMDBlZWQwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9CBeYye4C17jp29j77VjChML6ZJLwObLSolQW2GAhU4',
-      'accept': 'application/json'
-    })
-  });
+  const file = `./data/poster/${film.film_id}.jpg`
 
-  const json = await data.json();
+  let fileInfo
+  try {
+    fileInfo = await Deno.stat(file)
+  } catch (_) {
+    fileInfo = { isFile: false }
+  }
 
-  const poster = json.posters.find(p => p.iso_639_1 == 'en')
+  if (!fileInfo.isFile) {
 
-  if (poster) {
-    const url =
-      `https://image.tmdb.org/t/p/w600_and_h900_bestv2${poster.file_path}`
+    console.log(`${film.identifiant} ${film.titre}`);
 
-    try {
-      // NOTE : You need to ensure that the directory you pass exists.
-      const destination: Destination = {
-        file: `${film.film_id}.jpg`,
-        dir: "./data/poster",
-      };
+    const data = await fetch(`https://api.themoviedb.org/3/movie/${film.identifiant}/images`, {
+      method: 'get',
+      headers: new Headers({
+        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMmE0Y2YxZDUwNzlkOTMwYzA3YmVjYmJhZTBjNDI4YyIsInN1YiI6IjYwM2U5ZjE3ODQ0NDhlMDAzMDBlZWQwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9CBeYye4C17jp29j77VjChML6ZJLwObLSolQW2GAhU4',
+        'accept': 'application/json'
+      })
+    });
 
-      const fileObj = await download(url, destination);
-    } catch (err) {
-      console.log(err);
+    const json = await data.json();
+
+    const poster = json.posters.find(p => p.iso_639_1 == 'en')
+
+    if (poster) {
+      const url =
+        `https://image.tmdb.org/t/p/w600_and_h900_bestv2${poster.file_path}`
+
+      try {
+        // NOTE : You need to ensure that the directory you pass exists.
+        const destination: Destination = {
+          file: `${film.film_id}.jpg`,
+          dir: "./data/poster/new",
+        };
+
+        const fileObj = await download(url, destination);
+      } catch (err) {
+        console.log(err);
+      }
     }
   }
 }
