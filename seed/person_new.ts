@@ -1,4 +1,4 @@
-import sql from './db.js'
+import sql from './db.ts'
 import { Person, getPersonInfo } from './person.ts';
 
 const list_ids = ["50967", "920", "74382", "74383", "8924", "113", "80253"]

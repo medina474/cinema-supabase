@@ -1,4 +1,4 @@
-import sql from './db.js'
+import sql from './db.ts'
 
 const films = await sql`select l.identifiant, f.film_id, f.titre
   from films f

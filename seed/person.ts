@@ -1,4 +1,4 @@
-import sql from "./db.js";
+import sql from "./db.ts";
 
 export interface Person {
   adult: boolean;
@@ -184,15 +184,4 @@ export async function getCasting(personne_id: string, cast: Cast[]) {
       }*/
     }
   }
-}
-
-export async function addLink(
-  personne_id: string,
-  site_id: number,
-  identifiant: string,
-) {
-  await sql`insert into links_personnes (id, site_id, identifiant)
-            values (${personne_id}, ${site_id},  ${identifiant})
-            on conflict (id, site_id)
-            do update set identifiant = ${identifiant}`;
 }

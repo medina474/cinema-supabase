@@ -24,7 +24,7 @@ Authorization: Bearer {{themoviedb}}
 accept: application/json
 
 ###
-https://api.themoviedb.org/3/movie/679?append_to_response=credits,keywords&language=fr-FR
+https://api.themoviedb.org/3/movie/679?append_to_response=credits,keywords,external_ids&language=fr-FR
 Authorization: Bearer {{themoviedb}}
 accept: application/json
 

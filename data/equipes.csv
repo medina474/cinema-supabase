@@ -315,7 +315,6 @@ fa3463fd-92fb-4d4d-9295-8458a3d60a19,0a4fd387-98e1-464f-858e-1b7815dcfd08,acteur
 c2f6fc7e-69c8-4c2a-8a50-e42386a58678,da7d29ec-0a91-4a32-9711-f5ee0b93b3d8,acteur,Winston,3
 d35c0bc4-1258-4981-9999-93d0875a9ce2,1f91c00f-066d-470d-a2c7-fc5d8586b728,acteur,Frankie Monaldi,5
 32a0688e-fd48-4429-86c7-2eb77ec82917,bd7e7669-0007-4cb5-9218-b72163039cf5,acteur,Janet Weiss,1
-c289838e-40b5-4a12-938d-a0e8c08df3c2,b15bb7c5-f6d0-48eb-9a1e-703530203340,acteur,Mr. Porter,3
 be4e67ba-9b89-48aa-a80b-4d1809f2b195,e98c10cb-0be2-48d9-a5b6-1b8d4387a24a,acteur,lui même,4
 db07a630-e6c9-49ca-8a02-2130a0e57490,55a018ac-eea4-42f9-92b2-671d376bea5d,acteur,Alex,1
 9f346bcc-7011-4ac8-ac78-8b9a136f1bfc,a8dd215c-c756-4adb-81eb-f751680a3b08,acteur,Elvira,2
@@ -702,7 +701,6 @@ b5b84180-2618-4185-974e-a6b1069ade81,8e7b80a8-0352-4662-9255-253c748852e3,acteur
 c2f6fc7e-69c8-4c2a-8a50-e42386a58678,ca695ce5-064d-4ba6-b19b-595d82ce3d13,acteur,Dolly Pelliker,2
 d876ce53-5ea2-4257-9dc9-11abd4b4a21c,6cadc5b7-d439-4994-8927-39602a6e720b,acteur,Celie Harris Johnson,0
 7591f543-cd50-4b90-ac51-876e12aa0359,72925ff0-346f-4f14-bb98-28ca29645685,acteur,Gillom Rogers,2
-76b60119-e2d3-4fcd-afd0-392444410819,d1d7a1a5-bb64-45e2-9595-5c7c8a31df73,acteur,Soldier with Glasses,8
 717a72d4-4173-45a1-8c0d-0257a2a73f24,02a87b57-b8e5-4730-aef2-e31ded2de0ac,acteur,Drone with Mask Removed (uncredited),9
 5ea10cfa-7beb-419c-a264-0149ecaeacdf,38e1ba01-163a-4262-9ce3-a8b95ea6e687,acteur,Jack Parker,9
 2c150bd9-8672-480b-9897-8c11b45232e7,fd6f055c-6de9-4044-b6eb-3bad3fba5968,acteur,Lee,3
@@ -1411,7 +1409,6 @@ c2f6fc7e-69c8-4c2a-8a50-e42386a58678,f83b5489-8fe1-4a0d-854c-176d18455020,acteur
 d35c0bc4-1258-4981-9999-93d0875a9ce2,a3591726-da0e-4ecd-927b-41d90a04c3a9,acteur,Joe,6
 4fbcc3c8-d5cd-481d-8768-71d403cfae3b,6acdafbf-df9b-474e-90b7-c5138c80b843,acteur,Prince Akeem / Clarence / Randy Watson / Saul,0
 32a0688e-fd48-4429-86c7-2eb77ec82917,446c9413-f1e9-46fe-877e-dabbcbedb5b8,acteur,Dr. Frank-N-Furter,0
-c289838e-40b5-4a12-938d-a0e8c08df3c2,55cd93bf-5951-4afa-a73c-606f03bef2db,acteur,Liz Sampson,2
 2c24fe5f-8e16-45c0-9f68-3a1340345ab7,38047272-b01a-43fb-bd65-171da7491859,acteur,Randle Patrick McMurphy,0
 b4ff10c2-a9ce-49a9-b8cb-717b328e2b83,eaf2f2df-36f0-4d6a-ae64-846918cc24e9,acteur,Georges Faure,0
 638c595e-3252-4247-873c-0618d0be9b3c,be19aaef-7141-424e-bd95-a2094b054bfa,acteur,Jack,5
@@ -1722,7 +1719,6 @@ ec17efda-a681-47d6-8beb-6dfb4c86ff36,03bfee64-d1f4-4df9-92af-cefb41238336,acteur
 3c1ce742-8b1d-440d-89b8-4b6b2120af65,73b1436e-a13b-49ec-aae9-bdcc3f1bf4b3,acteur,Boo Radley,0
 da4bc4a8-76a4-433b-8e88-a392c8072088,b5941bcc-474f-4a2d-a06f-ecec245ae802,acteur,Ticket Agent (New York),0
 19013b07-e6db-4597-86aa-e9f9e100cee6,b5941bcc-474f-4a2d-a06f-ecec245ae802,acteur,Stephanie Speck (voice),0
-66629ef4-bcc2-4ccf-b188-97462c6a43fd,d1d7a1a5-bb64-45e2-9595-5c7c8a31df73,acteur,"Yura, guest at Anya's party",0
 1808dee5-bbe8-4b7b-a03b-6954d0341643,456d7ebf-04ae-4450-b469-96bfdfd977cc,acteur,Jonathan Harker,2
 de050692-f142-42dd-a475-a285d48af484,83a7b2a9-e15f-4832-9c50-1f8f98076323,acteur,Detective David Mills,1
 d164b8b6-64ca-4489-ad2b-e3d9d742fd58,b710c712-f26e-48e7-8655-4bc98009cceb,acteur,Benedict,5
@@ -1777,12 +1773,10 @@ b75886b2-6347-44d0-a8ff-7761d368c327,72925ff0-346f-4f14-bb98-28ca29645685,acteur
 82387a6d-afbc-45e6-88bf-7f8d037c6ce4,6c4c5d89-aa5b-4f8b-a107-280fc99d3c9a,acteur,Judge Hershey,1
 62ac438a-c7d2-47ca-81ad-36793862be1e,f848a700-2c50-43bb-94df-045b676cdb77,acteur,Will Scarlett,3
 f684fde6-5064-4034-8e92-a10337a6dc91,2c685f65-5ee4-4897-9c90-1a430e0452c9,acteur,Bev Kilmartin,3
-ba733d7e-4514-4d31-95b8-a107a2f9e860,d1d7a1a5-bb64-45e2-9595-5c7c8a31df73,acteur,Michael Hagger,6
 d2f9a358-1780-4eae-bcee-28b533249c6f,6d9b26e6-e668-441b-80bc-36f1b8cb0e2d,acteur,"",6
 499d5ec0-7746-4426-91db-2d66439724d3,4f3f6745-8f2a-4bd2-86bc-60ecd41ed6a5,acteur,Ellis Boyd 'Red' Redding,1
 14e6d221-0a9e-4a3b-a311-ccb05d663b9a,f9485d4b-a9f4-44db-a5ee-4f5ccdbda1a5,acteur,Banana Man,0
 d9a805d5-fc34-4cb2-93b7-33999c3502b0,0a943e06-2e38-464b-940b-0fc493200fd5,acteur,Robert,0
-6f249b8d-53f2-4a61-98b0-533fa56a5d64,d1d7a1a5-bb64-45e2-9595-5c7c8a31df73,acteur,клиент в парикмахерской (в титрах не указан),9
 de6a680a-e8cb-48ae-8a78-7450768371b3,a7e2e550-5eef-4a5d-9327-ecedcbdffbbe,acteur,Liz,2
 3c4bfa16-4d59-4c05-989f-29f927beae38,67fb24d5-3a19-4848-b58c-e371faf3706e,acteur,Pap Finn,4
 ab799af1-c3b3-4489-9071-762c25602986,4f1e41f1-080a-40c6-8e4c-653d0437a52b,acteur,Oskar Schindler,0
@@ -2001,7 +1995,6 @@ ecfc4dc1-57a8-4ef7-978f-0ee5f38843cb,eaf2f2df-36f0-4d6a-ae64-846918cc24e9,acteur
 1a316e25-c81d-4a98-92ec-7147c6c72ff1,706ae11c-1c62-4e6b-a864-b1cfb69822a8,acteur,Katia,3
 4c0a8ea4-f32b-489e-ba17-597ffafa5bbc,9e7fb208-0ecf-4c5c-869c-4298eb9f0a4c,acteur,Seth Brundle (archive footage) (uncredited),0
 8360dd9f-bf78-428d-8e26-82179778fd96,82d638a4-8899-4917-ab72-07e0ff751538,acteur,Venz,0
-7ca570a2-2cd8-4f27-a324-d732e9ba3294,9b1e6d17-1190-4933-bd76-bcdc14d46d9b,acteur,Amity Point Lifestation Worker (voice) (uncredited),0
 c9cbe387-94ad-467b-9c7e-927de0acb842,c31959cd-ddef-4820-a26f-05bd58dda950,acteur,La mari de Simone (uncredited),0
 5aea4971-dece-4b26-8cf6-b0fd839c1608,5b0fe5e7-f6b2-441d-98ff-cbe8676d4bec,acteur,Stinker Smith,0
 c4fabf91-d527-4653-b9d9-92968c906cc7,727fcc04-a57b-4779-b90d-8810ea9ed312,acteur,Skye Daley,0
@@ -2072,7 +2065,6 @@ b617cdde-de99-435f-b1b2-78b0fd2e8a97,c4a869e0-c5e0-4234-827c-38ece6f6a8c5,acteur
 771f7f14-bdbf-4c61-8758-5bd200dbeada,6514c6fb-b221-4485-b409-82cafa2c1706,acteur,Polo,3
 fe63a509-ad1d-4960-b4a9-b704a6aa9ea0,6514c6fb-b221-4485-b409-82cafa2c1706,acteur,"Guibert, le camioneur qui aide au démagement",0
 e78d8210-6c01-4ac5-9260-5d782ee01e1e,e98c10cb-0be2-48d9-a5b6-1b8d4387a24a,acteur,Pontius Pilatus,0
-46da3e13-f5c0-4f86-8d06-80e108ee67a8,9b1e6d17-1190-4933-bd76-bcdc14d46d9b,acteur,Cook County Assessor's Office Clerk,0
 2099c757-0670-44b3-8170-70f03b33b154,906e255b-6e5e-46d2-972e-766035e1d369,acteur,Patrician in Arena (uncredited),0
 88f88d9e-5eea-4cfd-84cb-6946a8dce32c,5b0fe5e7-f6b2-441d-98ff-cbe8676d4bec,acteur,US Soldier,0
 e8018bd6-61c0-4b63-be9b-936fb24fa9f4,55cd93bf-5951-4afa-a73c-606f03bef2db,acteur,Miss May,0
@@ -2269,7 +2261,6 @@ f97f9b4e-9d81-40ab-a15d-a229e05ed046,6fdf82d1-1804-4d05-88a7-be92124d54ae,acteur
 1a316e25-c81d-4a98-92ec-7147c6c72ff1,1daf693b-6969-4269-a9e7-16b8f4933ffe,acteur,Thérèse,2
 9e08c72b-430c-4438-85af-c252a1e71c79,da7d29ec-0a91-4a32-9711-f5ee0b93b3d8,acteur,Capt. William Wooldridge,0
 4e2fdc76-8959-4b2e-b999-d378ffc7e089,0644f877-b577-44e4-af03-49d0f199a332,acteur,Man who drops Milk (uncredited),0
-b1ef0ebc-8702-4fa0-8976-13d3e3bf26b9,9b1e6d17-1190-4933-bd76-bcdc14d46d9b,acteur,Tourist at Airport (uncredited),0
 145a0c95-4a47-4ce3-9967-716fe43bb823,c31959cd-ddef-4820-a26f-05bd58dda950,acteur,Inspector Mangin,0
 224b9ac9-401f-4b50-ada7-46848fb46901,5b0fe5e7-f6b2-441d-98ff-cbe8676d4bec,acteur,Mercenary with Flamethrower (uncredited),0
 1c6150bb-18f2-4e4d-b2ba-3296f9e4f231,9c6c466d-e69a-47d1-b3d1-2d618d438b09,acteur,Mr. Bernard Abbott,0
@@ -2295,7 +2286,6 @@ df3e74d0-615e-43a2-9595-6bddb26c5639,88826d9b-81ec-4e7c-8783-aa52f9a8b6fc,acteur
 1d458c78-2ba6-4dd4-8aab-3e7a2d310bb7,bb9266f0-d2a9-438e-986e-aec972789668,acteur,Mike Matthews,7
 62ac438a-c7d2-47ca-81ad-36793862be1e,52c92562-c0e4-45b2-a980-c3c81a3cef1c,acteur,Robin of Locksley / Robin Hood,0
 a7e7b06d-9422-4ed6-b717-6bec4db65ed8,373eaca2-1eaa-449d-a24b-1f25af2a2263,acteur,A worker,5
-6f743d88-30e9-4896-a8ee-4d99e051884e,9b1e6d17-1190-4933-bd76-bcdc14d46d9b,acteur,annoying guy in van,3
 0752f835-fd05-4b33-b001-d0941d4b66e1,a29d67e0-fcf0-412d-bff2-5e95eb2704d1,acteur,The Schoolboy,0
 c31a8e90-fd3b-4d66-80f9-58c98d5f52c4,8f2492f4-4ba1-4f53-939f-7f3afc8b325a,acteur,Joe Pendleton,0
 dc3726e0-4e36-4f83-8e75-0fa54a088246,68f6758f-8b82-42fa-8fdb-9f2d6091ce1f,acteur,Chelsea Thayer Wayne,2
@@ -2330,8 +2320,6 @@ a6314f05-5a8b-44a6-9ec9-8430db5a1884,a3591726-da0e-4ecd-927b-41d90a04c3a9,acteur
 357252a6-af9b-4cbd-9f0c-1eebbfc8d66b,da7cc277-9b80-4096-96a0-931050a7fe01,acteur,Pathology Resident,0
 def0fc3a-52e4-4945-97f5-7c32c5908adf,5cde90d1-5a69-4f37-a046-6f9c929da7d2,acteur,Snow,0
 3d958600-a6bb-4a7e-afba-293b08203efd,8c3aaa6a-5294-4bc8-9d7b-d5389aaa13b3,acteur,Zoe,0
-e155fb8f-15f9-4285-a742-7cc2a54aabcf,9b1e6d17-1190-4933-bd76-bcdc14d46d9b,acteur,Man in Electric Wheelchair (uncredited),0
-77852b9d-925e-449f-aa2f-b30f02662af9,9b1e6d17-1190-4933-bd76-bcdc14d46d9b,acteur,Party Guest,0
 1e5a0bf0-1ba0-409e-a5d7-709348aebb9f,5b0fe5e7-f6b2-441d-98ff-cbe8676d4bec,acteur,Police Officer (uncredited),0
 18fd44b7-5b5a-4b9c-9770-e7bbb76c6f29,5170e231-b8d5-4e45-8205-d38527bccc0b,acteur,Lawyer's Female Companion No. 1,0
 26eccb67-7567-4bff-aad7-f6277faf5039,5170e231-b8d5-4e45-8205-d38527bccc0b,acteur,Reporter,0
@@ -2437,7 +2425,6 @@ ef65c54b-c182-479c-bda9-9ca933911f6f,148b791c-5cb3-4592-9af4-a0f6e85babeb,acteur
 a5bd459e-8d30-4e54-886f-f30e4d659c88,c31959cd-ddef-4820-a26f-05bd58dda950,acteur,Paul Dandrel,8
 6355d992-5bae-4193-8df9-12bb228f3323,731f8970-90cc-4173-ab8c-6a0d91453014,acteur,Nick,1
 3149b0b4-72cd-4050-a89d-9d83871be7f6,89797198-6014-4d49-97e5-3392bbcfcf67,acteur,Screenwriter,8
-fedfc9e4-78d1-40b9-9d88-3ffbf7109244,3dede616-b6db-4963-80d7-7d0bff8bafd2,acteur,Le lapin bleu,2
 cf315b33-4283-4020-93fb-ac830137535a,e5bae18d-449e-4101-acca-56bc65c4a3d9,acteur,Freddy Krueger,0
 ffdc766b-52e0-4ff0-8ef5-21000b6bc8f8,b4e88855-0164-453b-bcf0-45a7f677c8dd,acteur,Beverly Sutphin,0
 0c9f4c5f-5bca-4205-8c17-0aee79ce50ac,30e140ad-88c1-47d0-84e2-3a70d8398692,acteur,Connor 'The Highlander' MacLeod,0

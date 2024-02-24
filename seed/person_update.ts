@@ -1,4 +1,4 @@
-import sql from './db.js'
+import sql from './db.ts'
 import { Person, getPersonInfo } from './person.ts';
 
 interface Personne {
