@@ -119,6 +119,9 @@ export async function getPersonInfo(personne_id: string, person: Person) {
  */
 export async function getCasting(personne_id: string, cast: Cast[]) {
   for (const c of cast) {
+
+    if (c.order > 5) continue;
+
     /* Le film est il déja dans la base ? */
     const films = await sql`
         select id from links_films l
@@ -135,7 +138,7 @@ export async function getCasting(personne_id: string, cast: Cast[]) {
             and personne_id = ${personne_id}
             and role = 'acteur'`;
 
-      if (equipe.count == 0 && c.order <= 5) {
+      if (equipe.count == 0) {
         try {
           console.log(
             ` -> ${c.character} in ${c.title} (${c.id} ${film_id} ${personne_id})`,
@@ -148,6 +151,9 @@ export async function getCasting(personne_id: string, cast: Cast[]) {
       }
     } /* Non : Ajouter le film et faire la liaison */
     else {
+
+      if (true) continue;
+
       /*try {*/
       console.log(`${personne_id} : ${c.title} / ${c.release_date} / ${c.order}`);
 

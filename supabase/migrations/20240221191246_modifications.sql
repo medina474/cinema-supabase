@@ -1,4 +1,6 @@
-alter table equipes add ordre int2 null default 0;
+alter table equipes
+  add ordre int2 null
+  default 99;
 
 create or replace function films_with_texte(mot text)
 returns table (film_id films.film_id%TYPE

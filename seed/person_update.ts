@@ -53,9 +53,8 @@ for (const p of personnes)
 
   await getCasting(p.personne_id,
     person.credits.cast
-      .filter(f => f.release_date < '1996-01-01' && !f.genre_ids.includes(99))
-      .sort((a, b) => b.popularity - a.popularity)
-      .slice(0, 6))
+      .filter(f => f.release_date < '1996-01-01' && !f.genre_ids.includes(99) && f.order < 10)
+      .sort((a, b) => b.popularity - a.popularity))
 
   await sql`update personnes set
     naissance=${person.birthday}, deces=${person.deathday}, popularite=${person.popularity}
