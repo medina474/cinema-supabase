@@ -1,5 +1,5 @@
 import sql from './db.js'
-import { Person, addLink, getCasting} from './person.ts';
+import { Person, getPersonInfo, getCasting} from './person.ts';
 
 const list_ids = ["1733"]
 
@@ -13,7 +13,10 @@ for (const tmdb_id of list_ids) {
     })
   });
 
-  const person:Person = await data.json();
+  const file = `./data/tmdb/person/${tmdb_id}.json`
+  await Deno.writeTextFile(file, await data.clone().text());
+
+  const person: Person = await data.json();
 
   const name_parts = person.name.split(' ');
   console.log(`${name_parts.slice(1).join(' ')} ${name_parts[0]}`)
@@ -25,23 +28,5 @@ for (const tmdb_id of list_ids) {
 
   const personne_id = personnes_ids[0].personne_id
 
-  addLink(personne_id, 1, tmdb_id)
-
-  if (person.external_ids.imdb_id) {
-    addLink(personne_id, 2, person.external_ids.imdb_id)
-  }
-
-  if (person.external_ids.wikidata_id) {
-    addLink(personne_id, 5, person.external_ids.wikidata_id)
-  }
-
-  const file = `./data/tmdb/person/${personne_id}.json`
-
-  await Deno.writeTextFile(file, JSON.stringify(person));
-
-  await getCasting(personne_id,
-    person.credits.cast
-      .filter(f => f.release_date < '1996-01-01' && !f.genre_ids.includes(99))
-      .sort((a, b) => b.popularity - a.popularity)
-      .slice(0, 6))
+  getPersonInfo(personne_id, person)
 }

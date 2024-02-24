@@ -41,7 +41,7 @@ accept: application/json
 
 
 ### Person
-https://api.themoviedb.org/3/person/1100?language=fr-FR
+https://api.themoviedb.org/3/person/1100?append_to_response=credits,external_ids,images&language=fr-FR
 Authorization: Bearer {{themoviedb}}
 accept: application/json
 

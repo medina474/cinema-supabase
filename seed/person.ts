@@ -1,4 +1,4 @@
-import sql from './db.js';
+import sql from "./db.js";
 
 export interface Person {
   adult: boolean;
@@ -91,10 +91,34 @@ export interface Profile {
   width: number;
 }
 
+export async function getPersonInfo(personne_id: string, person: Person) {
+  addLink(personne_id, 1, person.id.toString());
+
+  if (person.external_ids.imdb_id) {
+    addLink(personne_id, 2, person.external_ids.imdb_id);
+  }
+
+  if (person.external_ids.wikidata_id) {
+    addLink(personne_id, 5, person.external_ids.wikidata_id);
+  }
+
+  await getCasting(
+    personne_id,
+    person.credits.cast
+      .filter((f) => f.release_date < "1996-01-01" && !f.genre_ids.includes(99))
+      .sort((a, b) => b.popularity - a.popularity)
+      .slice(0, 6),
+  );
+}
+
+/**
+ * Complète la liste de films par acteur.
+ * Prend les films les mieux notés de l'acteur.
+ * Si le film n'existe pas dans la base, le créer et faire la liaison avec l'acteur.
+ * Si il existe faire la liason (equipe)
+ */
 export async function getCasting(personne_id: string, cast: Cast[]) {
-
   for (const c of cast) {
-
     /* Le film est il déja dans la base ? */
     const films = await sql`
         select id from links_films l
@@ -103,47 +127,52 @@ export async function getCasting(personne_id: string, cast: Cast[]) {
 
     /* Oui : faire le lien avec equipes */
     if (films.count != 0) {
-      const film_id = films[0].id
+      const film_id = films[0].id;
 
       /* La relation est elle déja dans la base ? */
       const equipe = await sql`select alias from equipes
-          where film_id = ${film_id} and personne_id = ${personne_id} and role = 'acteur'`
+          where film_id = ${film_id}
+            and personne_id = ${personne_id}
+            and role = 'acteur'`;
 
-      if (equipe.count == 0) {
+      if (equipe.count == 0 && c.order <= 5) {
         try {
-          console.log(` -> ${c.character} in ${c.title} (${c.id} ${film_id} ${personne_id})`);
-          await sql`insert into equipes (film_id, personne_id, role, alias)
-                values (${film_id}, ${personne_id}, 'acteur', ${c.character})`
+          console.log(
+            ` -> ${c.character} in ${c.title} (${c.id} ${film_id} ${personne_id})`,
+          );
+          await sql`insert into equipes (film_id, personne_id, role, alias, ordre)
+                values (${film_id}, ${personne_id}, 'acteur', ${c.character}, ${c.order})`;
         } catch (error) {
-          console.log(error)
+          console.log(error);
         }
       }
-    }
-    /* Non : Ajouter le film et faire la liaison */
+    } /* Non : Ajouter le film et faire la liaison */
     else {
       /*try {*/
-        console.log(`${personne_id} : ${c.title} / ${c.release_date}`);
+      console.log(`${personne_id} : ${c.title} / ${c.release_date} / ${c.order}`);
 
-        const films_ids = await sql`insert into films
-            (titre, titre_original, sortie, vote_votants, vote_moyenne)
-            values (${c.title}, ${c.original_title}, ${c.release_date}, ${c.vote_count}, ${c.vote_average})
-            returning films.film_id`
+      if (!c.release_date) continue;
 
-        const film_id: string = films_ids[0].film_id
+      const films_ids = await sql`insert into films
+          (titre, titre_original, sortie, vote_votants, vote_moyenne)
+          values (${c.title}, ${c.original_title}, ${c.release_date}, ${c.vote_count}, ${c.vote_average})
+          returning films.film_id`;
 
-        await sql`insert into links_films (id, site_id, identifiant)
-            values (${film_id}, 1, ${c.id})`;
+      const film_id: string = films_ids[0].film_id;
 
-        await sql`insert into resumes (film_id, langue_code, resume)
-            values (${film_id}, 'fra', ${c.overview})`
+      await sql`insert into links_films (id, site_id, identifiant)
+          values (${film_id}, 1, ${c.id})`;
 
-        for (const genre_id of c.genre_ids) {
-          await sql`insert into films_genres (film_id, genre_id)
-              values (${film_id}, ${genre_id})`
-        }
+      await sql`insert into resumes (film_id, langue_code, resume)
+          values (${film_id}, 'fra', ${c.overview})`;
 
-        await sql`insert into equipes (film_id, personne_id, role, alias, ordre)
-            values (${film_id}, ${personne_id}, 'acteur', ${c.character}, ${c.order})`
+      for (const genre_id of c.genre_ids) {
+        await sql`insert into films_genres (film_id, genre_id)
+              values (${film_id}, ${genre_id})`;
+      }
+
+      await sql`insert into equipes (film_id, personne_id, role, alias, ordre)
+            values (${film_id}, ${personne_id}, 'acteur', ${c.character}, ${c.order})`;
 
       /*} catch (_e) {
         console.log(JSON.stringify(c));
@@ -152,7 +181,11 @@ export async function getCasting(personne_id: string, cast: Cast[]) {
   }
 }
 
-export async function addLink(personne_id: string, site_id: number, identifiant: string) {
+export async function addLink(
+  personne_id: string,
+  site_id: number,
+  identifiant: string,
+) {
   await sql`insert into links_personnes (id, site_id, identifiant)
             values (${personne_id}, ${site_id},  ${identifiant})
             on conflict (id, site_id)
