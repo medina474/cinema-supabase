@@ -18,7 +18,6 @@ const personnes = await<Personne[]>sql`
   left join equipes e on p.personne_id = e.personne_id
   left join links l on p.personne_id = l.id and l.site_id = 1
   where identifiant is not null
-  and identifiant = '74383'
   group by p.prenom, p.nom, p.personne_id, l.identifiant`
 
 for (const p of personnes)

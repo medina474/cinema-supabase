@@ -1,7 +1,7 @@
 import sql from './db.js'
 import { Person, getPersonInfo } from './person.ts';
 
-const list_ids = ["1733"]
+const list_ids = ["50967", "920", "74382", "74383", "8924", "113", "80253"]
 
 for (const tmdb_id of list_ids) {
 
