@@ -121,7 +121,7 @@ export async function getCasting(personne_id: string, cast: Cast[]) {
     }
     /* Non : Ajouter le film et faire la liaison */
     else {
-      try {
+      /*try {*/
         console.log(`${personne_id} : ${c.title} / ${c.release_date}`);
 
         const films_ids = await sql`insert into films
@@ -143,11 +143,11 @@ export async function getCasting(personne_id: string, cast: Cast[]) {
         }
 
         await sql`insert into equipes (film_id, personne_id, role, alias, ordre)
-            values (${film_id}, ${personne_id}, 'acteur', ${c.character}, )`
+            values (${film_id}, ${personne_id}, 'acteur', ${c.character}, ${c.order})`
 
-      } catch (_e) {
+      /*} catch (_e) {
         console.log(JSON.stringify(c));
-      }
+      }*/
     }
   }
 }

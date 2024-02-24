@@ -1,7 +1,7 @@
 import sql from './db.js'
 import { Person, addLink, getCasting} from './person.ts';
 
-const list_ids = ["2231"]
+const list_ids = ["1733"]
 
 for (const tmdb_id of list_ids) {
 
@@ -39,7 +39,7 @@ for (const tmdb_id of list_ids) {
 
   await Deno.writeTextFile(file, JSON.stringify(person));
 
-  getCasting(personne_id,
+  await getCasting(personne_id,
     person.credits.cast
       .filter(f => f.release_date < '1996-01-01' && !f.genre_ids.includes(99))
       .sort((a, b) => b.popularity - a.popularity)
