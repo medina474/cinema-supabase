@@ -1,6 +1,5 @@
 import sql from './db.js'
-import { addLink } from './person.ts';
-import { Person } from './person.ts';
+import { Person, addLink, getCasting} from './person.ts';
 
 const list_ids = ["2231"]
 
