@@ -110,6 +110,18 @@ export async function getPersonInfo(personne_id: string, person: Person) {
   );
 }
 
+
+export async function addLink(
+  id: string,
+  site_id: number,
+  identifiant: string,
+) {
+  await sql`insert into links_personnes (id, site_id, identifiant)
+            values (${id}, ${site_id},  ${identifiant})
+            on conflict (id, site_id)
+            do update set identifiant = ${identifiant}`;
+}
+
 /**
  * Complète la liste de films par acteur.
  * Prend les films les mieux notés de l'acteur.
