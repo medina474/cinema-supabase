@@ -1,7 +1,5 @@
 personne_id,nom,prenom,naissance,deces,nationalite,artiste,popularite
 1e8b43c2-94ed-4610-ba42-9e90fdd23259,Morrell,David,1943-04-24,,ca,,0
-eaf2f2df-36f0-4d6a-ae64-846918cc24e9,Depardieu,Gérard,1948-12-27,,fr,,23.218
-d247621e-d5c0-4918-8990-09a45f8fa613,Carpenter,John,1948-01-16,,us,,21.414
 44300acc-7c79-4769-8529-0b6f4e83708c,Gosset Jr.,Louis,1936-05-27,,us,,43.568
 bd280de3-2180-45ac-9819-0b1a9dcb9ce7,Dudikoff,Michael,1954-10-08,,us,,8.479
 2e24400b-2353-4be5-b6de-746870abf0cc,DeVito,Daniel Michael,1944-11-16,,us,Danny DeVito,37.844
@@ -93,8 +91,8 @@ e51dafbc-1271-44ff-884f-700cbcbc3f2b,Russel,Kurt,1951-03-17,,us,,56.554
 5db9320b-f723-4418-a1d7-6d354a9d319b,Goldstein,Jenette,1960-02-04,,us,,12.832
 57aa6745-b209-4c82-b360-ee72aea696b5,Weller,Peter,1947-06-24,,us,,38.732
 88826d9b-81ec-4e7c-8783-aa52f9a8b6fc,Swayze,Patrick Wayne,1952-08-18,2009-09-14,us,Patrick Swayze,21.278
-2a6c8bbd-304d-4201-a977-0ae2243aff05,Leconte,Patrice,1947-11-12,,fr,,5.555
-be19aaef-7141-424e-bd95-a2094b054bfa,Matheson,Tim,1947-12-31,,,,34.177
+eaf2f2df-36f0-4d6a-ae64-846918cc24e9,Depardieu,Gérard,1948-12-27,,fr,,23.218
+d247621e-d5c0-4918-8990-09a45f8fa613,Carpenter,John,1948-01-16,,us,,21.414
 47483fae-2229-4cca-835b-e1b69bf54c87,Hamill,Mark,1951-09-25,,,,60.903
 1e5f3072-3480-440f-9c41-0cfd1d0be07c,Hackman,Eugene Allen,1930-01-30,,us,Gene Hackman,26.747
 0b7a3fe3-f303-47dc-9cf0-9ef7404055af,Hyra,Margaret Mary Emily,1961-11-19,,us,Meg Ryan,14.966
@@ -188,8 +186,8 @@ d0904f9c-d7ec-4312-afed-08d4bf01cd77,Mirren,Helen,1945-07-26,,,,66.779
 65e94a1b-715d-4c52-be15-7bbab229dbc4,Baldwin,William,1963-02-21,,,,32.246
 2854d6bf-c7b7-43ec-990c-a8a8c5fa10a9,Scicolone,Sofia Villani,1934-09-20,,it,Sophia Loren,20.419
 3fb2633e-4857-4d64-8876-763c5adb052c,Lavanant,Dominique,1944-05-24,,fr,,8.522
-b243eb24-1b83-4293-b819-0f3988f40565,Corbin,Barry,1940-10-16,,,,33.506
-25ea1493-8d4e-485c-897b-4c1ca8e42f6f,Fishburne,Laurence,1961-07-30,,,,43.132
+2a6c8bbd-304d-4201-a977-0ae2243aff05,Leconte,Patrice,1947-11-12,,fr,,5.555
+be19aaef-7141-424e-bd95-a2094b054bfa,Matheson,Tim,1947-12-31,,,,34.177
 f03d0347-f50b-40e8-a54e-6d4150cf66a1,Ermey,Ronald Lee,1944-03-24,2018-04-15,us,R. Lee Ermey,28.299
 603c3e5b-e5dc-4849-b507-ffcf29625478,Modine,Matthew,1959-03-22,,,,44.034
 cc27938c-b0f3-4120-8b3c-0ed4b0328c1f,Hoffman,Dustin,1937-08-08,,us,,71.768
@@ -287,6 +285,8 @@ d4809c32-d0ad-4b58-80d7-e6ca92be8e76,Bacon,Kevin,1958-07-08,,,,70.74
 04b5868b-b9e3-4784-be6a-4dc86d6424ce,Kane,Carol,1952-06-18,,,,26.032
 1df6da8b-2206-491f-97f1-76c793a42d37,Neill,Sam,1947-09-14,,,,50.297
 b074c409-57b3-45fd-b6da-49f3d00b2ac7,Rooker,Michael,1955-04-06,,,,59.274
+b243eb24-1b83-4293-b819-0f3988f40565,Corbin,Barry,1940-10-16,,,,33.506
+25ea1493-8d4e-485c-897b-4c1ca8e42f6f,Fishburne,Laurence,1961-07-30,,,,43.132
 c9239136-f8e1-4d4d-8dd9-59970bb6c23a,Lettich,Sheldon,1951-01-14,,us,,7.161
 cd48fccf-299f-49b5-9064-abd78f938df7,Margulies,David Joseph,1937-02-19,2016-01-11,us,David Margulies,7.903
 1c087b89-1d64-4072-a1e8-6a2d39cbaf15,Galabru,Michel,1922-10-27,2016-01-04,fr,,4.791
@@ -298,23 +298,30 @@ a3591726-da0e-4ecd-927b-41d90a04c3a9,De Louise,Gerald Tommaso,1940-04-30,2023-10
 373eaca2-1eaa-449d-a24b-1f25af2a2263,Blanc,Michel,1952-04-16,,fr,,15.671
 5377da7d-d434-4dca-9206-406855c1d96c,Patton,Will,1954-06-14,,,,67.817
 9b1e6d17-1190-4933-bd76-bcdc14d46d9b,Spielberg,Steven,1946-12-18,,us,,48.029
+04965c78-ff52-46e9-9007-c0d1c92d4d5c,Comer,Anjanette,1939-08-07,,,,10.905
 0b221e5e-8824-49f4-bf00-09cffd5f89c2,Defays,Pierre-Richard,1934-08-16,,fr,Pierre Richard,7.666
 26d5a442-e06c-426f-bbdf-45687da520fa,L. Jackson,Samuel,1948-12-21,,,,66.281
 cf966b6d-9211-4f16-a3a4-f26ef14fb1a1,Zane,Billy,1966-02-24,,,,54.75
 ce1fb190-1e57-4099-9cc2-a6a761e2470b,Travolta,John,1954-02-18,,,,65.141
 105bb977-3948-4f66-bb2c-ed37c1803766,Nolte,Nick,1941-02-08,,,,32.265
+8f6e238e-6e41-4c6b-94a4-5ca5a6f39e50,Lee,Christopher,1922-05-27,2015-06-07,,,26.838
+f62b18ff-1127-456e-b33a-228c4cbd0c27,Leandersson,Lina,1995-09-27,,,,5.106
 6ea399a3-4dc1-4a1f-8d92-cf979d78f196,Dempsey,Patrick,1966-01-13,,,,42.612
 4d85f2f4-ee7d-41a2-aadc-0f3d17f6c71f,Keaton,Diane,1946-01-05,,,,31.418
 8337175e-8fb7-4122-8be3-b20c68e778cb,Connelly,Jennifer,1970-12-12,,,,109.21
+849b0e53-e78b-48fd-8ace-f1f26a183182,Hedebrant,Kåre,1995-06-28,,,,4.507
 dfe9a85f-c3da-4c05-ad6e-1e7d9068e560,Cage,Nicolas,1964-01-07,,,,67.846
 3c78fac1-4f31-4962-ab0f-248434e5ada5,Pacino,Alfredo,1940-04-25,,us,Al Pacino,51.982
 c9f5529f-40f4-4de9-87db-d4116a69cc1a,Villeret,Jacques,1951-02-06,2005-01-28,fr,,4.402
 07c25eda-0fe2-4b95-a410-7df73b7adfbd,Hanks,Tom,1956-07-09,,,,131.335
 1c6243df-f751-4354-bf74-ad3b2c05b3d5,Rickman,Alan,1946-02-21,2016-01-14,,,42.16
+3e8ca075-ceb7-4ead-826a-6709a8271ad5,Langella,Frank,1938-01-01,,,,25.029
 fd6f055c-6de9-4044-b6eb-3bad3fba5968,Gulager,William Martin,1928-11-16,2022-08-06,us,Clu Gulager,12.238
 6cadc5b7-d439-4994-8927-39602a6e720b,Johnson,Caryn Elaine,1955-11-13,,us,Whoopi Goldberg,42.361
+a2f5a1e7-fe56-4339-8f6f-96399bfe3a81,McClure,Doug,1935-05-11,1995-02-05,,,16.099
 680e5ece-c23d-4518-9bfc-44bb497883bb,Ironside,Michael,1950-02-12,,,,33.442
 6f27abcd-90a5-47e8-95e4-1226640b18bc,Wood,Elijah,1981-01-28,,,,37.594
+ceaaf88e-4230-4e25-8c5a-a9ba9044d584,Prochnow,Jürgen,1941-06-10,,,,42.639
 e5923603-f06d-4166-8bc1-3ce7539c71fe,de Funès de Galarza,Louis Germain David,1914-07-31,1983-01-27,fr,Louis de Funès,15.252
 68f0d3b2-8748-4d91-92ef-a5fc02ffc53b,Bowers,Deanna Lee,1948-12-14,,us,Dee Wallace-Stone,14.101
 13c26591-04f4-4835-a594-d1ce55e80a50,Ventura,Angiolino Giuseppe Pasquale,1919-07-13,1987-10-22,it,Lino Ventura,9.51

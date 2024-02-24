@@ -1,5 +1,5 @@
 import sql from './db.js'
-import { Person, getCasting } from './person.ts';
+import { Person, getPersonInfo } from './person.ts';
 
 interface Personne {
   prenom: string
@@ -15,10 +15,11 @@ const personnes = await<Personne[]>sql`
     l.identifiant,
     count(e.film_id) as count
   from personnes p
-  join equipes e on p.personne_id = e.personne_id
+  left join equipes e on p.personne_id = e.personne_id
   left join links l on p.personne_id = l.id and l.site_id = 1
   where identifiant is not null
-  group by p.prenom, p.nom, p.personne_id, l.identifiant;`
+  and identifiant = '74383'
+  group by p.prenom, p.nom, p.personne_id, l.identifiant`
 
 for (const p of personnes)
 {
@@ -51,10 +52,7 @@ for (const p of personnes)
 
   console.log(`${person.name} ${person.popularity}`)
 
-  await getCasting(p.personne_id,
-    person.credits.cast
-      .filter(f => f.release_date < '1996-01-01' && !f.genre_ids.includes(99) && f.order < 10)
-      .sort((a, b) => b.popularity - a.popularity))
+  getPersonInfo(p.personne_id, person)
 
   await sql`update personnes set
     naissance=${person.birthday}, deces=${person.deathday}, popularite=${person.popularity}

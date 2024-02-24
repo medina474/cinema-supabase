@@ -1,5 +1,5 @@
 import sql from './db.js'
-import { Person, getPersonInfo, getCasting} from './person.ts';
+import { Person, getPersonInfo } from './person.ts';
 
 const list_ids = ["1733"]
 

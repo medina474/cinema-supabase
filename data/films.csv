@@ -1,6 +1,5 @@
 film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_moyenne
 be5d75d4-960d-4175-b624-887fb099cab9,Week-end,Week End,1967,1967-12-29,105,,262,7.05
-e33f2c06-02c2-459d-bdd3-d47edb7696b8,"L’Exorciste, la suite",The Exorcist III,,1990-08-17,,,701,6.24
 25939dc7-16cd-403e-882b-8d39ec7b2f8f,Sauvez Willy,Free Willy,,1993-07-16,,,1734,6.18
 435879d9-cf7f-4aec-8a0d-9cda9b2cb692,Les Nerfs à vif,Cape Fear,,1991-11-13,,,3219,7.27
 553b00c7-2471-4dd9-b74d-7850200df25d,Le Prince des marées,The Prince of Tides,,1991-12-25,,,255,6.60
@@ -273,7 +272,6 @@ deaa0bd5-9864-4819-b62e-0c1f5984138c,Glory,,1989,1989-12-15,122,,1500,7.49
 fb855bea-eec0-4204-be37-7986abaf6887,American Warrior,American Ninja,1985,1986-06-28,95,,393,5.93
 65f30210-89f1-40fe-a463-acc2c3e7bc3c,Remo sans arme et dangereux,Remo Williams: The Adventure Begins,1985,1985-10-11,112,,233,6.25
 2e85998f-c04a-4281-bbd9-b2345c70cded,Quand les aigles attaquent,Where Eagles Dare,1968,1968-12-04,158,,830,7.55
-968c226a-e386-46cb-b77c-383b164292a6,Russkies,,1987,1987-11-06,,,26,5.31
 28749a0f-9be8-41ee-8d9f-5a4a5664e88a,"Buffy, tueuse de vampires",Buffy the Vampire Slayer,1992,1992-07-24,86,,760,5.60
 ce7d0ca9-cb49-4802-910d-c08a222ffb72,Les Quatre Filles du docteur March,Little Women,1994,1994-12-21,115,,1146,7.28
 56016c9a-b024-4528-a506-6abe57bb3d17,1492 : Christophe Colomb,1492: Conquest of Paradise,1992,1992-10-09,149,,774,6.23
@@ -371,7 +369,6 @@ bbdc9611-f4fb-4fba-aaf4-2ffdee07996a,Magnum Force,,1973,1973-12-13,125,,981,7.13
 16c71f09-0087-4a0e-a21d-0318be56f0f6,Krull,,1983,1983-07-29,117,,508,6.03
 45f77251-71ac-422a-b0bd-2dd404b43014,My Own Private Idaho,,1991,1991-02-01,104,,1062,7.05
 1d76513c-0186-442f-90fb-1a568b4dacef,A Soldier's Story,,1984,1984-09-14,101,,166,6.73
-f428d56e-6618-4c52-b62e-99ed2f0e2fc3,Prête à tout,To Die For,1995,1995-09-22,,,725,6.60
 0bd282d7-404f-4074-9109-aa637df5071d,And Soon the Darkness,,1970,1970-09-10,99,,96,6.40
 384ba25e-5fa5-4286-be47-6d0547f4fa68,Jade,,1995,1995-10-13,95,,250,5.39
 263cb6e8-ea5d-42b8-95e3-31076fef2dea,Roxanne,,1987,1987-06-19,107,,582,6.42
@@ -1205,7 +1202,6 @@ a05095d4-3c17-460f-af2d-4b2a3fa3c868,Les Affranchis,GoodFellas,1990,1990-09-12,1
 62b843b0-747e-4746-ac9d-c2c02c77f2fb,Mr. Mom - Profession père au foyer,Mr. Mom,1983,1983-07-22,91,,281,6.61
 5b23e4f4-9418-4060-b61f-35e77d3ea051,Tendre bonheur,Tender Mercies,1983,1983-03-04,92,,115,6.59
 42997904-0677-4cb6-b48e-e525d9489334,Premiers pas dans la mafia,The Freshman,1990,1990-07-20,103,,254,6.27
-5279652e-4fa7-4cba-83fb-f5cbac8f27ca,"Transformers, le film",The Transformers: The Movie,1986,1986-08-08,80,,474,7.13
 b3e7519c-3dc0-4adb-934f-27ff81d4f3a8,Le Retour du Jedi,Return of the Jedi,1983,1983-05-25,133,,14966,7.90
 5cd8aeea-a1a3-445f-956b-d83d76f29ccc,Cry Freedom - Le cri de la liberté,Cry Freedom,1987,1987-11-06,157,,188,7.06
 73ba754c-c5aa-4df9-9ca2-7f4d87f73cfe,À toute vitesse,Quicksilver,1986,1986-02-14,105,,84,5.61
