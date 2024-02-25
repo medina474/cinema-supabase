@@ -53,8 +53,9 @@ for (const p of personnes)
 
   getPersonInfo(p.personne_id, person)
 
+  /*
   await sql`update personnes set
     naissance=${person.birthday}, deces=${person.deathday}, popularite=${person.popularity}
     where personne_id = ${p.personne_id}`;
-
+  */
 }
