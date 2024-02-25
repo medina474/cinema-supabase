@@ -3,7 +3,7 @@ import { addLink } from "./db.ts";
 
 import { Film, getFilmInfo } from "./film.ts";
 
-const list_ids = ["18", "175"];
+const list_ids = ["37653", "61243", "76454", "13043", "61991", "64239", "57308"];
 
 for (const tmdb_id of list_ids) {
   const data = await fetch(
