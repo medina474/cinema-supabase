@@ -545,7 +545,6 @@ bc57a10b-53e3-4e81-a7fe-761eb61b4f32,965f4fa6-f58a-4f0e-adaf-03a73b98197d,acteur
 e3233e37-056b-4a27-a24a-5464b17f6f65,3fcd9ae0-5ab6-4b60-af23-a84608e2469a,acteur,Carl Spackler,3
 cbdfcd03-f210-4b29-b8e2-b05926be613a,2854d6bf-c7b7-43ec-990c-a8a8c5fa10a9,acteur,Lucilla,0
 f7fae74f-7513-455d-b2e6-527398404fac,c868fa91-5534-4573-9532-bab6d0359d9d,acteur,Modell,6
-90c11263-e42c-424f-9fc0-7a3bc37a5528,2304edf2-cabe-4ffd-85a6-4d4edcd80530,acteur,Richard Thornburg,5
 0855b28a-f73d-4302-8d48-2a2353d08321,46c31ee2-f27f-4049-95d4-e3bf625ec924,acteur,Karla Fry,5
 33569568-7c3e-4baa-84a8-cae15dca2350,96b6fde8-7cb4-4b10-a35d-8e5643da45f9,acteur,"Robert Lespinasse, dit ""Popeye"", le cavaleur",0
 33569568-7c3e-4baa-84a8-cae15dca2350,ee7f1acd-faa2-4066-8b4a-b4590fffcfd8,acteur,"M. Camus, le cocu",9
@@ -950,7 +949,6 @@ a199bec3-d676-446f-9e50-f3f8f755cff9,972ce6ac-0335-415d-9e95-46a64b187348,acteur
 53eb237d-9db2-4ab6-8a5b-2fa365025706,73b1436e-a13b-49ec-aae9-bdcc3f1bf4b3,acteur,Maj. Frank Burns,4
 77064b45-71f2-46d5-a555-b5c0b9825fe3,f848a700-2c50-43bb-94df-045b676cdb77,acteur,Andy (segment ‘Lot 249’),3
 e8018bd6-61c0-4b63-be9b-936fb24fa9f4,73b1436e-a13b-49ec-aae9-bdcc3f1bf4b3,acteur,Lieutenant Colonel Bill Kilgore,6
-90c11263-e42c-424f-9fc0-7a3bc37a5528,21c64182-ad5d-4207-adf5-6df21d1b7bc4,acteur,John McClane,0
 c9279dea-d67e-4bc4-8b51-4a5985319dde,05a69667-f2e5-43ff-ae07-6d236d3598b4,acteur,John L. Bridges,7
 28bc229c-f09a-43db-92b3-315b6038aad6,6e506598-5262-4a5b-b505-48d9ca84c238,acteur,Marshal Jed Cooper,0
 70d6eca6-edb9-4593-af95-c318f4cb99ce,8f2492f4-4ba1-4f53-939f-7f3afc8b325a,acteur,John McCabe,0
@@ -1115,7 +1113,6 @@ cc3400c4-683f-4545-abaa-e323f44f9d71,5b3b6c51-1ac3-4334-923b-8ddda2e3514a,acteur
 1b94ed76-ad63-46ea-94a9-f8a4b1d1be53,da7d29ec-0a91-4a32-9711-f5ee0b93b3d8,acteur,Deputy Ward Wilson,5
 bf07ed2a-c853-41d6-b6f3-dda314ebed02,05a69667-f2e5-43ff-ae07-6d236d3598b4,acteur,Prince Lir (voice),1
 99db9a6c-bc9f-46cb-b2c1-0ce4e09cc04f,bbad8dff-5362-43d2-9fa0-dd29dd9ad2fd,acteur,Cassandra,1
-2d5025a7-3780-4226-9afd-de879d2c2b99,47483fae-2229-4cca-835b-e1b69bf54c87,acteur,Sean (voice),4
 b3e7519c-3dc0-4adb-934f-27ff81d4f3a8,9c6c466d-e69a-47d1-b3d1-2d618d438b09,acteur,Darth Vader (voice),9
 5cd8aeea-a1a3-445f-956b-d83d76f29ccc,ff02ad2e-a20b-444a-87be-3bf55bc7953d,acteur,Steve Biko,1
 a38d9fea-e9e2-4b58-aace-8c2329734644,36f5b9d6-8dd4-4263-a86d-3196dee4a03e,acteur,Cat Manzetti,5
@@ -1313,7 +1310,6 @@ cee8b14c-1134-47cd-b1b7-c7bb03dab17f,6e506598-5262-4a5b-b505-48d9ca84c238,acteur
 8c08813e-d689-4798-ba4b-958a70dbfa8c,b7e61cac-2c3f-4736-a3cc-46edc229e431,acteur,Fletcher Christian,0
 8c08813e-d689-4798-ba4b-958a70dbfa8c,764fac78-49cd-4a5c-87e7-8bceeb8a828b,acteur,Lieutenant William Bligh,1
 9e8a9fe6-363c-4b56-b6cd-e1d6c4110ba1,4f1e41f1-080a-40c6-8e4c-653d0437a52b,acteur,Peyton Westlake / Darkman,0
-3c21301b-38c4-4f5b-bb70-c65715f25c20,47483fae-2229-4cca-835b-e1b69bf54c87,acteur,Luke Skywalker,0
 b3e7519c-3dc0-4adb-934f-27ff81d4f3a8,7b146021-19b2-4956-97e9-fd6177845678,acteur,Han Solo,1
 31fa61a3-e8a0-4043-9f4c-faa282204b42,07c25eda-0fe2-4b95-a410-7df73b7adfbd,acteur,Steven Gold,1
 9f5d32e3-b646-4632-9b26-f10de8a97099,52d13d93-646c-4fc7-a5c4-b140faa16068,acteur,Albert Johnson,0
@@ -1501,8 +1497,6 @@ ed893b29-c0f4-45cd-b0af-2544a4da511a,73b1436e-a13b-49ec-aae9-bdcc3f1bf4b3,acteur
 8214af15-1bc1-4d8d-a9cb-3a92bd1fc898,21486d08-26e3-46a5-8a57-1ac0235ff41a,acteur,Matthew Hollis,0
 2cea75f7-7d01-416f-9a59-639189afa633,1e5f3072-3480-440f-9c41-0cfd1d0be07c,acteur,Alex Grazier,1
 2cea75f7-7d01-416f-9a59-639189afa633,8c3aaa6a-5294-4bc8-9d7b-d5389aaa13b3,acteur,Claire,2
-3c21301b-38c4-4f5b-bb70-c65715f25c20,9c6c466d-e69a-47d1-b3d1-2d618d438b09,acteur,Darth Vader (voice),5
-3c21301b-38c4-4f5b-bb70-c65715f25c20,7b146021-19b2-4956-97e9-fd6177845678,acteur,Han Solo,1
 a38d9fea-e9e2-4b58-aace-8c2329734644,25ea1493-8d4e-485c-897b-4c1ca8e42f6f,acteur,Lt. Stobbs,4
 a38d9fea-e9e2-4b58-aace-8c2329734644,450c6276-60bc-4791-bee4-3152145af6e7,acteur,Ivan Danko,0
 9f5d32e3-b646-4632-9b26-f10de8a97099,21c2b10a-358e-408b-abd2-5bf391b77927,acteur,George Washington Lincoln 'Sundog' Brown,3
@@ -1555,7 +1549,6 @@ d1b50dc5-23cf-4dae-bb88-2da6fb2ca108,cd48fccf-299f-49b5-9064-abd78f938df7,acteur
 b2f64db6-f584-49d4-99f5-2ad93fba6f4a,c98c8ab6-8fb4-40e7-ab5c-5a8675f75846,acteur,Groupie,0
 1316340e-3ed7-447e-adc3-4da75c083a2e,c98c8ab6-8fb4-40e7-ab5c-5a8675f75846,acteur,Fan,0
 8fc3b88b-7166-4197-9607-0492634e9772,47483fae-2229-4cca-835b-e1b69bf54c87,acteur,Brent,0
-a989b9bb-3480-4639-99f3-8f42b68df81f,47483fae-2229-4cca-835b-e1b69bf54c87,acteur,the Joker (voice),0
 8f3d2c9a-7e51-4966-b561-80c59d8bcc31,d247621e-d5c0-4918-8990-09a45f8fa613,acteur,Secret Service #2 / Helicopter Pilot / Violin Player,0
 a9f73754-847d-43b7-9529-bfe7fecd487f,d247621e-d5c0-4918-8990-09a45f8fa613,acteur,Norwegian (video footage) (uncredited),0
 c6864498-cb48-4084-92da-c72dcac1412f,d247621e-d5c0-4918-8990-09a45f8fa613,acteur,Voice That Says 'Sleep',0
@@ -2167,7 +2160,6 @@ b290b99f-5bf8-4974-9bc1-e85f68e89e51,26be14f6-e7e5-46a7-bf38-d8614dbdd67b,acteur
 fcb51b86-70e3-4d20-aeaf-f02445111879,ea853bcb-5133-40e4-9269-735d810c84b2,acteur,Muriel Pritchett,2
 7b53ffb1-b1a9-42cd-a0e0-12cd693272b7,ec70b59b-2b49-4122-97a7-e1598b95500f,acteur,Elizabeth,0
 dd973df6-5480-4220-9193-6dd8297bbf5e,dfe9a85f-c3da-4c05-ad6e-1e7d9068e560,acteur,Ned Hanlan,0
-a989b9bb-3480-4639-99f3-8f42b68df81f,86d6a3a7-0430-4792-a7d0-330ff726eab9,acteur,Andrea Beaumont / Chimera (voice),1
 bace706f-b991-4f8c-9b32-bbad1e1c2d23,0530881e-bdb6-4514-8f34-d31eaab93f3c,acteur,Laurie Armstrong,3
 ae3609ca-2c05-4fa7-8446-b43c7ac177fa,731f8970-90cc-4173-ab8c-6a0d91453014,acteur,Noah,1
 3d036187-2c03-4831-ac66-6bfdbf91ba1e,49242460-8b4a-4e1c-b3a4-603c9bf705c7,acteur,Drake,7
@@ -2985,3 +2977,52 @@ b26b9f34-6f2a-4877-b3fb-eea76c01b2cb,ba923f08-b5a2-4f3d-b5f2-84a00b4e415a,acteur
 60973c3a-648b-42ca-affd-49062186d2b3,a4b69f5f-d0f5-427c-8800-7cb683d320f7,acteur,Blacky,2
 4d0e9173-6d59-44aa-8722-c28e36983ce6,da7cc277-9b80-4096-96a0-931050a7fe01,acteur,Christof,5
 3e7aa788-2a22-4437-970f-9237add18641,d040d654-7e08-42ec-ac2d-83e11dd47d1a,acteur,Bijou,1
+ce508983-0df1-4f51-ae6c-93f6d73df90e,eb641584-5d77-4e9d-a609-1283a8315c8f,acteur,Peter Banning / Peter Pan,1
+de9b32c3-2b51-473c-97a5-f36e1ca746c4,eb641584-5d77-4e9d-a609-1283a8315c8f,acteur,Cozy Carlisle,5
+aaed2f1b-0010-46c0-91d3-b2ab6a06a834,eb641584-5d77-4e9d-a609-1283a8315c8f,acteur,Adrian Cronauer,0
+0ea9b68b-129a-4c38-8fd5-64351acf1a06,eb641584-5d77-4e9d-a609-1283a8315c8f,acteur,Alan Parrish,0
+44366d86-aafc-4f0f-8445-ca4fa89d7cf6,83b0d6b4-ab1b-40f1-ac87-603636b15654,acteur,Tré Styles,0
+c08b4c66-07a4-4339-ae25-817b52d4bf74,83b0d6b4-ab1b-40f1-ac87-603636b15654,acteur,Major Salt,4
+42751629-c78f-418d-b2c2-cd0f1a38ec0c,83b0d6b4-ab1b-40f1-ac87-603636b15654,acteur,Ben Doyle,2
+5503be85-699a-473f-83e2-96839a06e7ba,83b0d6b4-ab1b-40f1-ac87-603636b15654,acteur,Eddie Hughes,3
+9d506d13-3af5-45f2-a399-e061b9cf091a,03621737-f802-440d-a8cf-db3959caf6ef,acteur,Katniss Everdeen,0
+b8e3fc4a-0427-49fa-88f7-a2e48d2e97a7,201070c7-78f4-4f32-b036-5d01bf421c8e,acteur,"Beatrice ""Tris"" Prior",0
+bf536d08-c296-4889-a245-fcdad151ea80,0c9f0d8f-e2e9-4827-a80f-111bedbbfddc,acteur,Kitano,2
+3f7bef10-4129-4936-8c50-7c50a34f356b,0c9f0d8f-e2e9-4827-a80f-111bedbbfddc,acteur,Hara,3
+7bc4456d-11bc-4b0b-adcf-9f7beb5403ec,0c9f0d8f-e2e9-4827-a80f-111bedbbfddc,acteur,Takahashi,2
+bace706f-b991-4f8c-9b32-bbad1e1c2d23,1f5030f4-c846-4ad7-bd38-0168127b9856,acteur,Kate Armstrong,5
+4254ed19-487e-4fd2-a167-d64d8e3cd427,2e24400b-2353-4be5-b6de-746870abf0cc,acteur,Rude Gambler,4
+216b72f5-7464-4128-9c84-0e9b15fedecd,456d7ebf-04ae-4450-b469-96bfdfd977cc,acteur,Kevin Lomax,0
+a8ae90ee-f7db-45d6-a7fc-23bfb67ca1ed,83a7b2a9-e15f-4832-9c50-1f8f98076323,acteur,Michael Sullivan,4
+93cf9731-2766-4374-ab25-b8b2252460e0,9e7fb208-0ecf-4c5c-869c-4298eb9f0a4c,acteur,Sean Fletcher,4
+a0a715d9-124d-4106-a284-03987589ebe3,96b6fde8-7cb4-4b10-a35d-8e5643da45f9,acteur,Gilles Favier,3
+4b179f48-5d5d-4b23-95db-6a82157f422d,96b6fde8-7cb4-4b10-a35d-8e5643da45f9,acteur,Brice d'Hachicourt,1
+93cf9731-2766-4374-ab25-b8b2252460e0,23363946-7dde-472e-a31e-408f15845aae,acteur,Rebecca Taylor,1
+5a828f59-cf08-457d-a0ae-478beb5832e5,8e7b80a8-0352-4662-9255-253c748852e3,acteur,Jerry Maguire,0
+a0a715d9-124d-4106-a284-03987589ebe3,39f9cb9a-dd57-4941-85b3-e7fbb5f4655c,acteur,Corine Bréha,2
+4b179f48-5d5d-4b23-95db-6a82157f422d,39f9cb9a-dd57-4941-85b3-e7fbb5f4655c,acteur,Bénédicte d'Hachicourt,0
+5cff849f-2bc9-4f0d-85bb-06136b1604ca,cf13b736-49c6-40fd-8484-49732ddb9b09,acteur,Alice Mitchell,4
+cc1ffcad-12bc-4f2d-bf52-d9866ac825ff,eb641584-5d77-4e9d-a609-1283a8315c8f,acteur,John Keating,0
+90400cd3-f9f0-42b9-8a7d-ccc074325bed,eb641584-5d77-4e9d-a609-1283a8315c8f,acteur,Daniel Hillard / Mrs. Doubtfire,0
+f9ae70b3-4702-4461-b3b6-da0c33b92039,eb641584-5d77-4e9d-a609-1283a8315c8f,acteur,Andrew,0
+93cf9731-2766-4374-ab25-b8b2252460e0,eb641584-5d77-4e9d-a609-1283a8315c8f,acteur,Dr. Kosevich,5
+808c293b-05f0-4dac-b109-877f6857741b,f8869b1b-e42c-439c-abee-2191c8ae185a,acteur,Dominick 'Sonny Black' Napolitano,2
+3aaaf0bd-56e1-49db-a940-77a18b28973f,6af9d0ff-5ef4-4144-9f9a-3c5630427d28,acteur,Aragorn,2
+808c293b-05f0-4dac-b109-877f6857741b,82d8f85c-b980-4e36-ac48-22712fa7427c,acteur,Donnie Brasco / Joseph D. 'Joe' Pistone,0
+f9ae70b3-4702-4461-b3b6-da0c33b92039,1df6da8b-2206-491f-97f1-76c793a42d37,acteur,Sir,2
+a8ae90ee-f7db-45d6-a7fc-23bfb67ca1ed,cc27938c-b0f3-4120-8b3c-0ed4b0328c1f,acteur,Danny Snyder,2
+3aaaf0bd-56e1-49db-a940-77a18b28973f,204b4cb8-0736-4414-8cc2-d00c225a6850,acteur,Samwise Gamgee,3
+a0a715d9-124d-4106-a284-03987589ebe3,706ae11c-1c62-4e6b-a864-b1cfb69822a8,acteur,Gérard Bréha,4
+5cff849f-2bc9-4f0d-85bb-06136b1604ca,6601846e-00a1-4d2c-ba44-67895feef8cd,acteur,Switchblade Sam,3
+4b179f48-5d5d-4b23-95db-6a82157f422d,706ae11c-1c62-4e6b-a864-b1cfb69822a8,acteur,un spectateur,5
+4254ed19-487e-4fd2-a167-d64d8e3cd427,38047272-b01a-43fb-bd65-171da7491859,acteur,President Dale / Art Land,0
+4b179f48-5d5d-4b23-95db-6a82157f422d,fe1f3c62-99fb-4f4b-9887-cb71ddcf3d47,acteur,un spectateur,4
+a8ae90ee-f7db-45d6-a7fc-23bfb67ca1ed,93973b9f-5867-440c-b87b-03252f1f8c68,acteur,Father Bobby,1
+216b72f5-7464-4128-9c84-0e9b15fedecd,3c78fac1-4f31-4962-ab0f-248434e5ada5,acteur,John Milton,1
+a0a715d9-124d-4106-a284-03987589ebe3,d040d654-7e08-42ec-ac2d-83e11dd47d1a,acteur,Marie-Ange de la Baume,1
+808c293b-05f0-4dac-b109-877f6857741b,3c78fac1-4f31-4962-ab0f-248434e5ada5,acteur,Benjamin 'Lefty' Ruggiero,1
+4b179f48-5d5d-4b23-95db-6a82157f422d,d040d654-7e08-42ec-ac2d-83e11dd47d1a,acteur,Gloria Soleil,2
+3aaaf0bd-56e1-49db-a940-77a18b28973f,6f27abcd-90a5-47e8-95e4-1226640b18bc,acteur,Frodo Baggins,0
+a0a715d9-124d-4106-a284-03987589ebe3,6b1ba9dc-f6f0-480c-afdb-60de7aab7a20,acteur,Régis Montdor,5
+a8ae90ee-f7db-45d6-a7fc-23bfb67ca1ed,d4809c32-d0ad-4b58-80d7-e6ca92be8e76,acteur,Sean Nokes,0
+5a828f59-cf08-457d-a0ae-478beb5832e5,83b0d6b4-ab1b-40f1-ac87-603636b15654,acteur,Rod Tidwell,2
