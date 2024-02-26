@@ -397,6 +397,8 @@ ffad8bbb-fdcb-4d2b-ae43-eaa46f84fe2d,cc27938c-b0f3-4120-8b3c-0ed4b0328c1f,acteur
 a052f14a-9f7f-40ae-8fff-a26c69992ffb,30e140ad-88c1-47d0-84e2-3a70d8398692,acteur,"John Clayton / Tarzan, Lord of the Apes",3
 c79c09fe-5cc7-4741-a0d7-98faa5ad30f9,b2e7842d-cc7a-47d7-8a99-625359b685a7,acteur,Patrice Dellaplane,3
 4d76ec36-7b68-4e1f-8bd4-c6a96697d853,c2ead2b6-4e89-422f-9cea-54d4af804efd,acteur,Dale Arden,1
+e597facf-adf0-46c7-b6fd-aa8a3b91a15b,96e5581b-204b-4a16-9127-213adebfcc01,roman,,99
+a3780fca-4854-4951-b6a7-323d47fbcf1c,96e5581b-204b-4a16-9127-213adebfcc01,roman,,99
 296e532f-8f69-4ab0-b43d-9245c53f9c94,e98c10cb-0be2-48d9-a5b6-1b8d4387a24a,acteur,Thomas Jerome Newton,0
 ea3414e4-ec7a-401d-8430-094b0171fe58,88826d9b-81ec-4e7c-8783-aa52f9a8b6fc,acteur,James Dalton,0
 787e93a4-4987-49f0-86e5-cc3e4fd1d65c,8783a35c-79df-4149-a4fa-9f6177429a18,acteur,Jenny Hayden,1
@@ -607,7 +609,6 @@ fa3463fd-92fb-4d4d-9295-8458a3d60a19,6cadc5b7-d439-4994-8927-39602a6e720b,acteur
 94ea14a2-efa0-45b2-9f6a-151288566793,41bde72f-188a-4ccc-a63c-84d188cba9de,acteur,Bernadette Flynn,2
 5f603a51-1960-45f7-b46e-2f557c7ab17a,2fde32d6-3e8b-48ac-96ba-80056449cbbe,acteur,Edmond Dantès,0
 1eae6f89-a115-4d52-b6de-db9009d2d028,cfbc0a1a-6f79-4d89-9412-6de889a7dd84,acteur,Self,4
-e1d086be-a352-43ca-8c63-738331d081ca,39f9cb9a-dd57-4941-85b3-e7fbb5f4655c,acteur,Bonemine (voice),5
 01276c58-7a2f-4a6d-98a6-470588fc8f8b,28188765-6046-4c73-9145-e4d860750b5b,acteur,Liz Carlson,4
 a199bec3-d676-446f-9e50-f3f8f755cff9,49242460-8b4a-4e1c-b3a4-603c9bf705c7,acteur,Herb Drier,8
 1b6e2c7f-2401-4c9c-b6bd-013f3f5b61de,9f72b128-e7cb-4ee1-9f4f-801e655b430a,acteur,Wayne Szalinski,0
@@ -700,7 +701,6 @@ b5b84180-2618-4185-974e-a6b1069ade81,8e7b80a8-0352-4662-9255-253c748852e3,acteur
 c2f6fc7e-69c8-4c2a-8a50-e42386a58678,ca695ce5-064d-4ba6-b19b-595d82ce3d13,acteur,Dolly Pelliker,2
 d876ce53-5ea2-4257-9dc9-11abd4b4a21c,6cadc5b7-d439-4994-8927-39602a6e720b,acteur,Celie Harris Johnson,0
 7591f543-cd50-4b90-ac51-876e12aa0359,72925ff0-346f-4f14-bb98-28ca29645685,acteur,Gillom Rogers,2
-717a72d4-4173-45a1-8c0d-0257a2a73f24,02a87b57-b8e5-4730-aef2-e31ded2de0ac,acteur,Drone with Mask Removed (uncredited),9
 5ea10cfa-7beb-419c-a264-0149ecaeacdf,38e1ba01-163a-4262-9ce3-a8b95ea6e687,acteur,Jack Parker,9
 2c150bd9-8672-480b-9897-8c11b45232e7,fd6f055c-6de9-4044-b6eb-3bad3fba5968,acteur,Lee,3
 d4978c4e-a859-4b56-90d8-1cf9517c49f0,fd6f055c-6de9-4044-b6eb-3bad3fba5968,acteur,Abilene,7
@@ -725,7 +725,6 @@ aeb23eb9-0888-45df-8be3-03a864b89bda,d70a44bc-01cb-4166-864a-3cc3c303ccf9,acteur
 1f0d7207-357c-41c5-8298-1e95aba7ed17,57aa6745-b209-4c82-b360-ee72aea696b5,acteur,Steven Beck,0
 2efc6f4f-82cb-4a25-9143-7d6507f14438,e713859f-af45-4aa5-941f-2cd359491f1c,acteur,Gynecologist,7
 fb855bea-eec0-4204-be37-7986abaf6887,b7770571-dac0-4ce4-a95a-25c37342d642,acteur,Cpl. Curtis Jackson,1
-1a316e25-c81d-4a98-92ec-7147c6c72ff1,373eaca2-1eaa-449d-a24b-1f25af2a2263,acteur,L'obsédé sexuel au téléphone (voix),9
 5be57aa6-771d-4156-9cb4-ab28e8720ebf,8b8a29ff-ad0a-420d-a140-98f89451a24f,acteur,der Oberst,9
 7dd60937-5bf3-473e-a31a-1a0c0e7c25cc,d70a44bc-01cb-4166-864a-3cc3c303ccf9,acteur,Lambert,5
 b3b77d09-7b54-4c92-9b52-f71b57202f37,436b9127-6cb4-4e89-ad98-82a98f7e847b,acteur,Richard Adams,2
@@ -783,6 +782,7 @@ f622ee9d-e05b-4b5b-9770-f6e90002f2c2,fd6f055c-6de9-4044-b6eb-3bad3fba5968,acteur
 16084877-9f51-4589-a908-d22cee95c5d0,9cabf13e-ce81-4ab8-8d9a-71779bbf7201,acteur,Jack Andrews,0
 258b9381-f0f4-43a8-99b9-643444ecc482,92426e8c-25a6-4b4b-9670-9ed0d8885ae1,acteur,Adam Maitland,0
 258b9381-f0f4-43a8-99b9-643444ecc482,ea853bcb-5133-40e4-9269-735d810c84b2,acteur,Barbara Maitland,1
+1a316e25-c81d-4a98-92ec-7147c6c72ff1,373eaca2-1eaa-449d-a24b-1f25af2a2263,voix,L'obsédé sexuel au téléphone,9
 8f1672da-5561-46d0-a900-47a9cb485cff,8c19b5cd-5a11-47d8-80a8-bc067cbfc0c7,acteur,Kathryn Murphy,0
 dd2df805-715c-498b-8cb8-816dc993d09a,bbad8dff-5362-43d2-9fa0-dd29dd9ad2fd,acteur,Abby Quinn,0
 a099a7b9-90b3-4739-b456-40a18a319039,eae4c21d-3ea5-4a8e-8765-dc9364ba26ba,acteur,Michael Lerman,1
@@ -1837,7 +1837,6 @@ c99e78fe-4f06-486c-b120-866f6644c31c,52c92562-c0e4-45b2-a980-c3c81a3cef1c,acteur
 c08b4c66-07a4-4339-ae25-817b52d4bf74,147db1a9-d8bf-4157-809c-3dd886b90641,acteur,General Donald McClintock,5
 d164b8b6-64ca-4489-ad2b-e3d9d742fd58,f9485d4b-a9f4-44db-a5ee-4f5ccdbda1a5,acteur,Damon Wayans,0
 dcab0acc-4fdf-4f08-bfeb-b56c976cfe5e,9cedaa88-2e8f-42b3-8f46-bb4baab9e926,acteur,Murat,0
-e3feb92e-ee2f-4599-99da-aebf0fef329e,96b6fde8-7cb4-4b10-a35d-8e5643da45f9,acteur,Pierre Mortez,0
 fd83b311-428f-4e17-8636-931249c15c53,1e5f3072-3480-440f-9c41-0cfd1d0be07c,acteur,Nicholas Earp,2
 c4fabf91-d527-4653-b9d9-92968c906cc7,456d7ebf-04ae-4450-b469-96bfdfd977cc,acteur,Ortiz the Dog Boy,4
 367a5e47-b57d-4f8d-824e-707ce71f1a27,b7e61cac-2c3f-4736-a3cc-46edc229e431,acteur,Capt. Daniel McCormick,0
@@ -1886,7 +1885,6 @@ d0c2732d-b169-4139-b149-58be79d28048,67fb24d5-3a19-4848-b58c-e371faf3706e,acteur
 2b77d851-2046-4dbd-98ad-981bece7d040,67fb24d5-3a19-4848-b58c-e371faf3706e,acteur,Salvatore,0
 9405962d-d9d0-4c45-8352-08e1c9b4dedc,1a0004f1-0327-4c7a-9b3d-a574ffc0998b,acteur,Man at Webster Hall Table (uncredited),0
 b89b0a85-3270-4a0b-aa9d-951ca060122f,1e5f3072-3480-440f-9c41-0cfd1d0be07c,acteur,Harry Zimm,1
-e3feb92e-ee2f-4599-99da-aebf0fef329e,39f9cb9a-dd57-4941-85b3-e7fbb5f4655c,acteur,Josette dite « Zézette »,3
 b7e72b7c-b920-4ff9-af8b-037a1cee0d27,1f91c00f-066d-470d-a2c7-fc5d8586b728,acteur,Simon Wilder,0
 0137e029-7cc1-4ed9-adb1-5db6ec47aaf7,f8869b1b-e42c-439c-abee-2191c8ae185a,acteur,Rudy Travis,2
 712229ea-b39a-46a0-ab05-fb2c1077950e,05a69667-f2e5-43ff-ae07-6d236d3598b4,acteur,Max Klein,0
@@ -2027,7 +2025,6 @@ c92a3f78-f516-49db-8d20-c6c83d74d812,d9d7795b-159d-4114-bb00-3569fc40e413,acteur
 985bbde8-934f-45fc-8708-0721ec3832a1,86e66f4c-0b10-46ad-b242-8bdf2d704b46,acteur,Herself,1
 97aa3eb4-72de-4ad2-9b9b-cc999a34d597,ce1fb190-1e57-4099-9cc2-a6a761e2470b,acteur,Jack Terry,0
 a320e5ce-1d85-4002-95c3-b5184ee00c20,ce1fb190-1e57-4099-9cc2-a6a761e2470b,acteur,Vincent Vega,0
-e3feb92e-ee2f-4599-99da-aebf0fef329e,ee7f1acd-faa2-4066-8b4a-b4590fffcfd8,acteur,"",5
 0f22ebe6-883b-4388-916c-ef01d97f1a08,38c20e8c-374c-4c0c-a5e0-725890cdb828,acteur,"Dan Smithson, Empath",5
 c2f874ca-08e3-4996-8c9b-2c79f1c0dbde,9cedaa88-2e8f-42b3-8f46-bb4baab9e926,acteur,Kidnapper,6
 0dd84b24-3744-4529-8a33-9c672ee46ddd,d0904f9c-d7ec-4312-afed-08d4bf01cd77,acteur,Queen Charlotte,1
@@ -2148,7 +2145,6 @@ ae8313ff-4a59-4002-958e-c6d3e056747e,8c077f12-c8cc-4902-9797-17e29fb22bd8,acteur
 128ac9c2-ac92-401e-b6b9-62634af8b4b4,d3f92aa7-41ce-413c-87f0-b8d73e983c7e,acteur,Maj. Julian Cook,0
 c7e53aa4-9617-4184-819d-c4e158bfff12,bb9266f0-d2a9-438e-986e-aec972789668,acteur,Paul Saunders,0
 fd9233b8-6d19-43f4-996f-a08140e2cb55,85e7a0c6-4d33-4e8d-9669-393055db48d4,acteur,Le vacancier avec bateau,0
-8f7c259e-c621-4daf-b6a4-3d0b0d049f29,6fdf82d1-1804-4d05-88a7-be92124d54ae,acteur,Voix additionnelles (voice) (uncredited),0
 4e034213-ceff-46d5-b8b4-8ea9a1f58659,04b5868b-b9e3-4784-be6a-4dc86d6424ce,acteur,Valerie,0
 c7cb4255-e3db-4954-809d-373ab4acbf62,57aa6745-b209-4c82-b360-ee72aea696b5,acteur,Jerry Bender,0
 91b54653-b526-4f75-a6df-05f80a228537,95da3c96-b306-4694-aa63-678d865edbf5,acteur,Miguel Bain,1
@@ -2169,7 +2165,6 @@ b1b54c85-9494-4142-8ae0-3f59639ff3d0,b7e61cac-2c3f-4736-a3cc-46edc229e431,acteur
 dcab0acc-4fdf-4f08-bfeb-b56c976cfe5e,3dede616-b6db-4963-80d7-7d0bff8bafd2,acteur,Laville,2
 e1c9d252-7f8d-4b6a-96c3-3394bbda6d77,608481e7-befa-4b88-b701-d9fa9830a329,acteur,Emilie Bartlett,1
 b29b28f7-94ac-4513-8fa2-efd5eaf2bd6b,c868fa91-5534-4573-9532-bab6d0359d9d,acteur,Phil Golden,5
-e3feb92e-ee2f-4599-99da-aebf0fef329e,1daf693b-6969-4269-a9e7-16b8f4933ffe,acteur,Thérèse,1
 fd83b311-428f-4e17-8636-931249c15c53,4609a4af-ff7d-4559-9e7c-5a166c74fab0,acteur,Doc Holliday,1
 fd83b311-428f-4e17-8636-931249c15c53,f8869b1b-e42c-439c-abee-2191c8ae185a,acteur,Virgil Earp,8
 c4fabf91-d527-4653-b9d9-92968c906cc7,28794c25-dafb-4f23-96a2-a1987a682385,acteur,The Bearded Lady,5
@@ -2635,7 +2630,6 @@ d05f7629-cda9-41ee-9f34-3d5470af7bf0,aff08ad0-c3da-4721-9ad4-c6df6bbe7ff2,acteur
 32d48a81-85e4-483f-9e03-9d833159ce17,aff08ad0-c3da-4721-9ad4-c6df6bbe7ff2,acteur,George Knox,0
 1d0bde53-c94d-4ce7-8bda-113ffae2d3de,2f9d0443-68a2-4662-b3a9-cd1ff4b36bc2,acteur,Fred Haise,1
 811db3fe-308b-4979-8f72-2df14cb08c45,b7e61cac-2c3f-4736-a3cc-46edc229e431,acteur,Bret Maverick,0
-e3feb92e-ee2f-4599-99da-aebf0fef329e,85e7a0c6-4d33-4e8d-9669-393055db48d4,acteur,Félix,2
 fd83b311-428f-4e17-8636-931249c15c53,52c92562-c0e4-45b2-a980-c3c81a3cef1c,acteur,Wyatt Earp,0
 b857e275-59ff-4164-820f-3e91d9cf7934,6e506598-5262-4a5b-b505-48d9ca84c238,acteur,Thunderbolt,0
 045b7f61-44fd-4f01-a23e-d984f0fffb7e,2834a265-c552-446c-ba27-e46186076cb6,acteur,Lucy Harker,1
@@ -2664,7 +2658,6 @@ c7e53aa4-9617-4184-819d-c4e158bfff12,52c92562-c0e4-45b2-a980-c3c81a3cef1c,acteur
 941417ac-861c-46d1-b23d-beec153fb614,be19aaef-7141-424e-bd95-a2094b054bfa,acteur,Jim Norman,0
 11e2aa23-7200-466f-9f78-5e60e8a94e56,60369b57-d42e-4cf5-8c02-8e6f28d825a7,acteur,Luc Deveraux / GR44,0
 b89b0a85-3270-4a0b-aa9d-951ca060122f,ce1fb190-1e57-4099-9cc2-a6a761e2470b,acteur,Chili Palmer,0
-e3feb92e-ee2f-4599-99da-aebf0fef329e,706ae11c-1c62-4e6b-a864-b1cfb69822a8,acteur,Jean-Jacques dit « Katia »,4
 145a3f2b-948b-40b3-b4a7-a25136fc9254,eca2280e-2f4f-496b-a90e-172f82805fc8,acteur,"Jacqueline Lajoie, depressed teacher",1
 0309e670-2b37-49f9-947f-4d886dc0a490,9e7fb208-0ecf-4c5c-869c-4298eb9f0a4c,acteur,Donald Ripley,3
 8053d174-7ce8-4db3-ab5e-bc1a54ff9a84,3f3c5a30-f335-4350-ab7c-945ff1d2a390,acteur,Gabriel,0
@@ -2828,7 +2821,6 @@ cbece1eb-c6b7-4924-ae2f-b797265260ad,832125cf-1c43-4b76-a318-d30342561c5d,acteur
 d23863e0-84e7-4ce9-9f4f-24816fa472e7,d667d8f9-5e17-430b-bffd-5efb988b8d02,acteur,Raymond Beitoun,0
 9c4be8fd-681e-4d39-9980-4b4a0caea050,c86f40e0-a9ea-436f-8834-f07b87b145d1,acteur,Antoinette,5
 ffa60852-9421-498a-9917-5a66e1bb8064,46dde068-fddf-4019-b505-32027071fcd3,acteur,"Jacques Tricatel, intoxicateur alimentaire industriel",3
-e1d086be-a352-43ca-8c63-738331d081ca,46dde068-fddf-4019-b505-32027071fcd3,acteur,Devin (voice),3
 88de7e25-1d9a-4c72-ba04-51b71b948cd6,46dde068-fddf-4019-b505-32027071fcd3,acteur,Comptroller General Ledoux,3
 513075f7-19d6-4e55-a9f8-e85f76c959cb,46dde068-fddf-4019-b505-32027071fcd3,acteur,"Camille Ortolin, the hermit of Chatou",2
 3fab2bfb-6286-4562-bd46-7f293b505844,78ac7eb9-ce14-4d0b-85e9-c1cb5a2b75ab,acteur,Father Lankester Merrin,3
@@ -3027,3 +3019,74 @@ a0a715d9-124d-4106-a284-03987589ebe3,6b1ba9dc-f6f0-480c-afdb-60de7aab7a20,acteur
 a8ae90ee-f7db-45d6-a7fc-23bfb67ca1ed,d4809c32-d0ad-4b58-80d7-e6ca92be8e76,acteur,Sean Nokes,0
 5a828f59-cf08-457d-a0ae-478beb5832e5,83b0d6b4-ab1b-40f1-ac87-603636b15654,acteur,Rod Tidwell,2
 4dd8e94a-7e0e-4e5b-ac6c-514df5fa279e,0c9f0d8f-e2e9-4827-a80f-111bedbbfddc,acteur,Chief Daisuke Aramaki,1
+dd088fb8-410c-4f17-88c3-ded1643ef75e,180b3083-5cd0-40f6-9817-7d948fd63436,acteur,Dr. Dyson Ido,1
+dd088fb8-410c-4f17-88c3-ded1643ef75e,8337175e-8fb7-4122-8be3-b20c68e778cb,acteur,Chiren,2
+4dd8e94a-7e0e-4e5b-ac6c-514df5fa279e,1f5030f4-c846-4ad7-bd38-0168127b9856,acteur,Major Mira Killian / Motoko Kusanagi,0
+7d51b04a-dd7e-4031-a8a4-fe87f4ae71f0,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Richard Montignac,1
+6db70e7d-911a-4867-9883-1751daed38e7,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Adrien,0
+9cf1ca3b-05f2-4b94-b3e8-d5a9fde089d0,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Franck Bordoni,0
+6d8437f0-4e51-48a2-a1b7-befa829a500d,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Quasimodo,0
+89e17b11-751e-4cae-b8c2-1c182d9ff485,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Nounours,0
+9cf1ca3b-05f2-4b94-b3e8-d5a9fde089d0,9d306803-2aca-406e-8504-818f381153a8,acteur,"Michel Verdier, paparazzi",1
+9cf1ca3b-05f2-4b94-b3e8-d5a9fde089d0,069a06e9-0114-4b4a-a1bd-b376f094d0a0,acteur,"Évelyne Bordoni, l'épouse de Franck",2
+9cf1ca3b-05f2-4b94-b3e8-d5a9fde089d0,d5959d90-b110-4a94-a07b-f126a5c1a1c5,acteur,"Dachari, rédacteur en chef du magasine « Devine Quoi »",5
+59bd9ad9-7569-4be6-8370-ee98d1262c20,381be8f8-0124-4b24-8acc-df33cf8acc83,acteur,Bertrande de Rols,1
+73d0e1c7-d220-4536-9613-75295f3bfbd4,381be8f8-0124-4b24-8acc-df33cf8acc83,acteur,Marie Lacroix,1
+0375cf7e-d017-4851-9e11-9574c7288c16,9fc99ded-5af9-49a2-92ed-a027d1adea19,acteur,Maria,2
+9cf1ca3b-05f2-4b94-b3e8-d5a9fde089d0,9fc99ded-5af9-49a2-92ed-a027d1adea19,acteur,"Sandra Bartox, chanteuse à deux balles",3
+eba5bb86-066a-4d1b-855a-768bcf3f81e8,ba8301bf-3264-48fe-8805-49f1f74445ed,acteur,Guido,0
+8d1a631c-bf3a-4066-ae8e-5f93f39cc84f,ba8301bf-3264-48fe-8805-49f1f74445ed,acteur,Loris,0
+933aa493-07c9-4aba-8649-53cea38b85b9,29e13a88-bcb3-41de-b852-10ca8394cf2c,acteur,Selene,0
+84169d3a-0633-4206-9ee9-ba49f60cd8d3,29e13a88-bcb3-41de-b852-10ca8394cf2c,acteur,Selene,0
+36d4b30b-7af0-4caa-ad83-af17652917ff,29e13a88-bcb3-41de-b852-10ca8394cf2c,acteur,Selene,0
+89052893-18d9-449d-93a8-579675dce907,29e13a88-bcb3-41de-b852-10ca8394cf2c,acteur,Hero,3
+b257c8fe-9ac2-4b73-a5a9-019347f4e5d3,c9e467af-d71a-4dd7-9863-8860e6bb3748,acteur,Ofelia,0
+62ab53f8-0f45-4de8-bcce-11bcff3d472d,56cb06f7-5d07-4022-a787-86b747df618b,acteur,Chingachgook,3
+84169d3a-0633-4206-9ee9-ba49f60cd8d3,62624cc6-60ba-40c4-8ccd-ccb69a8b9223,acteur,Lucian,2
+42e29ed7-a4fd-485b-928f-205543982ecb,62624cc6-60ba-40c4-8ccd-ccb69a8b9223,acteur,Lucian,2
+d75d54fa-ebe9-4339-aa46-420629cfddc6,1e5f3072-3480-440f-9c41-0cfd1d0be07c,acteur,Royal Tenenbaum,0
+31b5ffd3-5d9a-4eb3-a2bd-f784f9056219,def11aee-4a11-4010-bca3-4dc99f4992ba,acteur,Jim,0
+b907a64a-0e09-4e07-b03d-011c7539096a,3ec35293-78a6-4315-a3ba-fb1a3081573a,acteur,Dmitri,4
+d75d54fa-ebe9-4339-aa46-420629cfddc6,aff08ad0-c3da-4721-9ad4-c6df6bbe7ff2,acteur,Henry Sherman,5
+b907a64a-0e09-4e07-b03d-011c7539096a,e82dea08-7c73-4955-8937-a3fa39f2081a,acteur,J.G. Jopling,5
+43e7d65f-e011-4f70-85ab-6fae0ab7c38a,eaf2f2df-36f0-4d6a-ae64-846918cc24e9,acteur,Louis Vincent Mangin,0
+1c876149-e2cf-4344-8f25-b629ab893392,4b9922fe-ae5d-463d-8685-0cf873a41563,acteur,Marie,2
+fed32735-87fe-40eb-bd21-9e37229c34a2,6514c6fb-b221-4485-b409-82cafa2c1706,acteur,Victor Benzakhem,2
+1c876149-e2cf-4344-8f25-b629ab893392,63850e4d-5d4c-46cc-8732-e43242601562,acteur,Antoine Morand,4
+bcf2cfe3-e7b3-4740-a6c1-2d465b58aa62,15c1eff4-1271-43a0-928a-cd3ad24f84a8,acteur,William Ford,3
+43e7d65f-e011-4f70-85ab-6fae0ab7c38a,8ff9b1f5-edc9-47f3-aa3e-2e6f2470b4f5,acteur,Noria,1
+43e7d65f-e011-4f70-85ab-6fae0ab7c38a,42a016e2-fb7b-4e70-818b-68d36908fabe,acteur,Lambert,2
+fed32735-87fe-40eb-bd21-9e37229c34a2,42a016e2-fb7b-4e70-818b-68d36908fabe,acteur,Eddie Vuibert,0
+1c876149-e2cf-4344-8f25-b629ab893392,42a016e2-fb7b-4e70-818b-68d36908fabe,acteur,Bruno,1
+005e6bd7-77f2-46d4-be1b-ce91dfecb53c,42a016e2-fb7b-4e70-818b-68d36908fabe,acteur,Moïse Levy,0
+1c876149-e2cf-4344-8f25-b629ab893392,30e140ad-88c1-47d0-84e2-3a70d8398692,acteur,Vincent,0
+8b7b5588-fbb1-4b36-bcfb-7b193478e09a,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Henry Jones,1
+b4f56250-100c-4b3e-a91f-92c565b1278d,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,James Bond,0
+72c6d5b9-93e7-4444-afff-af50f8f19b45,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,James Bond,0
+2bd8cc93-eb2b-4afa-ae0b-786e7ae60211,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Juan Sanchez Villa-Lobos Ramirez,3
+4350c8ed-5a6e-470c-b844-5e9a25624bcc,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Jim Malone,1
+c1eb717f-8d01-40b9-940d-64a463faf1e7,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,James Bond,0
+8fdec955-e540-4224-8e2a-1ef59b7145c8,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,James Bond,0
+a0f57a73-93f8-47dd-91a7-96222dc46d8e,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,James Bond,0
+e17b7b90-f221-47be-8e6f-7e1cc10494a9,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,James Bond,0
+c940d72c-7aec-4baf-a8ef-0cac6536f7a3,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Captain Marko Ramius,0
+52523ad2-dc9b-4c7f-b569-a12ef0297f55,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Lt. Col. Alan Caldwell,0
+2b77d851-2046-4dbd-98ad-981bece7d040,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,William of Baskerville,0
+16cdefda-5887-4126-8ffc-fc98131c3bda,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Jessie McMullen,0
+128ac9c2-ac92-401e-b6b9-62634af8b4b4,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Maj. Gen. Robert E. Urquhart,3
+b24ab63f-936c-435e-9e58-c365bcca709a,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,James Bond,0
+1546707b-1812-4eea-ab1b-2204b5f8b643,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Arthur,0
+bace706f-b991-4f8c-9b32-bbad1e1c2d23,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Paul Armstrong,0
+e22e7cf4-7b93-432e-b40d-029da41d2ce4,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Edward Pierce,0
+8360dd9f-bf78-428d-8e26-82179778fd96,9755061a-f028-4311-bfd8-8776b20c5529,acteur,James Bond,0
+7de53f87-951c-4f3f-a160-4a78d0655248,9755061a-f028-4311-bfd8-8776b20c5529,acteur,James Bond,0
+a317842a-81f5-4a44-889c-ca8420cd1804,9755061a-f028-4311-bfd8-8776b20c5529,acteur,James Bond,0
+fa690cd6-0d51-4408-bbb4-ec6c9e6ba0a6,9755061a-f028-4311-bfd8-8776b20c5529,acteur,James Bond,0
+b9eaf0c7-062e-4a1c-8431-f51b31088290,9755061a-f028-4311-bfd8-8776b20c5529,acteur,Seymour,1
+1df93853-0d9f-48ac-aef9-bcd0cdcf7d11,9755061a-f028-4311-bfd8-8776b20c5529,acteur,James Bond,0
+83ee42bb-b722-428f-b8a9-b814cd6693c5,9755061a-f028-4311-bfd8-8776b20c5529,acteur,James Bond,0
+400b6264-5395-47ce-a2d8-45dcc79ce13c,9755061a-f028-4311-bfd8-8776b20c5529,acteur,James Bond,0
+fa690cd6-0d51-4408-bbb4-ec6c9e6ba0a6,bb95d424-4c91-45ae-93ed-d075b4acb749,acteur,Nick Nack,4
+400b6264-5395-47ce-a2d8-45dcc79ce13c,e0b3e578-bebd-421a-a7bd-d70a4086f172,acteur,Hugo Drax,2
+fa690cd6-0d51-4408-bbb4-ec6c9e6ba0a6,8f6e238e-6e41-4c6b-94a4-5ca5a6f39e50,acteur,Francisco Scaramanga,1
+b24ab63f-936c-435e-9e58-c365bcca709a,78ac7eb9-ce14-4d0b-85e9-c1cb5a2b75ab,acteur,Ernst Stavro Blofeld,2

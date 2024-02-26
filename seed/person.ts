@@ -105,7 +105,7 @@ export async function getPersonInfo(personne_id: string, person: Person) {
   await getCasting(
     personne_id,
     person.credits.cast
-      .filter((f) => !f.genre_ids.includes(99) && f.order < 10)
+      .filter((f) => f.genre_ids && !f.genre_ids.includes(99) && f.order < 10)
       .sort((a, b) => b.popularity - a.popularity)
   );
 }

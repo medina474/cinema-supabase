@@ -73,7 +73,6 @@ b7770571-dac0-4ce4-a95a-25c37342d642,James,Steve,1952-02-19,1993-12-18,us,,10.15
 30e140ad-88c1-47d0-84e2-3a70d8398692,Lambert,Christophe,1957-03-29,,fr,,22.127
 450c6276-60bc-4791-bee4-3152145af6e7,Schwarzenegger,Arnold,1947-07-30,,at,,52.273
 be35d246-44da-45f7-be0a-db86b1020482,Henn,Caroline Marie,1976-05-07,,us,Carrie Henn,15.948
-eca2280e-2f4f-496b-a90e-172f82805fc8,Balasko,Josiane,1950-04-15,,fr,,6.546
 82404f5e-59d1-45d6-a0e0-ea07695377bd,Kenworthy,Michael,,,us,,0.6
 41bde72f-188a-4ccc-a63c-84d188cba9de,Mastrantonio,Mary Elizabeth,1958-11-17,,us,,16.187
 42730da3-7ba6-429b-ade8-f9d0287931d8,Seagal,Steven,1952-04-10,,us,,60.201
@@ -88,6 +87,7 @@ e51dafbc-1271-44ff-884f-700cbcbc3f2b,Russel,Kurt,1951-03-17,,us,,56.554
 5db9320b-f723-4418-a1d7-6d354a9d319b,Goldstein,Jenette,1960-02-04,,us,,12.832
 57aa6745-b209-4c82-b360-ee72aea696b5,Weller,Peter,1947-06-24,,us,,38.732
 88826d9b-81ec-4e7c-8783-aa52f9a8b6fc,Swayze,Patrick Wayne,1952-08-18,2009-09-14,us,Patrick Swayze,21.278
+eca2280e-2f4f-496b-a90e-172f82805fc8,Balaskovic,Josiane,1950-04-15,,fr,Josiane Balasko,6.546
 eaf2f2df-36f0-4d6a-ae64-846918cc24e9,Depardieu,Gérard,1948-12-27,,fr,,23.218
 d247621e-d5c0-4918-8990-09a45f8fa613,Carpenter,John,1948-01-16,,us,,21.414
 44300acc-7c79-4769-8529-0b6f4e83708c,Gosset Jr.,Louis,1936-05-27,,us,,43.568
@@ -400,3 +400,23 @@ eb641584-5d77-4e9d-a609-1283a8315c8f,Williams,Robin,1951-07-21,2014-08-11,,,18.5
 0c9f0d8f-e2e9-4827-a80f-111bedbbfddc,Kitano,Takeshi,1947-01-18,,,,16.201
 1f5030f4-c846-4ad7-bd38-0168127b9856,Johansson,Scarlett,1984-11-22,,,,124.431
 180b3083-5cd0-40f6-9817-7d948fd63436,Waltz,Christoph,1956-10-04,,,,18.558
+7163d870-4490-4866-a9f8-c72b4fa12c6d,Timsit,Patrick,1959-07-15,,,,3.023
+9d306803-2aca-406e-8504-818f381153a8,Lindon,Vincent,1959-07-15,,,,13.604
+069a06e9-0114-4b4a-a1bd-b376f094d0a0,Frot,Catherine,1956-05-01,,,,13.052
+d5959d90-b110-4a94-a07b-f126a5c1a1c5,Bénureau,Didier,1956-10-28,,,,3.875
+381be8f8-0124-4b24-8acc-df33cf8acc83,Baye,Nathalie,1948-07-06,,,,8.309
+9fc99ded-5af9-49a2-92ed-a027d1adea19,Gélinas,Isabelle,1963-10-13,,,,0.84
+ba8301bf-3264-48fe-8805-49f1f74445ed,Benigni,Roberto,1952-10-27,,,,34.934
+29e13a88-bcb3-41de-b852-10ca8394cf2c,Beckinsale,Kate,1973-07-26,,,,74.128
+c9e467af-d71a-4dd7-9863-8860e6bb3748,Baquero,Ivana,1994-06-11,,,,18.862
+56cb06f7-5d07-4022-a787-86b747df618b,Means,Russell,1939-11-10,2012-10-22,,,19.657
+903f6f8b-4053-489c-bd22-87c08994f7ed,George Hildebrandt,Charles,,,,,0.6
+62624cc6-60ba-40c4-8ccd-ccb69a8b9223,Sheen,Michael,1969-02-05,,,,52.971
+3ec35293-78a6-4315-a3ba-fb1a3081573a,Brody,Adrien,1973-04-14,,,,30.151
+15c1eff4-1271-43a0-928a-cd3ad24f84a8,Cumberbatch,Benedict,1976-07-19,,,,65.652
+def11aee-4a11-4010-bca3-4dc99f4992ba,Murphy,Cillian,1976-05-25,,,,87.232
+4ed9956d-54fa-47f5-8432-4f90de4649af,Eco,Umberto,,,,,0
+5cacda27-bc0d-4f4e-9613-adc4ec450a7f,Kishiro,Yukito,1967-03-20,,jp,,0
+f8ebdca1-5aa5-404d-90bf-099bb213965c,Connery,Sean,1930-08-25,2020-10-31,,,29.489
+9755061a-f028-4311-bfd8-8776b20c5529,Moore,Roger,1927-10-14,2017-05-23,,,18.886
+bb95d424-4c91-45ae-93ed-d075b4acb749,Villechaize,Hervé,1943-04-23,1993-09-04,,,18.646
