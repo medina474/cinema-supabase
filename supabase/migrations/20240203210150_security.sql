@@ -84,6 +84,9 @@ to public
 using (true);
 
 alter table links enable row level security;
+alter table links_personnes enable row level security;
+alter table links_films enable row level security;
+alter table links_societes enable row level security;
 
 create policy "Lecture publique"
 on links
@@ -92,6 +95,26 @@ for select
 to public
 using (true);
 
+create policy "Lecture publique"
+on links_personnes
+as permissive
+for select
+to public
+using (true);
+
+create policy "Lecture publique"
+on links_films
+as permissive
+for select
+to public
+using (true);
+
+create policy "Lecture publique"
+on links_societes
+as permissive
+for select
+to public
+using (true);
 
 alter table resumes enable row level security;
 
@@ -106,6 +129,60 @@ alter table certifications enable row level security;
 
 create policy "Lecture publique"
 on certifications
+as permissive
+for select
+to public
+using (true);
+
+alter table codepostaux enable row level security;
+
+create policy "Lecture publique"
+on codepostaux
+as permissive
+for select
+to public
+using (true);
+
+alter table langues enable row level security;
+
+create policy "Lecture publique"
+on langues
+as permissive
+for select
+to public
+using (true);
+
+alter table genres enable row level security;
+
+create policy "Lecture publique"
+on genres
+as permissive
+for select
+to public
+using (true);
+
+alter table pays enable row level security;
+
+create policy "Lecture publique"
+on pays
+as permissive
+for select
+to public
+using (true);
+
+alter table salles enable row level security;
+
+create policy "Lecture publique"
+on salles
+as permissive
+for select
+to public
+using (true);
+
+alter table seances enable row level security;
+
+create policy "Lecture publique"
+on seances
 as permissive
 for select
 to public
