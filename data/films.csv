@@ -3,6 +3,8 @@ film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_m
 4dd8e94a-7e0e-4e5b-ac6c-514df5fa279e,Ghost in the Shell,Ghost in the Shell,2017,2017-03-29,,,7727,6.07
 1c8ae8b3-9541-4346-bdb0-76ea15357540,Harry Potter à l'école des sorciers,Harry Potter and the Philosopher's Stone,2001,2001-11-16,,,26163,7.92
 76017a1a-cd6e-4c0f-9456-92a7cb257ff8,Harry Potter et la Chambre des secrets,Harry Potter and the Chamber of Secrets,2002,2002-11-13,,,21011,7.70
+ebb3a848-70c7-402b-be1c-ba9dc358e65f,En territoire ennemi,Behind Enemy Lines,,2001-11-30,,,1381,6.36
+cf6d2380-b693-4eaf-aa7d-db2d1370bd3b,Platoon,Platoon,,1986-12-19,,,4264,7.75
 42e29ed7-a4fd-485b-928f-205543982ecb,Underworld 3 : Le Soulèvement des Lycans,Underworld: Rise of the Lycans,2009,2009-01-22,,,3429,6.51
 b2f4f303-b8c4-4de3-b816-30c615f88903,Harry Potter et le Prisonnier d'Azkaban,Harry Potter and the Prisoner of Azkaban,2004,2004-05-31,,,20618,8.02
 765dd042-47ff-4d16-a960-8f12c4e8cc91,Harry Potter et la Coupe de feu,Harry Potter and the Goblet of Fire,2005,2005-11-16,,,19846,7.81
@@ -10,6 +12,9 @@ b2f4f303-b8c4-4de3-b816-30c615f88903,Harry Potter et le Prisonnier d'Azkaban,Har
 0926d29f-b3bd-45cb-9217-1e9b0e824082,Harry Potter et le Prince de sang-mêlé,Harry Potter and the Half-Blood Prince,2009,2009-07-15,,,18613,7.69
 7a636eda-3b61-4a78-bcd2-816415262e8c,Harry Potter et les Reliques de la mort - 1ère partie,Harry Potter and the Deathly Hallows: Part 1,2010,2010-11-17,,,18270,7.76
 867296db-a97c-4e9f-9f71-6255214a30e7,Harry Potter et les Reliques de la mort - 2ème partie,Harry Potter and the Deathly Hallows: Part 2,2011,2011-07-12,,,19724,8.10
+7742b519-7004-4c34-9c62-f39a7334a4f6,Les Chevaliers du ciel,Les Chevaliers du ciel,,2005-10-15,,,187,6.03
+bc95d7b5-ac25-41fe-9bfc-de30fdd8c37d,Hunger Games : La Révolte - Partie 1,The Hunger Games: Mockingjay - Part 1,,2014-11-19,,,15236,6.81
+8a888446-7d6b-49a6-8ad4-fa8472f8be11,Il était une fois en Chine,黃飛鴻,,1991-08-15,,,389,7.10
 933aa493-07c9-4aba-8649-53cea38b85b9,Underworld : Blood Wars,Underworld: Blood Wars,2016,2016-11-24,,,3493,5.85
 bf536d08-c296-4889-a245-fcdad151ea80,Battle Royale,バトル・ロワイアル,2000,2000-12-16,,,3187,7.28
 9d506d13-3af5-45f2-a399-e061b9cf091a,Hunger Games,The Hunger Games,2012,2012-03-12,,,21227,7.21
@@ -23,6 +28,8 @@ b01bdaff-b7bc-4a5c-bf4a-ff3a5872ff3a,Razorback,Razorback,1984,1984-04-19,,,162,5
 1fed30c1-3678-4ea6-9c58-9e33ee867fc3,La Forêt d'émeraude,The Emerald Forest,1985,1985-06-22,,,208,6.70
 be06cf20-84b1-4135-9f2a-f59c52135d1f,Les vécés étaient fermés de l’intérieur,Les vécés étaient fermés de l'intérieur,1976,1976-01-07,,,40,5.20
 131faf15-b778-4f4e-9c25-b4f86c30765c,Ali Baba et les Quarante Voleurs,Ali Baba et les Quarante Voleurs,1954,1954-12-24,,,117,6.27
+f85a0b7b-42c4-4695-a41b-b5bf7a10d40f,Hunger Games : L'Embrasement,The Hunger Games: Catching Fire,,2013-11-15,,,16722,7.43
+f6390822-e76a-4dbc-9f58-258d76f8b092,Morts suspectes,Coma,,1978-01-06,,,380,6.75
 dd088fb8-410c-4f17-88c3-ded1643ef75e,Alita : Battle Angel,Alita: Battle Angel,2019,2019-01-31,,,8707,7.23
 8ddaed1e-15b2-4c45-8e54-535ef4f1f649,"Angélique, marquise des anges","Angélique, marquise des anges",1964,1964-12-08,,,159,6.90
 410558ed-de0c-410b-85b4-f98f2f4bb6a3,Angélique et le Roy,Angélique et le Roy,1966,1966-01-31,,,121,6.60
@@ -31,15 +38,20 @@ e0cc3d9e-40c1-4afa-a578-8bf14db8d60b,On a retrouvé la 7ème compagnie,On a retr
 b9449302-bfe0-4925-84a7-e142c04a9a46,La Vengeance du serpent à plumes,La Vengeance du serpent à plumes,1984,1984-11-28,,,64,4.60
 95ecdd2c-10e4-4d4c-8107-81d77efbe0e1,"Firefox, l'arme absolue",Firefox,1982,1982-06-18,,,510,6.01
 10738233-ff96-4b7c-8117-5b26a14028f9,Broken Arrow,Broken Arrow,1996,1996-02-09,,,1404,6.00
+4140de5d-d160-4d6c-be08-e8e92e556298,Hunger Games : La Révolte - Partie 2,The Hunger Games: Mockingjay - Part 2,,2015-11-18,,,12021,6.90
+21a0708e-24a2-4ce5-999e-5cb3d3ac0800,Magic,Magic,,1978-11-08,,,247,6.89
 09372446-bb6a-4b3d-82f5-95f7e2a958a2,Dracula,,1979,,109,,230,6.35
 be73bca6-26f8-4afe-9606-d16d67ee9193,Merveilleuse Angélique,Merveilleuse Angélique,1965,1965-07-07,,,113,6.80
 17df6837-18f7-4bfd-8c59-52e4f4572d42,Mais où est donc passée la 7ème compagnie ?,Mais où est donc passée la 7ème compagnie ?,1973,1973-05-24,,,325,7.30
 4f500d04-6bd1-4f17-92d3-78c937b88d31,Scout toujours…,Scout toujours…,1985,1985-11-27,,,142,5.70
 da11c397-81c3-432b-9cef-50e98cae458c,Dernier train pour Busan,부산행,2016,2016-07-20,,,6978,7.76
 02ae61f9-9f24-43bb-bda8-a301775c1fd6,Plus beau que moi tu meurs,Plus beau que moi tu meurs,1982,1982-11-10,,,13,5.50
+3ad8e4aa-6a51-4cf3-9328-3c6e168f763a,Le Dernier Train du Katanga,Dark of the Sun,,1968-02-08,,,66,6.49
+d79c5e47-7d29-4d72-8988-9853e6d5492b,La légion saute sur Kolwezi,La légion saute sur Kolwezi,,1980-01-09,,,15,5.20
 d75d54fa-ebe9-4339-aa46-420629cfddc6,La Famille Tenenbaum,The Royal Tenenbaums,2001,2001-10-05,,,4332,7.49
 31b5ffd3-5d9a-4eb3-a2bd-f784f9056219,28 jours plus tard,28 Days Later,2002,2002-10-31,,,6307,7.21
 6075a4f9-bf39-4dd1-aade-d047e5cbdf69,La Balance,La Balance,1982,1982-11-10,,,59,6.31
+08b53a95-e77a-4e7e-b5df-4b91535359dc,Conversation secrète,The Conversation,,1974-04-07,,,1580,7.53
 e7fcfd57-ecf4-47c0-99a7-4d58f884a17b,Le Cinquième Élément,The Fifth Element,1997,1997-05-02,,,10251,7.54
 b907a64a-0e09-4e07-b03d-011c7539096a,The Grand Budapest Hotel,The Grand Budapest Hotel,2014,2014-02-26,,,14181,8.05
 045b7f61-44fd-4f01-a23e-d984f0fffb7e,Nosferatu - Fantôme de la nuit,,,,107,,753,7.32
