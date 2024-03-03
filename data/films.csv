@@ -1,4 +1,32 @@
 film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_moyenne
+1b71b7f3-0ba9-47e8-941e-b4119f9d3c4c,Bells of Innocence,Bells of Innocence,,2003-01-01,,,14,1.86
+7ce0cf5f-447c-4851-853e-ec328cf2f2b8,La Neuvième porte,The Ninth Gate,,1999-08-25,,,2830,6.47
+fc2abdbd-8aff-432e-9a4d-e5a741eafd87,"Tarzan, l'homme singe",Tarzan the Ape Man,,1981-08-07,,,91,4.10
+439a008d-fbf7-411b-b219-2f4b931053fb,Prête à tout,To Die For,,1995-09-22,,,726,6.60
+db15dfec-e933-4127-bb8f-3126af874631,13 fantômes,Thir13en Ghosts,,2001-10-26,,,1981,6.23
+8f98dc30-1b36-4bd7-95fe-5c77f3d07069,L'Affaire Pélican,The Pelican Brief,,1993-09-17,,,1455,6.60
+fe4a93e5-9671-4038-afd2-9afc25b7603d,Kick-Ass,Kick-Ass,,2010-03-22,,,11214,7.12
+829c4853-4c65-4472-ab1a-a23088f68ee0,"Sleepy hollow, la légende du cavalier sans tête",Sleepy Hollow,,1999-11-19,,,6401,7.17
+7b7fefc9-e333-4bf1-aa31-6bd7da7d17fd,Bone Collector,The Bone Collector,,1999-11-04,,,3288,6.79
+3e75f35f-0af9-4fb3-af06-fadd4f17ba4b,Arlington Road,Arlington Road,,1999-03-19,,,1005,7.00
+554eca20-b797-4890-80ff-98dca5636b45,Le Témoin du mal,Fallen,,1998-01-16,,,1320,6.80
+a7dd294f-366f-4653-8f83-7e03ebb80a3a,Arachnophobie,Arachnophobia,,1990-07-20,,,1290,6.38
+d7cea694-7dd9-4247-a916-da5cbc95c417,Le Saint de Manhattan,The Saint of Fort Washington,,1993-11-03,,,35,6.53
+aaad6814-d485-4e31-a054-48929a79a8a6,La Mémoire dans la peau,The Bourne Identity,,2002-06-14,,,8874,7.47
+bd1a2605-45ca-49d4-a764-f1d49dc8cbbc,La Mort dans la peau,The Bourne Supremacy,,2004-07-23,,,7161,7.32
+795fe05d-9f55-4f33-b467-f889912ccb95,Julie & Julia,Julie & Julia,,2009-08-06,,,1994,6.69
+c3d8ad02-7579-416d-82c5-f49c80166bb2,Pretty Woman,Pretty Woman,,1990-03-23,,,7768,7.46
+8891df58-9204-4432-93d7-ee1cbfd6114d,"Erin Brockovich, seule contre tous",Erin Brockovich,,2000-03-17,,,2979,7.43
+7bb288df-d2dc-4dbc-b4c8-bcd78431a8f5,Coup de foudre à Notting Hill,Notting Hill,,1999-05-21,,,5747,7.30
+2deb058a-80c9-4873-90d7-9af99c6186af,Out of Time,Out of Time,,2003-10-03,,,1093,6.33
+c7d284fa-38a1-4012-8480-735d3f9e1e4a,La Vengeance dans la peau,The Bourne Ultimatum,,2007-08-03,,,7312,7.43
+69e88e3a-a9d4-408f-b3f4-f6f63cabc9cf,Le Journal de Bridget Jones,Bridget Jones's Diary,,2001-04-13,,,4797,6.75
+66a1277c-8d03-4bb8-a918-6fa5adb1204a,Divine mais dangereuse,One Night at McCool's,,2001-04-19,,,322,5.83
+61f14e89-c1a9-4c4f-a53f-63c2ca8a3298,Le Saint,The Saint,,1997-04-03,,,1056,6.11
+e03ced6f-fdbc-469d-9e45-f5a79684a3f2,Shutter Island,Shutter Island,,2010-02-14,,,23014,8.20
+4281f86e-cd18-467f-880b-56ac5f23f7db,Le diable s'habille en Prada,The Devil Wears Prada,,2006-06-29,,,11459,7.39
+d0b828fd-d1a3-4662-8883-a28b74ce34ad,Bienvenue à Gattaca,Gattaca,,1997-09-07,,,5996,7.56
+428ad257-070a-4ab1-afee-0d8455df1a0f,Impitoyable,Unforgiven,1992,1992-08-07,130,,4120,7.92
 36d4b30b-7af0-4caa-ad83-af17652917ff,Underworld 2 - Evolution,Underworld: Evolution,2006,2006-01-12,,,3818,6.58
 4dd8e94a-7e0e-4e5b-ac6c-514df5fa279e,Ghost in the Shell,Ghost in the Shell,2017,2017-03-29,,,7727,6.07
 1c8ae8b3-9541-4346-bdb0-76ea15357540,Harry Potter à l'école des sorciers,Harry Potter and the Philosopher's Stone,2001,2001-11-16,,,26163,7.92
@@ -593,6 +621,7 @@ bef11baa-33f9-414f-bf36-b119fcccc7f7,Harcèlement,Disclosure,1994,1994-12-09,123
 e0aabf55-483d-47a6-b029-3fc8ac9d721b,Cry-Baby,,1990,1990-04-06,85,,1432,6.56
 123ce545-ffdf-48f4-ae5f-aa48334ee4e7,Les Anges gardiens,,1995,1995-10-11,107,,240,6.20
 82387a6d-afbc-45e6-88bf-7f8d037c6ce4,Judge Dredd,,1995,1995-06-30,96,,2245,5.78
+ecfc4dc1-57a8-4ef7-978f-0ee5f38843cb,Les Compères,,1983,1983-11-23,92,,373,6.60
 0dd84b24-3744-4529-8a33-9c672ee46ddd,La folie du roi George,The Madness of King George,1994,1994-12-28,107,,215,6.70
 b7e72b7c-b920-4ff9-af8b-037a1cee0d27,Avec les félicitations du jury,With Honors,1994,1994-04-29,103,,189,6.80
 09473c1d-f362-498b-bf54-c30892848bcf,"Matt Helm, agent très spécial",The Silencers,1966,1966-02-18,102,,39,6.20
@@ -728,7 +757,6 @@ ec5b16c4-5304-452c-90c1-ab140b81a31e,Fantômes en fête,Scrooged,1988,1988-12-20
 b7197cfe-5a02-41e3-8066-7df18806d1ce,Dreamscape,,1984,1984-08-15,99,,253,6.11
 96ac176c-beae-487d-984e-2c0f7489379c,Amadeus,,1984,1984-10-31,180,,3973,8.04
 771f7f14-bdbf-4c61-8758-5bd200dbeada,"Debout les crabes, la mer monte !",,1983,1983-08-17,90,,7,4.14
-ecfc4dc1-57a8-4ef7-978f-0ee5f38843cb,Les Compères,,1983,1983-11-23,92,,373,6.60
 08d8ac52-4e53-4810-abe5-d9fd59025be8,Circulez y a rien à voir !,,1983,1983-04-20,90,,32,5.33
 48535f31-8882-4263-af41-c9c0f87c8a1c,Signes extérieurs de richesse,,1983,1983-11-09,92,,26,5.65
 1a2693ad-3f29-408b-8b7c-b490f2287f7e,Poltergeist : La Vengeance des fantômes,Poltergeist,1982,1982-10-20,114,,2801,7.15
@@ -926,7 +954,6 @@ a6dd0675-6246-4c89-af6d-38d1676bc002,Une Place à prendre,Career Opportunities,1
 44366d86-aafc-4f0f-8445-ca4fa89d7cf6,Boyz n the Hood : La loi de la rue,Boyz n the Hood,1991,1991-07-12,112,,1849,7.62
 42751629-c78f-418d-b2c2-cd0f1a38ec0c,Jack l'Éclair,Lightning Jack,1994,1994-03-11,98,,114,5.60
 0301d384-d303-47d1-9934-bc5ad4c5f4a9,Jennifer 8,Jennifer Eight,1992,1992-11-06,124,,330,6.04
-428ad257-070a-4ab1-afee-0d8455df1a0f,Impitoyable,Unforgiven,1992,1992-08-07,130,,4120,7.92
 d5096db2-f821-4367-b3cc-ce84463dc1ee,"F/X2, effets très spéciaux",F/X2,1991,1991-04-16,108,,253,6.40
 ce508983-0df1-4f51-ae6c-93f6d73df90e,Hook ou la Revanche du capitaine Crochet,Hook,1991,1991-04-10,136,,5056,6.83
 801e933e-3cbd-4db7-86c3-1f07233fac8d,Franc Parler,Straight Talk,1992,1992-04-03,91,,68,5.99
