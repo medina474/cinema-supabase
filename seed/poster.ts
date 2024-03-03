@@ -31,7 +31,7 @@ for (const film of films) {
 
     const json = await data.json();
 
-    const poster = json.posters.find(p => p.iso_639_1 == 'fr')
+    const poster = json.posters.find(p => p.iso_639_1 == 'en')
 
     if (poster) {
       const url =
