@@ -1951,7 +1951,6 @@ ed9fa51f-08e2-4379-8959-e2253626f04e,204b4cb8-0736-4414-8cc2-d00c225a6850,acteur
 de050692-f142-42dd-a475-a285d48af484,4f3f6745-8f2a-4bd2-86bc-60ecd41ed6a5,acteur,Detective Lt. William Somerset,0
 bb9bc7d6-b47c-4b40-9f1e-571c6c8772e1,92426e8c-25a6-4b4b-9670-9ed0d8885ae1,acteur,Blake,2
 e9d037f3-1695-4855-8afb-d3a15c224554,204b4cb8-0736-4414-8cc2-d00c225a6850,acteur,Daniel E. 'Rudy' Ruettiger,0
-73d8ebb3-fd20-4483-9b18-c7ab0eaf8881,705e5be2-7781-4305-ae6e-d088a2cbcd0b,acteur,Simba (voice),0
 1df31ff4-6bf4-4cdd-b8ed-2f8067a8d5db,e44e8d89-5845-4048-acfd-cee0d7f054a1,acteur,Johnny Ringo,5
 6d02e5b2-c17b-4d89-9f7c-c626136f0a57,608481e7-befa-4b88-b701-d9fa9830a329,acteur,Sue Charlton,1
 3d036187-2c03-4831-ac66-6bfdbf91ba1e,9f69c024-b15c-4bf2-8f53-d968337306ea,acteur,Lieutenant Ellen Ripley,0
@@ -2148,7 +2147,6 @@ e0aabf55-483d-47a6-b029-3fc8ac9d721b,82d8f85c-b980-4e36-ac48-22712fa7427c,acteur
 dd5627f6-b1b6-4951-9c0d-fd73f0423a29,55cd93bf-5951-4afa-a73c-606f03bef2db,acteur,Julie,0
 3e9c480f-44ff-4b11-853d-c16eef4ed40e,3dede616-b6db-4963-80d7-7d0bff8bafd2,acteur,Justin,0
 d35c0bc4-1258-4981-9999-93d0875a9ce2,8337175e-8fb7-4122-8be3-b20c68e778cb,acteur,Young Deborah,0
-73d8ebb3-fd20-4483-9b18-c7ab0eaf8881,6cadc5b7-d439-4994-8927-39602a6e720b,acteur,Shenzi (voice),0
 b89b0a85-3270-4a0b-aa9d-951ca060122f,0f28abed-ea87-4ebc-830c-31f975f34227,acteur,Doris Saphron,0
 5257eb85-87de-43e9-a522-143a57aee452,594436cf-1f7a-4a96-8f41-53792e1d10df,acteur,Morty the Mime,0
 77225fad-c963-4f94-b558-9fe099d33523,b7770571-dac0-4ce4-a95a-25c37342d642,acteur,Steve James,0
@@ -2454,7 +2452,6 @@ d1e45269-2af0-40b5-9378-e1c5bfaeb90b,9eac8bad-c998-4e3f-9821-f2ce6c1a7053,acteur
 2b56487a-3111-4094-89b6-d3ab0517d3cc,9f69c024-b15c-4bf2-8f53-d968337306ea,acteur,Ellen Mitchell,1
 2b56487a-3111-4094-89b6-d3ab0517d3cc,0a4fd387-98e1-464f-858e-1b7815dcfd08,acteur,Duane Stevenson,4
 0b95c37f-343b-4a27-a803-30dc93c5fd6c,906e255b-6e5e-46d2-972e-766035e1d369,acteur,Pat,0
-73d8ebb3-fd20-4483-9b18-c7ab0eaf8881,9c6c466d-e69a-47d1-b3d1-2d618d438b09,acteur,Mufasa (voice),6
 3794caf3-4c8e-43c3-ad92-a16c7bc93cfc,d42316a0-cb88-4fcd-863c-f2c2127f04d6,acteur,Rex,1
 c08b4c66-07a4-4339-ae25-817b52d4bf74,cc27938c-b0f3-4120-8b3c-0ed4b0328c1f,acteur,Sam Daniels,0
 42db4905-7a70-4cb9-a903-137bd0ab54b2,594436cf-1f7a-4a96-8f41-53792e1d10df,acteur,Mitch Robbins,0
@@ -3136,3 +3133,14 @@ e03ced6f-fdbc-469d-9e45-f5a79684a3f2,78ac7eb9-ce14-4d0b-85e9-c1cb5a2b75ab,acteur
 7b7fefc9-e333-4bf1-aa31-6bd7da7d17fd,b074c409-57b3-45fd-b6da-49f3d00b2ac7,acteur,Captain Howard Cheney,3
 d7cea694-7dd9-4247-a916-da5cbc95c417,0a4fd387-98e1-464f-858e-1b7815dcfd08,acteur,Little Leroy,4
 d7cea694-7dd9-4247-a916-da5cbc95c417,aff08ad0-c3da-4721-9ad4-c6df6bbe7ff2,acteur,Jerry,0
+5922063b-1db1-42fe-8191-ed249c70b371,7c4af3f3-11e4-4b7c-be85-e6b228ffe437,acteur,Palmer Joss,1
+42e3ca62-159b-4615-8a93-02ad242b7c2f,cc27938c-b0f3-4120-8b3c-0ed4b0328c1f,acteur,Dr. Norman Goodman,0
+5922063b-1db1-42fe-8191-ed249c70b371,f12a25e5-b6b1-48a0-9dd9-11510aa744ee,acteur,Ellie Arroway,0
+42e3ca62-159b-4615-8a93-02ad242b7c2f,26d5a442-e06c-426f-bbdf-45687da520fa,acteur,Dr. Harry Adams,2
+bb6a100e-dc84-42bb-bc2b-5587f87e285a,f12a25e5-b6b1-48a0-9dd9-11510aa744ee,acteur,Alexandra Rover,1
+33f8214b-791a-4528-8c91-f312cbff654c,446c9413-f1e9-46fe-877e-dabbcbedb5b8,acteur,Herkermer Homolka,3
+c5a6e264-a32d-411b-a840-31bfc0811097,7b146021-19b2-4956-97e9-fd6177845678,acteur,Quinn Harris,1
+42e3ca62-159b-4615-8a93-02ad242b7c2f,b2e7842d-cc7a-47d7-8a99-625359b685a7,acteur,Dr. Elizabeth 'Beth' Halperin,1
+5922063b-1db1-42fe-8191-ed249c70b371,8ca8fd66-25e2-40d4-8167-42f8106e7fcd,acteur,S. R. Hadden,3
+33f8214b-791a-4528-8c91-f312cbff654c,b15bb7c5-f6d0-48eb-9a1e-703530203340,acteur,Captain Munro Kelly,2
+4bcfff0d-9d19-4764-aee6-07637a942515,f8ebdca1-5aa5-404d-90bf-099bb213965c,acteur,Capt. John Connor,0
