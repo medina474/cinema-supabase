@@ -1553,7 +1553,6 @@ bc22eec5-40b9-41ec-9003-86ad6e1399e2,bd280de3-2180-45ac-9819-0b1a9dcb9ce7,acteur
 1ece4fed-636a-4978-ac5c-8e15f2678751,bd280de3-2180-45ac-9819-0b1a9dcb9ce7,acteur,Blaster's Assistant,0
 2f85fdbe-12a2-44cf-917a-42431fd43e75,7679b6c7-9447-47de-a312-c7d3f06e5046,acteur,Japanese General,0
 428bc8c4-3f25-4a21-862e-f5d4abd1cf2c,7679b6c7-9447-47de-a312-c7d3f06e5046,acteur,"Hannibal Chew, créateur des yeux",0
-472024c5-f037-40b0-8ada-7ce8c58de478,f03d0347-f50b-40e8-a54e-6d4150cf66a1,acteur,Sergeant (voice),0
 69040a69-b789-4361-8786-503c5b96d3a5,127683d0-dd0e-49dd-a787-2a576ba1655d,acteur,Henry Evans,0
 616e97e9-b942-4a54-83f7-3e7564051bd4,127683d0-dd0e-49dd-a787-2a576ba1655d,acteur,Richie Rich,0
 288dcffa-7aec-419f-a77d-ddcc6beba5ee,2a6c8bbd-304d-4201-a977-0ae2243aff05,acteur,Self,9
@@ -1624,7 +1623,6 @@ d1867c35-feab-4c69-81cc-a7861dd49fc2,07c25eda-0fe2-4b95-a410-7df73b7adfbd,acteur
 2afb2e0a-34dd-4786-b9ae-2377c091756f,07c25eda-0fe2-4b95-a410-7df73b7adfbd,acteur,Ray Peterson,0
 bace706f-b991-4f8c-9b32-bbad1e1c2d23,eae4c21d-3ea5-4a8e-8765-dc9364ba26ba,acteur,Lyle Morgan,0
 f5a778cf-f33c-47dd-8b77-81456624dd80,c9f5529f-40f4-4de9-87db-d4116a69cc1a,acteur,Jacques,0
-472024c5-f037-40b0-8ada-7ce8c58de478,07c25eda-0fe2-4b95-a410-7df73b7adfbd,acteur,Woody (voice),0
 38c1eb2d-a5d8-4a88-b745-161c89ef0ded,b2e7842d-cc7a-47d7-8a99-625359b685a7,acteur,Ginger McKenna,1
 28ff8054-c15e-4d95-a644-b14fd55640b0,1e5f3072-3480-440f-9c41-0cfd1d0be07c,acteur,John Herod,1
 d5096db2-f821-4367-b3cc-ce84463dc1ee,734e6593-c6eb-40d9-8651-8e071599ad4e,acteur,Roland 'Rollie' Tyler,0
@@ -1907,7 +1905,6 @@ dc64e166-3b5b-4e96-940b-12ccaa13a863,1daf693b-6969-4269-a9e7-16b8f4933ffe,acteur
 cf315b33-4283-4020-93fb-ac830137535a,82d8f85c-b980-4e36-ac48-22712fa7427c,acteur,Guy on TV,0
 0dd3e4f5-cf11-4893-81c5-37cf9d2a86fe,6af9d0ff-5ef4-4144-9f9a-3c5630427d28,acteur,Moses Hochleitner,0
 828045b8-2b2b-4030-bbf3-b92e3a1f31ce,c4b4ee4a-d3bf-4954-b6d6-f57dc71ee41d,acteur,Un spectateur au paradis des Funambules (non crédité),0
-472024c5-f037-40b0-8ada-7ce8c58de478,28188765-6046-4c73-9145-e4d860750b5b,acteur,Bo Peep (voice),6
 8de31ef9-46b9-467b-858c-b643b6630d2d,608481e7-befa-4b88-b701-d9fa9830a329,acteur,Rose Garner,2
 6b65fa51-aa36-4856-b5dc-4c50d776c9af,32e8e803-a3d0-41ca-a66e-a4a009fca499,acteur,Robby Krieger,3
 1c6150bb-18f2-4e4d-b2ba-3296f9e4f231,fe0284e3-f72f-4536-ba53-fc005fcf2233,acteur,Whistler,2
@@ -2208,7 +2205,6 @@ bda4765b-36ed-4693-b2af-e3d2ecec462b,b7770571-dac0-4ce4-a95a-25c37342d642,acteur
 cb1c0df8-5391-4c97-85ea-932237138bc0,75de56e5-df17-4f03-940c-c32572990c37,acteur,Radio DJ,0
 3d3ea7a8-8b5b-4392-81bb-d08dde330acc,b074c409-57b3-45fd-b6da-49f3d00b2ac7,acteur,Man in Bar,0
 1ece4fed-636a-4978-ac5c-8e15f2678751,1e5f3072-3480-440f-9c41-0cfd1d0be07c,acteur,Col. Cal Rhodes,0
-472024c5-f037-40b0-8ada-7ce8c58de478,59200eec-107f-44b2-afc7-992ab94073ec,acteur,Rex (voice),4
 bace706f-b991-4f8c-9b32-bbad1e1c2d23,25ea1493-8d4e-485c-897b-4c1ca8e42f6f,acteur,Sheriff Tanny Brown,1
 8e533345-9e20-4d66-9780-45ada9c33019,dadc6be7-5e52-4b08-ade2-503c4beea5ca,acteur,Dr. Chase Meridian,3
 8e533345-9e20-4d66-9780-45ada9c33019,b5b8a16a-0f4e-46d8-b282-cb6e9c1e6e1a,acteur,Edward Nygma / The Riddler,2
@@ -3754,3 +3750,42 @@ d9939bf3-3ee6-4360-8bcf-4f4506e3ea9d,13c26591-04f4-4835-a594-d1ce55e80a50,acteur
 a655a4e8-f993-4563-9698-8fa44e468169,765d7669-6324-4204-b8c6-f4da50fefd51,acteur,Général Fréderic Cédille,7
 bd265fd5-9204-4371-8fd7-7534506663ca,8e22d79f-2a84-4f35-9b6a-d034e0d87bff,acteur,Meacham,8
 a655a4e8-f993-4563-9698-8fa44e468169,e5923603-f06d-4166-8bc1-3ce7539c71fe,acteur,Jockey Jack,0
+4c99e624-0e95-4fe6-92f2-dee8c5af1b5e,afac7eba-30aa-418d-b845-178f91c4ea04,acteur,Hannah,5
+93bdf448-89fe-463f-9703-b16b6911989e,afac7eba-30aa-418d-b845-178f91c4ea04,acteur,Johana Baker,2
+7b0d7d48-f569-4499-9680-6055c2d535be,afac7eba-30aa-418d-b845-178f91c4ea04,acteur,Marcy,1
+282330c1-0388-4210-9a52-0712795edda6,afac7eba-30aa-418d-b845-178f91c4ea04,acteur,Roberta Glass,1
+0f8ed2de-bed6-417d-9d4e-ba525517d5d4,afac7eba-30aa-418d-b845-178f91c4ea04,acteur,Paulette,1
+8f2d1e9d-386c-4466-be0b-8b7c268557b3,afac7eba-30aa-418d-b845-178f91c4ea04,acteur,Sarah,1
+d05f7629-cda9-41ee-9f34-3d5470af7bf0,575631e0-dfc7-46af-b40b-c25fc5b26498,acteur,Mr. Will,2
+ace2c02a-26c3-4b3c-aa46-a88586a5f100,afac7eba-30aa-418d-b845-178f91c4ea04,acteur,Martha Travis,0
+bc48cc80-12ea-499b-90b4-4e4bf78fbd2a,575631e0-dfc7-46af-b40b-c25fc5b26498,acteur,Al Rockoff,2
+0944b012-1785-43dd-b6f9-aa80dcba3095,575631e0-dfc7-46af-b40b-c25fc5b26498,acteur,Vicomte Sébastien de Valmont,1
+0301d384-d303-47d1-9934-bc5ad4c5f4a9,575631e0-dfc7-46af-b40b-c25fc5b26498,acteur,Agent St. Anne,6
+f2047458-f5a8-44bc-a983-6eb1adbc565c,575631e0-dfc7-46af-b40b-c25fc5b26498,acteur,Biff Loman,2
+bb6cd9d1-3b2d-4f16-9878-525374e6b04d,e423bdfa-29e9-45e0-a450-f40b263be31d,acteur,Jason,0
+bb6cd9d1-3b2d-4f16-9878-525374e6b04d,ff270c86-6154-4358-8ed2-d688675b18f9,acteur,Medea,1
+09473c1d-f362-498b-bf54-c30892848bcf,ff270c86-6154-4358-8ed2-d688675b18f9,acteur,Barbara,7
+79aeb14f-57aa-4c77-be76-49742fe1c84d,b63e065e-e5df-4476-a439-133a15f24b28,acteur,Juan Wild - The Hunchback,4
+045b7f61-44fd-4f01-a23e-d984f0fffb7e,b63e065e-e5df-4476-a439-133a15f24b28,acteur,Count Dracula,0
+224b9ac9-401f-4b50-ada7-46848fb46901,b63e065e-e5df-4476-a439-133a15f24b28,acteur,Silveira,1
+8c9497fa-efab-4b60-ae00-299f791791f5,7e94a84f-45f0-480f-a6af-3ab422711f6e,acteur,Samantha Taylor,1
+b9e615ce-621a-4379-aa76-f82422e55425,7e94a84f-45f0-480f-a6af-3ab422711f6e,acteur,Millie Dillmount,0
+ead89745-a376-4a89-af21-c7d9cec4c63b,7e94a84f-45f0-480f-a6af-3ab422711f6e,acteur,Emily Barham,1
+9476b162-2855-4dee-bf69-9e9ad7c5e5db,5a51e7bb-adde-40dd-83ec-b74b2129ded4,acteur,Rita,8
+73a0dd80-d273-48e6-8eba-90e60afdb741,5a51e7bb-adde-40dd-83ec-b74b2129ded4,acteur,Neely O'Hara,1
+a320e5ce-1d85-4002-95c3-b5184ee00c20,b99389a9-a8aa-4242-8824-94fec54fe335,acteur,Lance,6
+38492fc5-0144-4e6e-b1ac-d4b2331e9373,b99389a9-a8aa-4242-8824-94fec54fe335,acteur,Alan MacDonald,4
+35026da5-6b46-4d52-93e7-216939dfca92,5a51e7bb-adde-40dd-83ec-b74b2129ded4,acteur,Nancy Evans,0
+1b13da4a-c9dd-4e3f-8407-418b248812de,b99389a9-a8aa-4242-8824-94fec54fe335,acteur,Rocky Dennis,2
+4c0a8ea4-f32b-489e-ba17-597ffafa5bbc,b99389a9-a8aa-4242-8824-94fec54fe335,acteur,Martin Brundle,0
+c3fe8bd1-7466-4248-9784-f89709c082c7,b99389a9-a8aa-4242-8824-94fec54fe335,acteur,Danny Daly,1
+1e5a0bf0-1ba0-409e-a5d7-709348aebb9f,3330e641-9b60-4117-a367-9a5657dc6717,acteur,Jane Hopper,0
+ce7d0ca9-cb49-4802-910d-c08a222ffb72,b99389a9-a8aa-4242-8824-94fec54fe335,acteur,John Brooke,7
+8053d174-7ce8-4db3-ab5e-bc1a54ff9a84,b99389a9-a8aa-4242-8824-94fec54fe335,acteur,Simon,3
+75ac3197-2f84-44e7-b257-9c4f11c6ff3e,bf8be473-db59-4b98-82c4-929799b69af1,acteur,The Leprechaun,0
+3fe9a46d-31bf-40c4-8542-ef7aea46e741,bf8be473-db59-4b98-82c4-929799b69af1,acteur,Leprechaun,0
+85ea45b0-7774-4440-89d9-abaf38191cfc,bf8be473-db59-4b98-82c4-929799b69af1,acteur,Leprechaun,0
+8102912f-dc96-4c90-b224-ca78f90e92ca,bf8be473-db59-4b98-82c4-929799b69af1,acteur,Leprechaun,0
+fd94a5b7-7583-4e36-98e8-4a311ec13796,26d5a442-e06c-426f-bbdf-45687da520fa,acteur,Barron,2
+7887bc69-327f-4560-a53c-4703f6420c4f,34fd6901-e3ef-4d14-a6c7-d28c82ca8b65,acteur,Andy Barclay,2
+2c77d3f0-f872-41b6-b65d-67cde7288ce3,34fd6901-e3ef-4d14-a6c7-d28c82ca8b65,acteur,Andy Barclay,0
