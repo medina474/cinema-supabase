@@ -1110,7 +1110,6 @@ cc3400c4-683f-4545-abaa-e323f44f9d71,5b3b6c51-1ac3-4334-923b-8ddda2e3514a,acteur
 1b94ed76-ad63-46ea-94a9-f8a4b1d1be53,da7d29ec-0a91-4a32-9711-f5ee0b93b3d8,acteur,Deputy Ward Wilson,5
 bf07ed2a-c853-41d6-b6f3-dda314ebed02,05a69667-f2e5-43ff-ae07-6d236d3598b4,acteur,Prince Lir (voice),1
 99db9a6c-bc9f-46cb-b2c1-0ce4e09cc04f,bbad8dff-5362-43d2-9fa0-dd29dd9ad2fd,acteur,Cassandra,1
-b3e7519c-3dc0-4adb-934f-27ff81d4f3a8,9c6c466d-e69a-47d1-b3d1-2d618d438b09,acteur,Darth Vader (voice),9
 5cd8aeea-a1a3-445f-956b-d83d76f29ccc,ff02ad2e-a20b-444a-87be-3bf55bc7953d,acteur,Steve Biko,1
 a38d9fea-e9e2-4b58-aace-8c2329734644,36f5b9d6-8dd4-4263-a86d-3196dee4a03e,acteur,Cat Manzetti,5
 aa925142-61a3-4add-934c-c00234aa076f,5cde90d1-5a69-4f37-a046-6f9c929da7d2,acteur,Tyke Thayden,7
@@ -2943,7 +2942,6 @@ a8ae90ee-f7db-45d6-a7fc-23bfb67ca1ed,d4809c32-d0ad-4b58-80d7-e6ca92be8e76,acteur
 4dd8e94a-7e0e-4e5b-ac6c-514df5fa279e,0c9f0d8f-e2e9-4827-a80f-111bedbbfddc,acteur,Chief Daisuke Aramaki,1
 dd088fb8-410c-4f17-88c3-ded1643ef75e,180b3083-5cd0-40f6-9817-7d948fd63436,acteur,Dr. Dyson Ido,1
 dd088fb8-410c-4f17-88c3-ded1643ef75e,8337175e-8fb7-4122-8be3-b20c68e778cb,acteur,"Chiren, ex-femme d'Ido",2
-4dd8e94a-7e0e-4e5b-ac6c-514df5fa279e,1f5030f4-c846-4ad7-bd38-0168127b9856,acteur,Major Mira Killian / Motoko Kusanagi,0
 7d51b04a-dd7e-4031-a8a4-fe87f4ae71f0,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Richard Montignac,1
 6db70e7d-911a-4867-9883-1751daed38e7,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Adrien,0
 9cf1ca3b-05f2-4b94-b3e8-d5a9fde089d0,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Franck Bordoni,0
@@ -3477,7 +3475,6 @@ ba2e877b-8d83-4f0c-b663-5186240fdafe,48d1e194-7ffa-4a2c-95b1-03f4909ef8c1,acteur
 f27e8c00-854c-4254-927a-c7db6fa1741d,cfbc0a1a-6f79-4d89-9412-6de889a7dd84,acteur,Dr. Raymond Stantz (uncredited),9
 d0f364a6-72fb-4609-872f-baa112cd854e,f9485d4b-a9f4-44db-a5ee-4f5ccdbda1a5,acteur,Eddie (voice),5
 2dee89a5-84b9-4ea9-8da6-a5e5a71ee1f9,a7e2e550-5eef-4a5d-9327-ecedcbdffbbe,acteur,Girl on Motorbike (uncredited),9
-6b02d78b-fcf4-46e7-98ff-c54a6acd77d3,9c6c466d-e69a-47d1-b3d1-2d618d438b09,acteur,Darth Vader (voice) (uncredited),9
 10edb34d-402f-4674-979f-5d7d27f3987d,68d24155-aa5e-4061-9dc1-55d802ee34cd,acteur,Annie Porter,2
 3fdbc5ac-baa9-473b-afd3-57219875758f,68d24155-aa5e-4061-9dc1-55d802ee34cd,acteur,Lt. Lenina Huxley,2
 3fdbc5ac-baa9-473b-afd3-57219875758f,5d63d9cb-39ae-4745-af0f-cf41729e5e1d,acteur,Simon Phoenix,1
@@ -3817,3 +3814,30 @@ a98f87fc-c1bb-44c9-9b7c-79808418f09f,3dd71dbc-3fee-4e31-9d9e-411aa9ba5cb3,acteur
 c755d2fa-d406-4b3f-86df-21bc8fc658c4,6ff408bb-d4a1-47a4-93af-2ae3e1ea9765,acteur,Adrien Colbard,1
 45665e2e-20e3-43aa-b6d7-18df753dafc4,004ff0ee-86ac-41c8-83ec-53f9bf63ad4c,acteur,Le curé Maximin,0
 c755d2fa-d406-4b3f-86df-21bc8fc658c4,c76830fe-bba5-4b0e-9af9-75380851d622,acteur,Le curé Léon,8
+4dd8e94a-7e0e-4e5b-ac6c-514df5fa279e,1f5030f4-c846-4ad7-bd38-0168127b9856,acteur,Major Motoko Kusanagi (Mira Killian),0
+b3e7519c-3dc0-4adb-934f-27ff81d4f3a8,9c6c466d-e69a-47d1-b3d1-2d618d438b09,voix,Darth Vader,9
+6b02d78b-fcf4-46e7-98ff-c54a6acd77d3,9c6c466d-e69a-47d1-b3d1-2d618d438b09,voix,Darth Vader,9
+6b02d78b-fcf4-46e7-98ff-c54a6acd77d3,9c6c466d-e69a-47d1-b3d1-2d618d438b09,acteur,Darth Vader (voice) (uncredited),9
+b3e7519c-3dc0-4adb-934f-27ff81d4f3a8,9c6c466d-e69a-47d1-b3d1-2d618d438b09,acteur,Darth Vader (voice),9
+c8921309-516d-4847-bc22-9f1f22318b35,96b6fde8-7cb4-4b10-a35d-8e5643da45f9,acteur,Hervé,4
+c72d42a7-f4e1-45b2-919c-eb8fb7e39daf,c2984bd4-a6c1-4b3b-b643-4dc82161b522,acteur,Bernard Labarges,0
+118a94d0-d06b-4640-9f30-ea57b2840c0f,96b6fde8-7cb4-4b10-a35d-8e5643da45f9,acteur,Le flic,4
+05f64cfd-f859-4757-8a63-5537fc59acc1,96b6fde8-7cb4-4b10-a35d-8e5643da45f9,acteur,Hippolyte Pecheral,0
+c72d42a7-f4e1-45b2-919c-eb8fb7e39daf,39f9cb9a-dd57-4941-85b3-e7fbb5f4655c,acteur,Martine,5
+6bf6d349-301b-41ed-b6fa-dfb6d0db5be8,4cff1705-f3d7-4117-a214-bc538377328e,acteur,Lucy Boyle,0
+118a94d0-d06b-4640-9f30-ea57b2840c0f,ee7f1acd-faa2-4066-8b4a-b4590fffcfd8,acteur,Duprez,6
+a254b78c-68d9-4e66-93a2-41a07e6f3da9,436b9127-6cb4-4e89-ad98-82a98f7e847b,acteur,Nicholas Van Orton,0
+c05c2eab-796a-4131-8920-368f915355c7,92ce244c-e881-4ad3-9217-74e768021651,acteur,Fireball,4
+674cfade-38bb-4da0-b70b-c70d7e698546,d3f92aa7-41ce-413c-87f0-b8d73e983c7e,acteur,Bob Woodward,1
+c8921309-516d-4847-bc22-9f1f22318b35,eca2280e-2f4f-496b-a90e-172f82805fc8,acteur,Lydie Langlois,0
+c8921309-516d-4847-bc22-9f1f22318b35,3fb2633e-4857-4d64-8876-763c5adb052c,acteur,Arlette,2
+292f9cbc-13bf-4448-bd97-e8f765ee52ae,85e7a0c6-4d33-4e8d-9669-393055db48d4,acteur,"Paul, chômeur expérimenté",1
+674cfade-38bb-4da0-b70b-c70d7e698546,cc27938c-b0f3-4120-8b3c-0ed4b0328c1f,acteur,Carl Bernstein,0
+292f9cbc-13bf-4448-bd97-e8f765ee52ae,1a8c3841-f68f-4596-a095-0ce2356479ff,acteur,Sam,0
+c8921309-516d-4847-bc22-9f1f22318b35,1a8c3841-f68f-4596-a095-0ce2356479ff,acteur,Jean-Yves,3
+c72d42a7-f4e1-45b2-919c-eb8fb7e39daf,706ae11c-1c62-4e6b-a864-b1cfb69822a8,acteur,Brice Michaud,2
+292f9cbc-13bf-4448-bd97-e8f765ee52ae,1daf693b-6969-4269-a9e7-16b8f4933ffe,acteur,"Nicole, publiciste pour établissements bancaires",3
+c05c2eab-796a-4131-8920-368f915355c7,450c6276-60bc-4791-bee4-3152145af6e7,acteur,Ben Richards,0
+c72d42a7-f4e1-45b2-919c-eb8fb7e39daf,6b1ba9dc-f6f0-480c-afdb-60de7aab7a20,acteur,Marc-André Basset,4
+c8921309-516d-4847-bc22-9f1f22318b35,6fdf82d1-1804-4d05-88a7-be92124d54ae,acteur,Paul Berthellot,6
+c72d42a7-f4e1-45b2-919c-eb8fb7e39daf,6fdf82d1-1804-4d05-88a7-be92124d54ae,acteur,Serge Rouquet,3

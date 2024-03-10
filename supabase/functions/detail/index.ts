@@ -27,13 +27,15 @@ Deno.serve(async (req) => {
       f2.franchise
       , array_agg(distinct e.alias) as alias
       , array_agg(distinct g.genre) as genres
+      ,r.resume
     from films f
     inner join equipes e on e.film_id = f.film_id and alias is not null
     left join films_genres fg on fg.film_id = f.film_id
     left join genres g on g.genre_id = fg.genre_id
     left join franchises f2 on f2.franchise_id = f.franchise_id
+    left join resumes r on r.film_id = f.film_id
     where e.personne_id = ${body.personne_id}
-    group by f.film_id, f.titre, f.titre_original, f2.franchise, f.vote_votants, e.ordre
+    group by f.film_id, f.titre, f.titre_original, f2.franchise, f.vote_votants, e.ordre, r.resume
     order by e.ordre, vote_votants desc`
 
     return new Response(JSON.stringify(films), {
