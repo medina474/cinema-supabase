@@ -58,7 +58,6 @@ bb73a806-7713-47b3-8355-b4151511a743,68f0d3b2-8748-4d91-92ef-a5fc02ffc53b,acteur
 80c07340-a069-476a-a0a0-2460dc69b3cc,e51dafbc-1271-44ff-884f-700cbcbc3f2b,acteur,Jack Burton,0
 8a121e62-10bc-4dfd-a741-7dd440c467de,b2e7842d-cc7a-47d7-8a99-625359b685a7,acteur,Jesse Huston,1
 8a121e62-10bc-4dfd-a741-7dd440c467de,2fde32d6-3e8b-48ac-96ba-80056449cbbe,acteur,Allan Quatermain,0
-9da54652-3655-4cc3-87ce-8e3e4a5d36f5,450c6276-60bc-4791-bee4-3152145af6e7,acteur,Kalidor,0
 27d9fcf0-8a76-4bf4-877e-8e2e2a8b27ce,7f61045e-1fdf-493f-bb9a-ddde285488e8,acteur,Elizabeth Hardy,2
 eb4c69f6-9fa5-4eb7-9a16-0259a9eac719,cf13b736-49c6-40fd-8484-49732ddb9b09,acteur,Lorraine Baines,3
 8a973d17-fccf-4240-8157-573db91eaa6c,1879fdcb-078f-4bc3-adba-0fc4e0f16db6,acteur,Adrian Pennino,1
@@ -339,7 +338,6 @@ ec5b16c4-5304-452c-90c1-ab140b81a31e,3fcd9ae0-5ab6-4b60-af23-a84608e2469a,acteur
 ca94860d-56c2-4b68-ac00-6d48d0de8ee4,21c2b10a-358e-408b-abd2-5bf391b77927,acteur,le major George Dillon,1
 e996c8e0-f531-4453-afeb-7496ca7a3179,6fdf82d1-1804-4d05-88a7-be92124d54ae,acteur,Boris Pikov,2
 e996c8e0-f531-4453-afeb-7496ca7a3179,8b8a29ff-ad0a-420d-a140-98f89451a24f,acteur,Maréchal Bassounov,6
-9da54652-3655-4cc3-87ce-8e3e4a5d36f5,46c31ee2-f27f-4049-95d4-e3bf625ec924,acteur,Sonia la Rousse,1
 6d97ca95-1029-48f7-b717-87637df514d5,373eaca2-1eaa-449d-a24b-1f25af2a2263,acteur,Denis,0
 b7197cfe-5a02-41e3-8066-7df18806d1ce,0530881e-bdb6-4514-8f34-d31eaab93f3c,acteur,Jane DeVries,4
 96ac176c-beae-487d-984e-2c0f7489379c,f89880cb-fc33-4dee-8de4-b4ed73317c1d,acteur,Wolfgang Amadeus Mozart,1
@@ -740,7 +738,6 @@ c940d72c-7aec-4baf-a8ef-0cac6536f7a3,1df6da8b-2206-491f-97f1-76c793a42d37,acteur
 f0dd1121-2a44-41a0-b928-53fe376919c0,603e216b-76d1-4fe1-b9b8-50cd054776f1,acteur,Daniel LaRusso,0
 2f0e57a4-e26d-477e-aa0e-cbf3401c47bd,148b791c-5cb3-4592-9af4-a0f6e85babeb,acteur,Jennifer Parker,5
 6591dff1-0053-4b80-a4d5-bcc560606069,c4a869e0-c5e0-4234-827c-38ece6f6a8c5,acteur,Mitchel,4
-e8d8ff5e-0110-4a5e-809c-67ae7b7c3f9e,47483fae-2229-4cca-835b-e1b69bf54c87,acteur,Luke Skywalker,0
 822611b3-b602-4a2a-b05c-8e9e8a838b5d,4f3f6745-8f2a-4bd2-86bc-60ecd41ed6a5,acteur,Hoke Colburn,0
 9b0a0e7b-cdab-4b12-b52f-5411f533045e,a708156d-9ba1-49de-88f4-bb70d72acccb,acteur,John,0
 fb885f6c-2858-4bca-a5de-0d32f02c4da8,21486d08-26e3-46a5-8a57-1ac0235ff41a,acteur,Elliot,1
@@ -2318,7 +2315,6 @@ abbe12fc-edf3-4df7-bc96-4d40b9d6789e,e2586b1c-5c12-4ca1-93d8-2a76f79611c8,acteur
 1df31ff4-6bf4-4cdd-b8ed-2f8067a8d5db,cf966b6d-9211-4f16-a3a4-f26ef14fb1a1,acteur,Mr. Fabian,0
 8467edd8-bf11-4a10-a85e-d629809d2447,59200eec-107f-44b2-afc7-992ab94073ec,acteur,Assistant Insurance Man,0
 8176df23-7dae-42ce-88a7-03845f3180c2,40a8750c-691d-4cc0-a041-fad822a1a9ca,acteur,Geronimo' s Man,0
-ffa60852-9421-498a-9917-5a66e1bb8064,39f9cb9a-dd57-4941-85b3-e7fbb5f4655c,acteur,Une artiste du cirque de Gérard,0
 f4a74ee8-dee1-40b4-9701-a5dbc4a708c8,972ce6ac-0335-415d-9e95-46a64b187348,acteur,Card Player #2,0
 a89ef0f2-d923-4a58-bdf9-4d52fe0f4865,fd6f055c-6de9-4044-b6eb-3bad3fba5968,acteur,Federal Agent,0
 f562a3ce-957c-4065-b69a-15ba43963436,997cba12-b9a5-4cf7-8de8-b05326e8e25e,acteur,Man Filling in Ditch,0
@@ -2460,7 +2456,6 @@ a8e8bbc7-d76d-450e-81fe-b0f5773c41f7,05a69667-f2e5-43ff-ae07-6d236d3598b4,acteur
 5eff6afe-610f-442e-9572-5bf58587b3fe,49242460-8b4a-4e1c-b3a4-603c9bf705c7,acteur,Russian Decoder,0
 400b7b47-2bca-4d8b-b652-2c70033c3b98,8e22d79f-2a84-4f35-9b6a-d034e0d87bff,acteur,State Trooper,0
 a320e5ce-1d85-4002-95c3-b5184ee00c20,3f3c5a30-f335-4350-ab7c-945ff1d2a390,acteur,Captain Koons,0
-ffa60852-9421-498a-9917-5a66e1bb8064,6fdf82d1-1804-4d05-88a7-be92124d54ae,acteur,"Roland, artiste du cirque de Gérard",0
 62ac438a-c7d2-47ca-81ad-36793862be1e,41bde72f-188a-4ccc-a63c-84d188cba9de,acteur,Marian,2
 f684fde6-5064-4034-8e92-a10337a6dc91,dfe9a85f-c3da-4c05-ad6e-1e7d9068e560,acteur,Little Junior Brown,1
 da4bc4a8-76a4-433b-8e88-a392c8072088,446c9413-f1e9-46fe-877e-dabbcbedb5b8,acteur,Concierge,6
@@ -2945,7 +2940,6 @@ dd088fb8-410c-4f17-88c3-ded1643ef75e,8337175e-8fb7-4122-8be3-b20c68e778cb,acteur
 7d51b04a-dd7e-4031-a8a4-fe87f4ae71f0,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Richard Montignac,1
 6db70e7d-911a-4867-9883-1751daed38e7,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Adrien,0
 9cf1ca3b-05f2-4b94-b3e8-d5a9fde089d0,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Franck Bordoni,0
-6d8437f0-4e51-48a2-a1b7-befa829a500d,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Quasimodo,0
 89e17b11-751e-4cae-b8c2-1c182d9ff485,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Nounours,0
 9cf1ca3b-05f2-4b94-b3e8-d5a9fde089d0,9d306803-2aca-406e-8504-818f381153a8,acteur,"Michel Verdier, paparazzi",1
 9cf1ca3b-05f2-4b94-b3e8-d5a9fde089d0,069a06e9-0114-4b4a-a1bd-b376f094d0a0,acteur,"Évelyne Bordoni, l'épouse de Franck",2
@@ -3006,6 +3000,7 @@ b9eaf0c7-062e-4a1c-8431-f51b31088290,9755061a-f028-4311-bfd8-8776b20c5529,acteur
 1df93853-0d9f-48ac-aef9-bcd0cdcf7d11,9755061a-f028-4311-bfd8-8776b20c5529,acteur,James Bond,0
 83ee42bb-b722-428f-b8a9-b814cd6693c5,9755061a-f028-4311-bfd8-8776b20c5529,acteur,James Bond,0
 400b6264-5395-47ce-a2d8-45dcc79ce13c,9755061a-f028-4311-bfd8-8776b20c5529,acteur,James Bond,0
+6d8437f0-4e51-48a2-a1b7-befa829a500d,7163d870-4490-4866-a9f8-c72b4fa12c6d,acteur,Quasimodo,1
 fa690cd6-0d51-4408-bbb4-ec6c9e6ba0a6,bb95d424-4c91-45ae-93ed-d075b4acb749,acteur,Nick Nack,4
 400b6264-5395-47ce-a2d8-45dcc79ce13c,e0b3e578-bebd-421a-a7bd-d70a4086f172,acteur,Hugo Drax,2
 fa690cd6-0d51-4408-bbb4-ec6c9e6ba0a6,8f6e238e-6e41-4c6b-94a4-5ca5a6f39e50,acteur,Francisco Scaramanga,1
@@ -3709,17 +3704,14 @@ a7dd294f-366f-4653-8f83-7e03ebb80a3a,4b93b1da-b16c-403d-8d48-32b43319b60f,acteur
 6ded7889-87e0-4e63-9999-d29c87491256,4b93b1da-b16c-403d-8d48-32b43319b60f,acteur,Biff Baxter,1
 277ba080-ded1-4f5d-83d2-01b29ddbc22a,4b93b1da-b16c-403d-8d48-32b43319b60f,acteur,Jonathan Garson,0
 bd265fd5-9204-4371-8fd7-7534506663ca,25ffa6bc-e468-46fc-ab73-75518b770941,acteur,Jake Lonergan,0
-69e88e3a-a9d4-408f-b3f4-f6f63cabc9cf,2f40387a-b1db-41f4-8df9-be91eb0eeb0b,acteur,Bridget Jones,0
 5a828f59-cf08-457d-a0ae-478beb5832e5,2f40387a-b1db-41f4-8df9-be91eb0eeb0b,acteur,Dorothy Boyd,1
 cb23bd52-5531-4d3e-b9e1-da03643446c3,2f40387a-b1db-41f4-8df9-be91eb0eeb0b,acteur,Jenny,0
 ee7ec324-0a04-4fff-b9f4-18baa4268ff1,2f40387a-b1db-41f4-8df9-be91eb0eeb0b,acteur,Tami,9
-69e88e3a-a9d4-408f-b3f4-f6f63cabc9cf,fdec0e3f-a9a4-43a7-9a9d-a7b7cd1becea,acteur,Daniel Cleaver,2
 409b593b-2b9c-43cb-af94-88f52fafd30d,fdec0e3f-a9a4-43a7-9a9d-a7b7cd1becea,acteur,Edward Ferrars,3
 7106f450-4505-48a8-a64c-b9c1fe856e08,fdec0e3f-a9a4-43a7-9a9d-a7b7cd1becea,acteur,Reginald Cardinal,4
 7bb288df-d2dc-4dbc-b4c8-bcd78431a8f5,fdec0e3f-a9a4-43a7-9a9d-a7b7cd1becea,acteur,William Thacker,1
 402eb42c-9110-4506-aab0-34206c71415e,fdec0e3f-a9a4-43a7-9a9d-a7b7cd1becea,acteur,Charles,0
 93cf9731-2766-4374-ab25-b8b2252460e0,fdec0e3f-a9a4-43a7-9a9d-a7b7cd1becea,acteur,Samuel Faulkner,0
-69e88e3a-a9d4-408f-b3f4-f6f63cabc9cf,f330ec61-0ba9-4da9-b1f0-1353f9ab641c,acteur,Mark Darcy,1
 93b91b65-6c71-45b3-989d-32ba79ee14f3,f330ec61-0ba9-4da9-b1f0-1353f9ab641c,acteur,Tommy Judd,1
 2ed1d67e-a806-4e35-b625-ca2b029e366c,a2a9f05e-86f3-4758-8b3b-d1f31c466f6a,acteur,Dean Alan Halsey,4
 1c019d7e-b721-446e-8c7b-170549daf79c,a2a9f05e-86f3-4758-8b3b-d1f31c466f6a,acteur,Commisioner Jameson,3
@@ -3769,6 +3761,8 @@ bb6cd9d1-3b2d-4f16-9878-525374e6b04d,ff270c86-6154-4358-8ed2-d688675b18f9,acteur
 b9e615ce-621a-4379-aa76-f82422e55425,7e94a84f-45f0-480f-a6af-3ab422711f6e,acteur,Millie Dillmount,0
 ead89745-a376-4a89-af21-c7d9cec4c63b,7e94a84f-45f0-480f-a6af-3ab422711f6e,acteur,Emily Barham,1
 9476b162-2855-4dee-bf69-9e9ad7c5e5db,5a51e7bb-adde-40dd-83ec-b74b2129ded4,acteur,Rita,8
+69e88e3a-a9d4-408f-b3f4-f6f63cabc9cf,fdec0e3f-a9a4-43a7-9a9d-a7b7cd1becea,acteur,Daniel Cleaver,3
+69e88e3a-a9d4-408f-b3f4-f6f63cabc9cf,f330ec61-0ba9-4da9-b1f0-1353f9ab641c,acteur,Mark Darcy,2
 73a0dd80-d273-48e6-8eba-90e60afdb741,5a51e7bb-adde-40dd-83ec-b74b2129ded4,acteur,Neely O'Hara,1
 a320e5ce-1d85-4002-95c3-b5184ee00c20,b99389a9-a8aa-4242-8824-94fec54fe335,acteur,Lance,6
 38492fc5-0144-4e6e-b1ac-d4b2331e9373,b99389a9-a8aa-4242-8824-94fec54fe335,acteur,Alan MacDonald,4
@@ -3841,3 +3835,7 @@ c05c2eab-796a-4131-8920-368f915355c7,450c6276-60bc-4791-bee4-3152145af6e7,acteur
 c72d42a7-f4e1-45b2-919c-eb8fb7e39daf,6b1ba9dc-f6f0-480c-afdb-60de7aab7a20,acteur,Marc-André Basset,4
 c8921309-516d-4847-bc22-9f1f22318b35,6fdf82d1-1804-4d05-88a7-be92124d54ae,acteur,Paul Berthellot,6
 c72d42a7-f4e1-45b2-919c-eb8fb7e39daf,6fdf82d1-1804-4d05-88a7-be92124d54ae,acteur,Serge Rouquet,3
+e8d8ff5e-0110-4a5e-809c-67ae7b7c3f9e,47483fae-2229-4cca-835b-e1b69bf54c87,acteur,Luke Skywalker,1
+69e88e3a-a9d4-408f-b3f4-f6f63cabc9cf,2f40387a-b1db-41f4-8df9-be91eb0eeb0b,acteur,Bridget Jones,1
+9da54652-3655-4cc3-87ce-8e3e4a5d36f5,450c6276-60bc-4791-bee4-3152145af6e7,acteur,Kalidor,1
+9da54652-3655-4cc3-87ce-8e3e4a5d36f5,46c31ee2-f27f-4049-95d4-e3bf625ec924,acteur,Sonia la Rousse,2
