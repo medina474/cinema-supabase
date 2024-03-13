@@ -2,6 +2,7 @@
 
 \copy personnes to '../data/personnes.csv' (format csv, header, encoding 'utf8');
 
+\copy franchises to '../data/franchises.csv' (format csv, header, encoding 'utf8');
 \copy films_genres to '../data/films_genres.csv' (format csv, header, encoding 'utf8');
 
 \copy links_societes to '../data/links_societes.csv' (format csv, header, encoding 'utf8');

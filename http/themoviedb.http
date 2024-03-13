@@ -67,3 +67,18 @@ GET https://image.tmdb.org/t/p/w600_and_h900_bestv2/wDHpJDzurhEBG21lqy5dZH8NHgz.
 https://api.themoviedb.org/3/person/1100/movie_credits?language=fr-FR
 Authorization: Bearer {{themoviedb}}
 accept: application/json
+
+###
+https://api.themoviedb.org/3/account/1/rated/movies
+Authorization: Bearer {{themoviedb}}
+accept: application/json
+
+###
+GET https://api.themoviedb.org/3/account/1000/rated/movies?language=en-US&page=1&sort_by=created_at.asc
+Authorization: Bearer {{themoviedb}}
+accept: application/json
+
+###
+https://api.themoviedb.org/3/discover/movie
+Authorization: Bearer {{themoviedb}}
+accept: application/json

@@ -131,7 +131,7 @@ export async function addLink(
 export async function getCasting(personne_id: string, cast: Cast[]) {
   for (const c of cast) {
 
-    if (c.order > 5) continue;
+    if (c.order > 10) continue;
 
     /* Le film est il déja dans la base ? */
     const films = await sql`

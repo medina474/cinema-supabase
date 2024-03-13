@@ -60,7 +60,7 @@ const file = `./data/tmdb/movie/${f.identifiant}.json`
   */
 
   if (film.belongs_to_collection != null) {
-    await sql`insert into franchises values (${film.belongs_to_collection.id}, ${film.belongs_to_collection.name})
+    await sql`insert into franchises values (${film.belongs_to_collection.id}, ${film.belongs_to_collection.name.replace(' - Saga', '')})
       on conflict (franchise_id) do nothing`;
 
     await sql`update films set franchise_id = ${film.belongs_to_collection.id}
