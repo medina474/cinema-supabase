@@ -14,5 +14,8 @@ create trigger last_updated
   execute procedure last_updated();
 
 alter table films
+  add column pays text[];
+
+alter table films
   add column created_at timestamp with time zone default now(),
   add column updated_at timestamp with time zone;

@@ -14,3 +14,6 @@
 \copy films(film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_moyenne, pays) to '../data/films.csv' (format csv, header, encoding 'utf8');
 \copy resumes to '../data/resumes.csv' (format csv, header, encoding 'utf8');
 \copy (select film_id, slogan from films where slogan <> '') to '../data/films-slogan.csv' (format csv, header, delimiter ',', encoding 'utf8');
+
+\copy motscles to '../data/motscles.csv' (format csv, header, encoding 'utf8');
+\copy films_motscles to '../data/films_motscles.csv' (format csv, header, encoding 'utf8');

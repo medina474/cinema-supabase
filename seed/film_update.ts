@@ -4,7 +4,6 @@ import { Film } from './film.ts'
 const films = await sql`select l.identifiant, f.film_id, f.titre
   from films f
   inner join links_films l on l.id = f.film_id and site_id = 1
-  where slogan is null
   order by annee desc`;
 
 for (const f of films) {
@@ -36,15 +35,35 @@ const file = `./data/tmdb/movie/${f.identifiant}.json`
     film = await data.json();
   }
 
-  console.log(`${film.title} ${film.release_date} ${f.film_id}`)
+  console.log(`${film.title} ${film.release_date}  ${f.film_id}`)
 
   /*
   await sql`update films set
     annee=date_part('year', sortie)
     where film_id = ${f.film_id}`;
-    */
+  */
 
-    await sql`update films set
-    slogan=${film.tagline}
+  /*
+  await sql`update films set
+    pays=${film.production_countries.map(elt => elt.iso_3166_1.toLowerCase() )}
     where film_id = ${f.film_id}`;
+  */
+
+  /*
+  if (film.keywords.keywords.length > 0) {
+    await sql`insert into motscles  ${sql(film.keywords.keywords.map(elt => ({ 'motcle_id': elt.id, 'motcle': elt.name })))}
+      on conflict (motcle_id) do nothing`;
+
+    await sql`insert into films_motscles  ${sql(film.keywords.keywords.map(elt => ({ 'film_id': f.film_id, 'motcle_id': elt.id })))}
+      on conflict (film_id, motcle_id) do nothing`;
+  }
+  */
+
+  if (film.belongs_to_collection != null) {
+    await sql`insert into franchises values (${film.belongs_to_collection.id}, ${film.belongs_to_collection.name})
+      on conflict (franchise_id) do nothing`;
+
+    await sql`update films set franchise_id = ${film.belongs_to_collection.id}
+      where film_id = ${f.film_id}`;
+  }
 }

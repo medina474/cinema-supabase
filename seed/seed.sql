@@ -13,7 +13,7 @@ select setval(pg_get_serial_sequence('genres', 'genre_id'), (select max(genre_id
 select setval(pg_get_serial_sequence('franchises', 'franchise_id'), (select max(franchise_id) from franchises));
 
 
-\copy films(film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_moyenne) from '../data/films.csv' (format csv, header, encoding 'utf8');
+\copy films(film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_moyenne, pays) from '../data/films.csv' (format csv, header, encoding 'utf8');
 
 create temporary table slogan_tmp (
   film_id uuid,
@@ -39,3 +39,6 @@ refresh materialized view acteurs with data;
 \copy links_personnes from '../data/links_personnes.csv' (format csv, header, encoding 'utf8');
 \copy links_societes from '../data/links_societes.csv' (format csv, header, encoding 'utf8');
 \copy links_films from '../data/links_films.csv' (format csv, header, encoding 'utf8');
+
+\copy motscles from '../data/motscles.csv' (format csv, header, encoding 'utf8');
+\copy films_motscles from '../data/films_motscles.csv' (format csv, header, encoding 'utf8');
