@@ -54,9 +54,9 @@ Deno.serve(async (req) => {
       where film_id = ${body.film_id} and role not in ('acteur', 'voix')
       group by a.personne_id, nom`
 
-    film.motscles = await sql`select motcle_id, motcle
+    film.motscles = await sql`select m.motcle_id, m.motcle
       from motscles m
-      inner films_motcles fm on fm.motcle_id = m.motcle_id
+      inner join films_motscles fm on fm.motcle_id = m.motcle_id
       where fm.film_id = ${body.film_id}`
 
     return new Response(JSON.stringify(film), {

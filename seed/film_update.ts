@@ -3,10 +3,11 @@ import { Film } from './film.ts'
 
 const films = await sql`select l.identifiant, f.film_id, f.titre
   from films f
-  left join resumes r on r.film_id = f.film_id and langue_code = 'fra'
   inner join links_films l on l.id = f.film_id and site_id = 1
-  where r.resume is null
   order by annee desc`;
+
+// left join resumes r on r.film_id = f.film_id and langue_code = 'fra'
+// where r.resume is null
 
 for (const f of films) {
 
@@ -39,9 +40,10 @@ const file = `./data/tmdb/movie/${f.identifiant}.json`
 
   console.log(`${film.title} ${film.release_date}  ${f.film_id}`)
 
+  /*
     await sql`insert into resumes (film_id, langue_code, resume)
       values (${f.film_id}, 'eng', ${film.overview})`;
-
+*/
 
   /*
   await sql`update films set
@@ -74,4 +76,7 @@ const file = `./data/tmdb/movie/${f.identifiant}.json`
       where film_id = ${f.film_id}`;
   }
   */
+
+  await sql`update films set vote_votants =  ${film.vote_count}, vote_moyenne = ${film.vote_average}
+      where film_id = ${f.film_id}`;
 }
