@@ -22,7 +22,11 @@ Deno.serve(async (req) => {
     const sql = postgres(`postgres://${Deno.env.get('DB_USER')}:${Deno.env.get('DB_PASSWORD')}@${Deno.env.get('DB_HOSTNAME')}:5432/postgres`)
 
     const films = await sql`
-    select f.titre, f.titre_original, vote_votants, vote_moyenne, r.resume, f.duree, f.sortie, f.annee, f.slogan
+    select f.titre, f.titre_original
+      , vote_votants, vote_moyenne
+      , r.resume
+      , f.duree, f.sortie, f.annee, f.slogan
+      , f2.franchise
       , array_agg(distinct p.nom) as acteurs
       , array_agg(distinct g.genre) as genres
     from films f
@@ -33,7 +37,7 @@ Deno.serve(async (req) => {
       left join franchises f2 on f2.franchise_id = f.franchise_id
       left join resumes r on r.film_id = f.film_id
     where f.film_id = ${body.film_id}
-    group by f.titre, f.titre_original, f.vote_votants, f.vote_moyenne, r.resume, f.duree, f.sortie, f.annee, f.slogan`
+    group by f.titre, f.titre_original, f.vote_votants, f.vote_moyenne, r.resume, f.duree, f.sortie, f.annee, f.slogan, f2.franchise`
 
     const film = films[0];
 
@@ -49,6 +53,11 @@ Deno.serve(async (req) => {
       inner join equipes e on e.personne_id = a.personne_id
       where film_id = ${body.film_id} and role not in ('acteur', 'voix')
       group by a.personne_id, nom`
+
+    film.motscles = await sql`select motcle_id, motcle
+      from motscles m
+      inner films_motcles fm on fm.motcle_id = m.motcle_id
+      where fm.film_id = ${body.film_id}`
 
     return new Response(JSON.stringify(film), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
