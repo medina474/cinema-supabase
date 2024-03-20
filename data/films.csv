@@ -1,5 +1,4 @@
 film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_moyenne,pays
-71cccf37-1d7d-4bb3-8ee2-8b80cee135e7,Le Retour de Don Camillo,Le Retour de Don Camillo,1953,1953-06-05,,11582,220,7.23,"{fr,it}"
 9f24da99-9e52-4675-b2c7-0e93a2e42dda,Le Grand Embouteillage,L'ingorgo,1979,1979-01-12,,,66,6.82,"{fr,de,it,es}"
 0664d46e-cca1-4b79-8183-54185ed961fd,La Plus Belle Soirée de ma vie,La più bella serata della mia vita,1972,1972-12-22,,,51,7.30,"{fr,it}"
 bdff6219-0c7f-463d-a644-94c3750ece75,"Pocahontas, une légende indienne",Pocahontas,1995,1995-06-14,82,136214,5448,6.93,{us}
@@ -75,34 +74,24 @@ d37a9e13-e480-4cdb-8a0c-e2391128230e,Crésus,Crésus,1960,1960-09-21,,,17,6.24,{
 1be3b9c7-4c36-471a-9707-7cd20377c9ea,Echec et mort,Hard to Kill,1990,1990-02-09,95,,570,5.98,"{us,es}"
 19481c78-3eed-4b85-b76f-df846ca7148c,La vie est un long fleuve tranquille,La vie est un long fleuve tranquille,1988,1988-02-03,,,401,6.76,{fr}
 f60219b6-9e92-4f19-8497-6d30824316cd,Une chance pas croyable,Outrageous Fortune,1987,1987-01-30,100,,109,6.02,{us}
-24e8e222-6005-4416-9892-2ed59e72778a,La Grande Bagarre de Don Camillo,Don Camillo e l'onorevole Peppone,1955,1955-09-29,,11582,165,7.20,{it}
 cbd28bae-9e50-4279-945b-91d853ff2cc7,Deux flics à Chicago,Running Scared,1986,1986-06-27,106,,183,6.02,{us}
 a373147b-adcc-4a30-8a8e-4c60af79c83e,La loi du campus,The Brotherhood of Justice,1986,1986-05-18,97,,59,5.78,{us}
 c2f6fc7e-69c8-4c2a-8a50-e42386a58678,Le mystère Silkwood,Silkwood,1983,1983-12-14,131,,300,6.94,{us}
 092de814-03a6-4ac1-9a47-ca052441c436,Tatie Danielle,Tatie Danielle,1990,1990-04-04,,,212,6.52,{fr}
-b4987280-aa40-4070-8ea4-aef36d38bbcf,Tatie Danielle,Tatie Danielle,1990,1990-04-04,,,212,6.52,{fr}
-19038003-a60d-4fa7-9b76-6bd48857f825,Le Grand Embouteillage,L'ingorgo,1979,1979-01-12,,,66,6.82,"{fr,de,it,es}"
-1a36801c-6d2d-4a51-821f-ec71e46322d9,La Plus Belle Soirée de ma vie,La più bella serata della mia vita,1972,1972-12-22,,,51,7.30,"{fr,it}"
-a8e78503-01b8-462a-a9c9-8c5161351ba5,Le Petit Monde de Don Camillo,Don Camillo,1952,1952-03-28,,11582,266,7.65,"{fr,it}"
 bbe9b216-6df4-4b20-887d-7f25859ae9f9,César,César,1936,1936-01-01,,156152,53,7.60,{fr}
 fa489409-df26-4c7f-8e60-cda57f029a67,Le Château de ma mère,Le château de ma mère,1990,1990-10-26,,148517,263,7.20,{fr}
-f285dd1e-a39e-4087-9529-adc69d585863,Don Camillo en Russie,Il compagno Don Camillo,1965,1965-09-18,,11582,165,7.10,"{fr,it}"
 2e3f3f67-6c3d-4e38-aa1c-f9c0fcebea06,La Grande Bagarre de Don Camillo,Don Camillo e l'onorevole Peppone,1955,1955-09-29,,11582,165,7.20,{it}
 653f42f0-68c9-4a36-934f-ba8dc1974f0f,Angèle,Angèle,1934,1934-10-26,,,23,6.26,{fr}
 92b75a30-8f9e-4a00-8900-0063e54547c6,Le Retour de Don Camillo,Le Retour de Don Camillo,1953,1953-06-05,,11582,220,7.23,"{fr,it}"
 0b2b8880-9570-4ee2-a379-86e12914356a,Naïs,Naïs,1945,1945-11-17,,,15,6.23,{fr}
 724e1ae7-3148-4713-8786-2561ff84c5d2,Marius,Marius,1931,1931-10-09,,156152,73,7.19,{fr}
 f917a2aa-af77-497d-b92a-d21341195529,La Gloire de mon père,La Gloire de mon Père,1990,1990-08-29,,148517,284,7.36,{fr}
-5d400888-4e43-46c9-b46e-60398b92e2be,Don Camillo monseigneur,Don Camillo monsignore... ma non troppo,1961,1961-10-07,,11582,155,6.86,{it}
 8b58bc5e-a23d-4b7c-be33-92e4b60fa3d4,Crésus,Crésus,1960,1960-09-21,,,17,6.24,{fr}
 4178ac07-f571-4665-b17d-75a361eca68c,Manon des sources,Manon des sources,1952,1952-12-16,,1222571,29,7.10,{fr}
-b5869bb6-34c4-4040-8446-5a565d375d3b,Le Grand Chef,Le Grand Chef,1959,1959-03-20,,,21,6.14,"{fr,it}"
-d3d826bc-39fe-4037-bfd5-908cfca7546b,La Vache et le Prisonnier,La Vache et le Prisonnier,1959,1959-12-16,,,117,6.70,"{fr,it}"
 bd0c7c7a-7d0f-4180-a6e7-a5f7fbb8ee08,La Fille du puisatier,La Fille du puisatier,1940,1940-12-20,,,31,6.90,{fr}
 2f6a608b-064a-4f9d-af2a-f943f0dfb400,La Femme du boulanger,La Femme du boulanger,1938,1938-09-07,,,67,7.46,{fr}
 63f305da-7396-4c58-a0cd-c102704216fd,Regain,Regain,1937,1937-10-28,,,31,6.66,{fr}
 53e363d5-fa6f-4c08-832c-0c1cc6d2b71b,La vie est un long fleuve tranquille,La vie est un long fleuve tranquille,1988,1988-02-03,,,401,6.76,{fr}
-34f61e11-582c-4eba-81c3-472285df00a2,Le Boulanger de Valorgue,Le Boulanger de Valorgue,1953,1953-02-27,,,17,6.82,"{fr,it}"
 6eea61b0-16eb-4a87-b264-47beb8c0fb00,Fanny,Fanny,1932,1932-10-27,,156152,55,7.30,{fr}
 89a76312-505f-4733-88c0-d5b93911d5da,L'Auberge rouge,L'Auberge rouge,1951,1951-10-19,,,92,6.86,{fr}
 90080057-bf92-44a8-a96f-047227b16667,Le Schpountz,Le Schpountz,1938,1938-04-15,,,37,6.85,{fr}
@@ -416,8 +405,6 @@ c72d42a7-f4e1-45b2-919c-eb8fb7e39daf,Fantôme sur l'oreiller,Fantôme sur l'orei
 e6ad0412-5211-411b-8db5-57f15bb2d57e,M.A.L. Mutant Aquatique en Liberté,DeepStar Six,1989,1989-01-13,105,,278,5.43,{us}
 a34ea40b-1416-4f2b-aa33-72a929a2a44f,Le Blob,The Blob,1988,1988-08-05,85,,816,6.75,{us}
 e2a38498-8266-4ebe-96da-bf88c4659c94,Bonjour les vacances,National Lampoon's Vacation,1983,1983-07-29,98,108693,1451,7.12,{us}
-0bcbe169-107b-413c-9fe9-ca1763b08416,Association de malfaiteurs,Association de malfaiteurs,1987,1987-02-11,103,,31,6.05,{fr}
-330dc313-a0b0-44df-802b-43d91248cb58,Les Frères Pétard,Les frères Pétard,1986,1986-10-15,90,,52,5.32,{fr}
 51c3a1ee-bb1c-4b82-a9c0-71bc9797345d,Le Facteur de Saint-Tropez,Le Facteur de Saint-Tropez,1985,1985-07-31,90,,12,4.71,{fr}
 d05f7629-cda9-41ee-9f34-3d5470af7bf0,Les Saisons du cœur,Places in the Heart,1984,1984-09-11,111,,138,7.10,{us}
 6bf6d349-301b-41ed-b6fa-dfb6d0db5be8,La Maison près du cimetière,Quella villa accanto al cimitero,1981,1981-08-14,87,923500,360,6.20,{it}
@@ -430,8 +417,8 @@ d6ddedb9-65e4-4c77-8ef3-d048d8016724,Mon curé chez les nudistes,Mon curé chez 
 d2c6641d-102b-41c6-abd3-f5a5a50fb301,La Balance,La Balance,1982,1982-11-10,102,,59,6.31,{fr}
 95ecdd2c-10e4-4d4c-8107-81d77efbe0e1,"Firefox, l'arme absolue",Firefox,1982,1982-06-18,137,,510,6.01,{us}
 c8921309-516d-4847-bc22-9f1f22318b35,Les hommes préfèrent les grosses,Les hommes préfèrent les grosses,1981,1981-08-19,86,,45,5.20,{fr}
+0bcbe169-107b-413c-9fe9-ca1763b08416,Association de malfaiteurs,"",1987,1987-02-11,103,,31,6.05,{fr}
 656e659f-925e-4198-a5b8-427269f444e8,Les Grands Fonds,The Deep,1977,1977-06-17,124,,206,6.10,"{gb,us}"
-9c6ad06b-dc30-45e1-a9b3-102d4ee2586d,Les Trois Jours du Condor,Three Days of the Condor,1975,1975-08-01,117,,1074,7.31,{us}
 c755d2fa-d406-4b3f-86df-21bc8fc658c4,Moi y'en a vouloir des sous,Moi y'en a vouloir des sous,1973,1973-02-01,110,,14,6.70,{fr}
 f7dd6613-9c28-4772-b6d4-7330ebb4f148,Les Aventures de Fifi Brindacier,Pippi Långstrump,1969,1969-05-09,100,11875,130,6.80,"{de,se}"
 1268b9a7-58db-4978-9449-ca2be8989e29,"Run, Simon, Run","Run, Simon, Run",1970,1970-12-01,74,,5,5.20,{us}
@@ -458,7 +445,6 @@ f945c067-c1b4-4bfb-91e3-9e873ec3dc00,Le justicier de New York,Death Wish 3,1985,
 fef478b0-7ec9-4612-ad50-0591e9f55078,Amityville : La Maison du diable,The Amityville Horror,1979,1979-07-26,118,397842,854,6.29,{us}
 56d8568e-2433-461e-b1f5-429b36070639,Banzaï,Banzaï,1983,1983-03-23,102,,174,6.20,{fr}
 02ae61f9-9f24-43bb-bda8-a301775c1fd6,Plus beau que moi tu meurs,Plus beau que moi tu meurs,1982,1982-11-10,105,,13,5.50,{fr}
-6075a4f9-bf39-4dd1-aade-d047e5cbdf69,La Balance,La Balance,1982,1982-11-10,102,,59,6.31,{fr}
 93ce0d91-8a2a-4f36-aa81-a1b088544c55,Looker,Looker,1981,1981-10-30,93,,108,6.04,{us}
 090e9d82-4f73-4d36-b9c3-79c861c399cb,Loulou,,1980,1980-09-03,105,,85,6.20,{fr}
 53b35ad1-307b-4975-ae92-d4a54b4d8cdc,Inspecteur La Bavure,Inspecteur La Bavure,1980,1980-12-03,100,,175,6.33,{fr}
@@ -1268,7 +1254,6 @@ e78d8210-6c01-4ac5-9260-5d782ee01e1e,La Dernière Tentation du Christ,The Last T
 a8e8bbc7-d76d-450e-81fe-b0f5773c41f7,King Kong II,King Kong Lives,1986,1986-12-16,105,135498,196,5.08,{us}
 468b17ba-26e7-4c43-882e-126bd9b848b1,Faux témoin,The Bedroom Window,1987,1987-01-16,114,,109,6.40,{us}
 ba2e877b-8d83-4f0c-b663-5186240fdafe,Hitcher,The Hitcher,1986,1986-01-17,98,476054,837,6.94,{us}
-bcb26b2b-af63-4f61-859e-f1c6901b84fb,Le justicier de New York,Death Wish 3,1985,1985-11-01,94,14377,380,6.21,{us}
 8993a383-837f-46d2-92ba-4c3c16a0dcc0,Dangereuse sous tous rapports,Something Wild,1986,1986-11-07,113,,310,6.60,{us}
 fceba032-705b-45f5-b81b-69077c6253ee,Mosquito Coast,The Mosquito Coast,1986,1986-11-26,118,,443,6.36,{us}
 1d3426d5-7879-4284-b1ce-e62433bea41a,Piranha 2 - Les Tueurs volants,Piranha II: The Spawning,1982,1982-08-14,84,212279,239,4.34,"{it,nl,us}"
@@ -1343,7 +1328,6 @@ e87a94bb-4e98-4c7e-8197-a3ea59fb5708,Les Évadés de la planète des singes,Esca
 9dc85b53-47fc-4bd1-bc44-aa75bbb39014,Star Trek VI : Terre inconnue,Star Trek VI: The Undiscovered Country,1991,1991-12-06,110,151,1197,7.01,{us}
 0546352e-1624-4705-b67b-e60ee1c0b8b8,Jungle Fever,,1991,1991-06-07,132,,268,6.40,{us}
 35f02c8e-5a0b-4440-a056-292d2fc776b2,Comme un oiseau sur la branche,Bird on a Wire,1990,1990-05-18,106,,871,6.19,{us}
-90fa15f5-3773-4244-b0c6-56c7300337fc,La Boum 2,La Boum 2,1982,1982-12-08,108,41649,604,6.43,{fr}
 6c569c07-9e40-4223-8f8e-0402e98832a6,La Boum 2,,1982,1982-12-08,108,41649,604,6.43,{fr}
 93bdf448-89fe-463f-9703-b16b6911989e,Le Grand Bleu,Le Grand Bleu,1988,1988-05-10,168,,1367,7.46,{fr}
 29b6a297-860a-4096-a519-f3346b6ee7db,Footloose,,1984,1984-02-17,100,,1911,6.66,{us}
