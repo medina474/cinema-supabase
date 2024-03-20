@@ -29,7 +29,7 @@ Authorization: Bearer {{themoviedb}}
 accept: application/json
 
 ### Reviews
-https://api.themoviedb.org/3/movie/679/reviews?language=fr-FR
+https://api.themoviedb.org/3/movie/679/reviews?language=en-EN
 Authorization: Bearer {{themoviedb}}
 accept: application/json
 
