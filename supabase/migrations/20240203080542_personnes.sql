@@ -17,7 +17,7 @@ alter table personnes
 
 alter table personnes
   add constraint personne_naissance
-  check (naissance > '1900-01-01') not valid;
+  check (naissance > '1870-01-01') not valid;
 
 alter table personnes
   add constraint personne_deces
