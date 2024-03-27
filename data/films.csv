@@ -1,4 +1,5 @@
 film_id,titre,titre_original,annee,sortie,duree,franchise_id,vote_votants,vote_moyenne,pays
+79d9218e-2936-49fb-b0d6-e521f2a8a991,Les Sorcières de Zugarramurdi,Las brujas de Zugarramurdi,,2013-09-20,,,613,6.35,
 09372446-bb6a-4b3d-82f5-95f7e2a958a2,Dracula,,,,109,,231,6.34,"{us,gb}"
 980f3f6a-c71d-4364-a53d-ab2527a6de99,A.I. : Intelligence artificielle,A.I. Artificial Intelligence,2001,2001-06-29,145,,5860,7.04,{us}
 1c8e6f2e-e055-441f-b3da-65fa2ce4752e,No Country for Old Men,No Country for Old Men,2007,2007-06-13,,,11385,7.94,{us}
@@ -12,6 +13,7 @@ dfc0ee82-2804-48bf-b689-1cf7215e3bce,Hitcher,The Hitcher,2007,2007-01-19,,,872,5
 7ce0cf5f-447c-4851-853e-ec328cf2f2b8,La Neuvième porte,The Ninth Gate,1999,1999-08-25,132,,2830,6.47,"{es,fr}"
 7f45a520-c8fb-4c72-841d-d554909bcdf9,Peur primale,Primal Fear,1996,1996-03-06,,,3183,7.66,{us}
 a7a90aba-ef82-4cb9-81c3-e92993b293d0,1941,,,,118,,572,5.80,{us}
+e822644f-12fd-4c78-b3aa-e8792a26e0b9,Crimes à Oxford,The Oxford Murders,,2008-01-18,,,617,5.95,
 dd088fb8-410c-4f17-88c3-ded1643ef75e,Alita : Battle Angel,Alita: Battle Angel,2019,2019-01-31,122,,8707,7.23,{us}
 4a3dc89e-0dbc-4deb-bc96-35b3fe455da5,Les Enfoirés 1995 - Les Enfoirés à l'Opéra-Comique,,1995,1995-03-08,90,,1,6.00,{fr}
 da11c397-81c3-432b-9cef-50e98cae458c,Dernier train pour Busan,부산행,2016,2016-07-20,118,619537,6978,7.76,{kr}
@@ -66,14 +68,26 @@ f851fa63-1c5d-473d-9405-375675a20771,Mad Max,,1982,1982-01-13,85,8945,4054,6.69,
 b9eaf0c7-062e-4a1c-8431-f51b31088290,L'Équipée du Cannonball,The Cannonball Run,1981,1981-07-08,95,101688,579,6.13,"{hk,us}"
 656e659f-925e-4198-a5b8-427269f444e8,Les Grands Fonds,The Deep,1977,1977-06-17,124,,206,6.10,"{gb,us}"
 ac7b9722-cae7-460d-a2d9-bf2594c2f035,Le Pont de Cassandra,The Cassandra Crossing,1977,1977-06-15,129,,195,6.30,"{de,it,gb,us}"
+91491463-e8f4-4d4f-a459-a7b9b4ca3362,Perfectos desconocidos,Perfectos desconocidos,,2017-12-01,,,619,6.69,
+47f8d154-53d7-4897-a6c5-c816c1bc1044,Le Jour de la bête,El día de la bestia,,1995-10-20,,,502,7.26,
+d119d2cf-ec4b-4d82-baac-31853b70094a,Marquise,Marquise,,1997-08-20,,,39,5.62,
+baee1174-6652-488e-b417-7dd3e06382dc,Jet Set,Jet Set,,2000-06-14,,,75,4.17,
+b581f350-9704-48b5-8200-483dd7dcc42f,"Belphégor, le fantôme du Louvre","Belphégor, le fantôme du Louvre",,2001-04-03,,,217,4.60,
+7fde740e-3327-453a-a9e9-6156e06c53ed,Presque Célèbre,Almost Famous,,2000-09-15,,,2567,7.51,
 58d06e88-777a-4f36-a8fe-037b055fbec1,L'Échange,Changeling,2008,2008-10-24,,,3983,7.60,{us}
+c84a475c-5f44-472d-a3c7-c9f9bafcef96,El Dorado,El Dorado,,1988-04-20,,,16,5.50,
 c5ecda7b-ac18-41da-b957-ed3be509d1f9,Black Christmas,Black Christmas,1974,1974-10-11,,,733,6.93,{ca}
 68849748-7927-4f66-b233-4a51a16c359a,Mariage à l'italienne,Matrimonio all'italiana,1964,1964-12-18,100,,476,7.75,"{it,fr}"
 cbdfcd03-f210-4b29-b8e2-b05926be613a,La Chute de l'Empire romain,The Fall of the Roman Empire,1964,1964-03-24,187,,177,6.48,{us}
+5f6408f0-24e5-4fe3-b01b-82bcb4995ee4,Dédales,Dédales,,2003-09-09,,,45,6.60,
+a54833cd-69af-4fae-8b99-c2bc5851997c,The Rocker,The Rocker,,2008-08-20,,,557,6.01,
 2b8ef486-d9c9-4553-8308-45c393e9e40e,Séquestrées,The Maddening,1996,1996-06-18,,,16,4.81,{us}
+a19ade02-4f7e-4971-8502-623a14dddd18,Rock Academy,School of Rock,,2003-10-03,,,5367,7.08,
+e4fb3868-cf6f-49ac-a674-079444d9dbb4,La Vouivre,La Vouivre,,1989-01-11,,,12,4.83,
 6ca248c6-8eb1-4b45-ac82-e1a0826a1193,Traque sur Internet,The Net,1995,1995-07-28,,328073,1255,6.01,{us}
 8971aa7d-2ac2-48a0-b236-91095ea31ed6,Le Repaire du ver blanc,The Lair of the White Worm,1988,1988-09-21,,,228,5.90,{gb}
 617ac45b-4c0c-4391-b375-b3ee3fe02ac8,Cop,Cop,1988,1988-02-05,,,111,6.20,{us}
+8a07eb51-4e56-48cf-85cc-3e363cde8598,Les Rivières pourpres,Les Rivières pourpres,,2000-09-27,,,1434,6.93,
 09285731-9c1e-457b-8839-0dd7e8a9ef5c,Elles n'oublient jamais,Elles n'oublient jamais,1994,1994-04-13,,,13,5.39,{fr}
 105d6e04-0eb3-4dd0-9ecf-d8a890e63257,Le Smoking,The Tuxedo,2002,2002-09-27,,,1841,5.71,{us}
 3581b6f1-8eb4-45c0-a8b5-8799e2108e7a,Fear,Fear,1996,1996-04-12,,,731,6.34,{us}
